@@ -1,0 +1,21 @@
+state={
+id=911
+name="911_state"
+manpower = 20000
+history={
+owner = Z00
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = Z00
+add_core_of = Z47
+}
+state_category = a1
+provinces={
+1083
+}
+local_supplies=0.0
+}

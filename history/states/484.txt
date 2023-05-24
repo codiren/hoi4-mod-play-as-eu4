@@ -1,0 +1,21 @@
+state={
+id=484
+name="484_state"
+manpower = 60000
+history={
+owner = CAS
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = CAS
+add_core_of = ASU
+}
+state_category = a3
+provinces={
+625
+}
+local_supplies=0.0
+}

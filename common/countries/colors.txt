@@ -1,0 +1,945 @@
+REB = {
+color = rgb { 30  30  30 }
+}
+NAT = {
+color = rgb { 203  164  103 }	
+}
+Z01 = {
+color = rgb { 8  82  165 }
+}
+DAN = {
+color = rgb { 190  70  70 }
+}
+Z15 = {
+color = rgb { 182  134  100 }
+}
+GOT = {
+color = rgb { 153  126  0 }
+}
+Z12 = {
+color = rgb { 117  165  188 }
+}
+Z54 = {
+color = rgb { 220  150  158 }
+}
+Z07 = {
+color = rgb { 248  125  125 }
+}
+LTG = {
+color = rgb { 78  65  15 }
+}
+SMI = {
+color = rgb { 252  209  22 }
+}
+KRL = {
+color = rgb { 244  38  38 }
+}
+Z27 = {
+color = rgb { 43 60 117 }
+}
+ACH = {
+color = rgb { 255  213  51 }
+}
+Z11 = {
+color = rgb { 181  0  20 }
+}
+ATH = {
+color = rgb { 113  112  96 }
+}
+Z50 = {
+color = rgb { 240  167  130 }
+}
+Z13 = {
+color = rgb { 116  107  140 }
+}
+BYZ = {
+color = rgb { 149 45 102 }
+}
+CEP = {
+color = rgb { 211  172  185 }
+}
+Z26 = {
+color = rgb { 104 94 247 }
+}
+CRT = {
+color = rgb { 138  110  130 }
+}
+Z39 = {
+color = rgb { 245 200 30 }
+}
+DAL = {
+color = rgb { 46  128  188 }
+}
+EPI = {
+color = rgb { 230  228  214 }
+}
+KNI = {
+color = rgb { 106  127  183 }
+}
+MOE = {
+color = rgb { 168  121  129 }
+}
+Z36 = {
+color = rgb { 136  157  23 }
+}
+Z22 = {
+color = rgb { 39  108  140 }
+}
+NAX = {
+color = rgb { 24  50  123 }
+}
+RAG = {
+color = rgb { 160  82  128 }
+}
+Z08 = {
+color = rgb { 166  72  57 }
+}
+Z59 = {
+color = rgb { 211  207  173 }
+}
+WAL = {
+color = rgb { 161  126  128 }
+}
+Z16 = {
+color = rgb { 152  85  92 }
+}
+Z25 = {
+color = rgb { 34 131 193 }
+}
+Z10 = {
+color = rgb { 126  203  120 }
+}
+CNN = {
+color = rgb { 193  237  85 }
+}
+CRN = {
+color = rgb { 155  56  0 }
+}
+Z00 = {
+color = rgb { 193  26  14 }
+}
+LEI = {
+color = rgb { 48  164  51 }
+}
+MNS = {
+color = rgb { 104  137  140 }
+}
+Z37 = {
+color = rgb { 199  175  12 }
+}
+TYR = {
+color = rgb { 131  101  85 }
+}
+Z47 = {
+color = rgb { 117  127  174 }
+}
+NOL = {
+color = rgb { 83  149  105 }
+}
+MTH = {
+color = rgb { 15  128  253 }
+}
+ULS = {
+color = rgb { 234 214 165 }
+}
+DMS = {
+color = rgb { 179 89 89 }
+}
+SLN = {
+color = rgb { 191 155 203 }
+}
+KID = {
+color = rgb { 104 130 172 }
+}
+HSC = {
+color = rgb { 37 113 207 }
+}
+ORD = {
+color = rgb { 220 227 43 }
+}
+TRY = {
+color = rgb { 43 190 227 }
+}
+FLY = {
+color = rgb { 237 138 22 }
+}
+MCM = {
+color = rgb { 150 231 150 }
+}
+KOI = {
+color = rgb { 133 43 27 }
+}
+LOI = {
+color = rgb { 0 105 104 }
+}
+Z60 = {
+color = rgb { 78  129  151 }
+}
+KRA = {
+color = rgb { 138  193  231 }
+}
+Z06 = {
+color = rgb { 154  69  116 }
+}
+LIV = {
+color = rgb { 125  30  100 }
+}
+MAZ = {
+color = rgb { 195  149  155 }
+}
+Z05 = {
+color = rgb { 197  92  106 }
+}
+RIG = {
+color = rgb { 183  176  194 }
+}
+TEU = {
+color = rgb { 102  105  104 }
+}
+Z44 = {
+color = rgb { 205 38 38 }
+}
+KIE = {
+color = rgb { 81 123 210 }
+}
+CHR = {
+color = rgb { 190 190 190 }
+}
+OKA = {
+color = rgb { 43 136 207 }
+}
+ALE = {
+color = rgb { 162 116 225 }
+}
+ALS = {
+color = rgb { 246  223  15 }
+}
+AMG = {
+color = rgb { 187 206 247 }
+}
+AUV = {
+color = rgb { 218 155 75 }
+}
+AVI = {
+color = rgb { 205  178  107 }
+}
+BOU = {
+color = rgb { 0 140 165 }
+}
+Z57 = {
+color = rgb { 118  99  151 }
+}
+BUR = {
+color = rgb { 148  30  70 }
+}
+CHP = {
+color = rgb { 166  125  154 }
+}
+Z58 = {
+color = rgb { 106  178  46 }
+}
+DAU = {
+color = rgb { 93  194  122 }
+}
+FOI = {
+color = rgb { 105  106  182 }
+}
+Z02 = {
+color = rgb { 20  50  210 }
+}
+GUY = {
+color = rgb { 32	144	204 }
+}
+NEV = {
+color = rgb { 195  104  228 }
+}
+NRM = {
+color = rgb { 131  138  116 }
+}
+ORL = {
+color = rgb { 216 121 139 }
+}
+PIC = {
+color = rgb { 184 184 122 }
+}
+PRO = {
+color = rgb { 93  160  163 }
+}
+TOU = {
+color = rgb { 127  170  146 }
+}
+BER = {
+color = rgb { 85  65  215 }
+}
+AAC = {
+color = rgb { 157  51  167 }
+}
+ANH = {
+color = rgb { 203  93  124 }
+}
+ANS = {
+color = rgb { 130  77  119 }
+}
+AUG = {
+color = rgb { 20 188 118 }
+}
+BAD = {
+color = rgb { 117  161  67 }
+}
+BOH = {
+color = rgb { 161  139  40 }
+}
+Z18 = {
+color = rgb { 123  90  90 }
+}
+BRE = {
+color = rgb { 33  101  137 }
+}
+BRU = {
+color = rgb { 116  92  39 }
+}
+EFR = {
+color = rgb { 190  32  16 }
+}
+FRN = {
+color = rgb { 243  201  33 }
+}
+HAB = {
+color = rgb { 220  220  220 }
+}
+HAM = {
+color = rgb { 227  95  7 }
+}
+HES = {
+color = rgb { 114  171  184 }
+}
+KLE = {
+color = rgb { 173  176  113 }
+}
+KOL = {
+color = rgb { 84  124  48 }
+}
+LAU = {
+color = rgb { 79 139 99 }
+}
+LOR = {
+color = rgb { 115  142  205 }
+}
+LUN = {
+color = rgb { 135  109  147 }
+}
+MAG = {
+color = rgb { 189  115  99 }
+}
+MAI = {
+color = rgb { 178  145  87 }
+}
+MKL = {
+color = rgb { 55  140  143 }
+}
+MUN = {
+color = rgb { 205  103  80 }
+}
+MVA = {
+color = rgb { 232 149 18 }
+}
+OLD = {
+color = rgb { 147  130  118 }
+}
+Z30 = {
+color = rgb { 57  151  142 }
+}
+Z52 = {
+color = rgb { 155  147  180 }
+}
+SLZ = {
+color = rgb { 129  109  9 }
+}
+STY = {
+color = rgb { 59  126  59 }
+}
+Z09 = {
+color = rgb { 153  122  108 }
+}
+THU = {
+color = rgb { 66  126  157}
+}
+TIR = {
+color = rgb { 170 43 21 }
+}
+Z38 = {
+color = rgb { 208  104  44 }
+}
+ULM = {
+color = rgb { 202 202 202}
+}
+WBG = {
+color = rgb { 147  146  106 }
+}
+Z53 = {
+color = rgb { 111  162  128 }
+}
+NUM = {
+color = rgb { 243  112  15 }
+}
+MEM = {
+color = rgb { 210  37  57 }
+}
+VER = {
+color = rgb { 227 211 34 }
+}
+NSA = {
+color = rgb { 91 83 203 }
+}
+RVA = {
+color = rgb { 108  139  228 }
+}
+DTT = {
+color = rgb { 72 194 212 }
+}
+ARA = {
+color = rgb { 166  68  72 }
+}
+CAS = {
+color = rgb { 193  171  8 }
+}
+Z55 = {
+color = rgb { 213  132  76 }
+}
+GRA = {
+color = rgb {  210 220 175 }
+}
+Z56 = {
+color = rgb { 252  233  58 }
+}
+Z14 = {
+color = rgb { 40 110 140 }
+}
+GAL = {
+color = rgb { 240  167  130 }
+}
+LON = {
+color = rgb { 99  14  87 }
+}
+VAL = {
+color = rgb { 132  97  138 }
+}
+ASU = {
+color = rgb { 104  173  230 }
+}
+MJO = {
+color = rgb { 243  111  107 }
+}
+AQU = {
+color = rgb { 34  30  174 }
+}
+Z64 = {
+color = rgb { 21  128  21 }
+}
+GEN = {
+color = rgb { 218  215  56 }
+}
+Z35 = {
+color = rgb { 191  83  101 }
+}
+MLO = {
+color = rgb { 166  108  146 }
+}
+MOD = {
+color = rgb { 241  252  151 }
+}
+NAP = {
+color = rgb { 100  50  150 }
+}
+Z66 = {
+color = rgb { 211  220  178 }
+}
+Z23 = {
+color = rgb { 128  202  129 }
+}
+PIS = {
+color = rgb { 177  150  109 }
+}
+SAR = {
+color = rgb { 117  146  167 }
+}
+SAV = {
+color = rgb { 235  196 231 }
+}
+SIC = {
+color = rgb { 73  152  76 }
+}
+Z45 = {
+color = rgb { 165  171  115 }
+}
+URB = {
+color = rgb { 61  152  180 }
+}
+Z21 = {
+color = rgb { 54  167  156 }
+}
+MFA = {
+color = rgb { 96  183  6 }
+}
+LUC = {
+color = rgb { 146  251  82 }
+}
+LAN = {
+color = rgb { 236  47  47 } 
+}
+BRB = {
+color = rgb { 118  193  153 }
+}
+FLA = {
+color = rgb { 43  141  172 }
+}
+FRI = {
+color = rgb { 165  89  27 }
+}
+GEL = {
+color = rgb { 139  66  97 }
+}
+Z24 = {
+color = rgb { 103  62  185 }
+}
+Z04 = {
+color = rgb { 156  96  100 }
+}
+LIE = {
+color = rgb { 149  186  37 }
+}
+Z03 = {
+color = rgb { 53  140  73 }
+}
+UTR = {
+color = rgb { 223  198  64 }
+}
+Z33 = {
+color = rgb { 145  30  75 }
+}
+Z17 = {
+color = rgb { 26  27  154 }
+}
+Z63 = {
+color = rgb { 59  158  125 }
+}
+Z31 = {
+color = rgb { 190  35  37 }
+}
+Z32 = {
+color = rgb { 97  102  135 }
+}
+MOS = {
+color = rgb { 206  181  97 }
+}
+NOV = {
+color = rgb { 97  126  37 }
+}
+PSK = {
+color = rgb { 82  123  95 }
+}
+QAS = {
+color = rgb { 82  135  124 }
+}
+RYA = {
+color = rgb { 146  134  77 }
+}
+TVE = {
+color = rgb { 136  158  183 }
+}
+YAR = {
+color = rgb { 131  141  142 }
+}
+ZAZ = {
+color = rgb { 117  112  131 }
+}
+PLT = {
+color = rgb { 16  113  155 }
+}
+FEO = {
+color = rgb { 61 8 81 } 
+}
+BLO = {
+color = rgb { 66 32 81 }
+}
+RSO = {
+color = rgb { 227 221 77 }
+}
+GOL = {
+color = rgb { 193  179  127 }
+}
+ANZ = {
+color = rgb { 143 222 169 }
+}
+BHT = {
+color = rgb { 62  129  120 }
+}
+ERE = {
+color = rgb { 250  200  70 } 
+}
+FAD = {
+color = rgb { 96 148 40 }
+}
+GRM = {
+color = rgb { 200 8 21 }
+}
+Z28 = {
+color = rgb { 225  110  25 }
+}
+SHM = {
+color = rgb { 255  204  45 }
+}
+HSN = {
+color = rgb { 234 179 30 } 
+}
+BTL = {
+color = rgb { 205 110 47 }
+}
+AKK = {
+color = rgb {  31 49 138 }
+}
+AYD = {
+color = rgb { 255  151  40 }
+}
+CND = {
+color = rgb { 114  70  103 }
+}
+DUL = {
+color = rgb { 233  255  218 } 
+}
+Z19 = {
+color = rgb { 153  138  161 }
+}
+Z62 = {
+color = rgb { 90  160  190 }
+}
+Z29 = {
+color = rgb { 125  110  225 }
+}
+TRE = {
+color = rgb { 40  164  157 } 
+}
+SRU = {
+color = rgb { 0  123  12 }
+}
+Z20 = {
+color = rgb { 108 48 130 } 
+}
+RAM = {
+color = rgb { 130  0  0 }
+}
+SME = {
+color = rgb { 22 157 57 }
+}
+Z40 = {
+color = rgb { 230  225  110 } 
+}
+FEZ = {
+color = rgb { 224  146  113 }
+}
+MAM = {
+color = rgb { 188  166  93 } 
+}
+Z41 = {
+color = rgb { 191  110  62 } 
+}
+TRP = {
+color = rgb { 25  105  90 } 
+}
+Z42 = {
+color = rgb { 146  134  57 }
+}
+KBA = {
+color = rgb { 60  140  70 } 
+}
+TFL = {
+color = rgb { 140 45 100 } 
+}
+SOS = {
+color = rgb { 255  255  240 } 
+}
+TLC = {
+color = rgb { 57  160  101 }
+}
+TGT = {
+color = rgb { 90 140 190 } 
+}
+GHD = {
+color = rgb { 255 133 15 } 
+}
+FZA = {
+color = rgb { 113 176 151 }
+}
+Z34 = {
+color = rgb { 185 172 208 } 
+}
+TET = {
+color = rgb { 63  82  1 }
+}
+MRK = {
+color = rgb { 84  242  223 } 
+}
+QAR = {
+color = rgb { 54 117 136  } 
+}
+CIR = {
+color = rgb { 42  107  17 }
+}
+IME = {
+color = rgb { 36  132  247 }
+}
+CHE = {
+color = rgb { 105  145  40 } 
+}
+BAR = {
+color = rgb { 178  163  143 }
+}
+HSA = {
+color = rgb { 156  179  189 }
+}
+SMO = {
+color = rgb { 106  160  43 }
+}
+NZH = {
+color = rgb { 176  72  77 }
+}
+ABE = {
+color = rgb { 49 115 90 }
+}
+FOX = {
+color = rgb { 242 101 34 }
+}
+LEN = {
+color = rgb { 76 110 150 }
+}
+MAH = {
+color = rgb { 148 150 28 }
+}
+MIK = {
+color = rgb { 110 48 50 }
+}
+OTT = {
+color = rgb { 1 48 21 }
+}
+PEQ = {
+color = rgb { 28 70 150 }
+}
+POW = {
+color = rgb { 255 247 153 }
+}
+SUS = {
+color = rgb { 126  24  62 }
+}
+WCR = {
+color = rgb { 28 187 180 }
+}
+MIS = {
+color = rgb { 74 136 241 }
+}
+UBV = {
+color = rgb { 19  102  152 }
+}
+Z65 = {
+color = rgb { 35  220  240 }
+}
+ING = {
+color = rgb { 67  163  215 }
+}
+PSS = {
+color = rgb { 239  99  135 }
+}
+MBZ = {
+color = rgb { 101  189  23 }
+}
+KNZ = {
+color = rgb { 255  133  59 }
+}
+ROT = {
+color = rgb { 210  15  15 }
+}
+BYT = {
+color = rgb { 210  210  38 }
+}
+REG = {
+color = rgb { 221  41  111 }
+}
+GNV = {
+color = rgb { 255  250  138 }
+}
+TTL = {
+color = rgb { 153  240  182 }
+}
+OPL = {
+color = rgb { 117  140  36 }
+}
+GLG = {
+color = rgb { 5  171  147 }
+}
+BLG = {
+color = rgb { 236 95 0 }
+}
+PDV = {
+color = rgb { 186 106 58 }
+}
+SZO = {
+color = rgb { 137 185 203 }
+}
+SPL = {
+color = rgb { 169 26 5 }
+}
+WOL = {
+color = rgb { 235  178  18 }
+}
+STE = {
+color = rgb { 33  119  58 }
+}
+GOS = {
+color = rgb { 88  45  148 }
+}
+SOR = {
+color = rgb { 67  80  128 }
+}
+RUG = {
+color = rgb { 51  59  76 }
+}
+CLI = {
+color = rgb { 159 174 96 }
+}
+Z51 = {
+color = rgb { 72 113 160 }
+}
+TNT = {
+color = rgb { 148  122  151 }
+}
+BRG = {
+color = rgb { 240 205 140 }
+}
+MLH = {
+color = rgb { 155 170 136 }
+}
+BAM = {
+color = rgb { 200  219  195 }
+}
+RUP = {
+color = rgb { 136  48  66 }
+}
+LPP = {
+color = rgb { 21  83  149 }
+}
+PAD = {
+color = rgb { 214  90  79 }
+}
+CLB = {
+color = rgb { 239  162  53 }
+}
+DWT = {
+color = rgb { 80 201 64 }
+}
+OSN = {
+color = rgb { 135  138  192 }
+}
+VRN = {
+color = rgb { 121 163 114 }
+}
+COB = {
+color = rgb { 71  201  101 }
+}
+PGA = {
+color = rgb { 157 174 219 }
+}
+Z61 = {
+color = rgb { 197  28  148 }
+}
+ICH = {
+color = rgb { 233 52 243 }
+}
+COF = {
+color = rgb { 188 102 110 }
+}
+JOA = {
+color = rgb { 1 148 8 }
+}
+ETO = {
+color = rgb { 80 51 215 }
+}
+CIA = {
+color = rgb { 148 104 197 }
+}
+CCA = {
+color = rgb { 111 79 4 }
+}
+MOH = {
+color = rgb { 244 151 42 }
+}
+ONE = {
+color = rgb { 79 44 187 }
+}
+ONO = {
+color = rgb { 107 77 63 }
+}
+Z48 = {
+color = rgb { 44 63 182 }
+}
+Z46 = {
+color = rgb { 189 153 176 }
+}
+Z49 = {
+color = rgb { 59 57 118 }
+}
+ATT = {
+color = rgb { 61 248 196 }
+}
+AGG = {
+color = rgb { 216 184 43 }
+}
+ATW = {
+color = rgb { 110 167 103 }
+}
+ARN = {
+color = rgb { 78  139  60 }
+}
+TIO = {
+color = rgb { 94 181 212 }
+}
+OSH = {
+color = rgb { 134 175 31 }
+}
+STA = {
+color = rgb { 92 235 29 }
+}
+Z43 = {
+color = rgb { 44 220 23 }
+}
+WEN = {
+color = rgb { 220 130 127 }
+}
+TSC = {
+color = rgb { 61 126 252 }
+}
+PEN = {
+color = rgb { 1 90 168 }
+}
+MLS = {
+color = rgb { 151 95 19 }
+}
+HWK = {
+color = rgb { 164 220 134 }
+}
+CLG = {
+color = rgb { 195 18 152 }
+}
+KSP = {
+color = rgb { 163 43 202 }
+}
+MSG = {
+color = rgb { 238 173 101 }
+}
+INN = {
+color = rgb { 8 64 6 }
+}
+WAM = {
+color = rgb { 95 5 210 }
+}
+AGQ = {
+color = rgb { 4 162 77 }
+}

@@ -1,0 +1,20 @@
+state={
+id=728
+name="728_state"
+manpower = 20000
+history={
+owner = ARN
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ARN
+}
+state_category = a2
+provinces={
+896
+}
+local_supplies=0.0
+}

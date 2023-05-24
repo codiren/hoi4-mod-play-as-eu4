@@ -1,0 +1,21 @@
+state={
+id=1076
+name="1076_state"
+manpower = 60000
+history={
+owner = Z10
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = BYZ
+add_core_of = Z10
+}
+state_category = a2
+provinces={
+1248
+}
+local_supplies=0.0
+}

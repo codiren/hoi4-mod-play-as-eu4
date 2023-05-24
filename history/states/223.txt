@@ -1,0 +1,20 @@
+state={
+id=223
+name="223_state"
+manpower = 80000
+history={
+owner = GRA
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = GRA
+}
+state_category = a5
+provinces={
+223
+}
+local_supplies=0.0
+}

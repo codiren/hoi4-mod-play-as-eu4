@@ -1,0 +1,21 @@
+state={
+id=1023
+name="1023_state"
+manpower = 20000
+history={
+owner = BOH
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = BOH
+add_core_of = MVA
+}
+state_category = a2
+provinces={
+1195
+}
+local_supplies=0.0
+}

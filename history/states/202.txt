@@ -1,0 +1,22 @@
+state={
+id=202
+name="202_state"
+manpower = 80000
+history={
+owner = Z66
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = AVI
+add_core_of = PRO
+add_core_of = Z66
+}
+state_category = a4
+provinces={
+202
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=994
+name="994_state"
+manpower = 40000
+history={
+owner = AMG
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = AMG
+add_core_of = GUY
+}
+state_category = a2
+provinces={
+1166
+}
+local_supplies=0.0
+}

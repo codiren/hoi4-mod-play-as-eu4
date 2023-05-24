@@ -1,0 +1,21 @@
+state={
+id=744
+name="744_state"
+manpower = 60000
+history={
+owner = Z10
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = Z10
+add_core_of = Z13
+}
+state_category = a3
+provinces={
+912
+}
+local_supplies=0.0
+}

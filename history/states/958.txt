@@ -1,0 +1,20 @@
+state={
+id=958
+name="958_state"
+manpower = 20000
+history={
+owner = GRA
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = GRA
+}
+state_category = a2
+provinces={
+1130
+}
+local_supplies=0.0
+}

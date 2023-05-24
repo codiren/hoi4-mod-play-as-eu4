@@ -1,0 +1,22 @@
+state={
+id=605
+name="605_state"
+manpower = 40000
+history={
+owner = SME
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = Z31
+add_core_of = SME
+add_core_of = Z33
+}
+state_category = a3
+provinces={
+772
+}
+local_supplies=0.0
+}

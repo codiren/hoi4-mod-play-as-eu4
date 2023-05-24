@@ -1,0 +1,21 @@
+state={
+id=996
+name="996_state"
+manpower = 20000
+history={
+owner = EPI
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = EPI
+add_core_of = BYZ
+}
+state_category = a2
+provinces={
+1168
+}
+local_supplies=0.0
+}

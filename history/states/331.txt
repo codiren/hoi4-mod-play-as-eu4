@@ -1,0 +1,21 @@
+state={
+id=331
+name="331_state"
+manpower = 20000
+history={
+owner = Z41
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = FEZ
+add_core_of = Z41
+}
+state_category = a2
+provinces={
+331
+}
+local_supplies=0.0
+}

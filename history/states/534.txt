@@ -1,0 +1,22 @@
+state={
+id=534
+name="534_state"
+manpower = 60000
+history={
+owner = MAM
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = Z28
+add_core_of = Z29
+add_core_of = MAM
+}
+state_category = a5
+provinces={
+675
+}
+local_supplies=0.0
+}

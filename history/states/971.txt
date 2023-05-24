@@ -1,0 +1,21 @@
+state={
+id=971
+name="971_state"
+manpower = 20000
+history={
+owner = ARA
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ARA
+add_core_of = MJO
+}
+state_category = a1
+provinces={
+1143
+}
+local_supplies=0.0
+}

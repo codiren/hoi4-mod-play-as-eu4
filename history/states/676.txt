@@ -1,0 +1,20 @@
+state={
+id=676
+name="676_state"
+manpower = 20000
+history={
+owner = KSP
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = KSP
+}
+state_category = a1
+provinces={
+844
+}
+local_supplies=0.0
+}

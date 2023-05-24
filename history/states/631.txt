@@ -1,0 +1,20 @@
+state={
+id=631
+name="631_state"
+manpower = 20000
+history={
+owner = ANZ
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ANZ
+}
+state_category = a1
+provinces={
+798
+}
+local_supplies=0.0
+}

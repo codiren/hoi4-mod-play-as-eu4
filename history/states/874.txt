@@ -1,0 +1,20 @@
+state={
+id=874
+name="874_state"
+manpower = 20000
+history={
+owner = BLO
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = BLO
+}
+state_category = a2
+provinces={
+1046
+}
+local_supplies=0.0
+}

@@ -1,0 +1,20 @@
+state={
+id=1017
+name="1017_state"
+manpower = 60000
+history={
+owner = GNV
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = GNV
+}
+state_category = a5
+provinces={
+1189
+}
+local_supplies=0.0
+}

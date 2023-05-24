@@ -1,0 +1,22 @@
+state={
+id=124
+name="124_state"
+manpower = 100000
+history={
+owner = ARA
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = SIC
+add_core_of = NAP
+add_core_of = ARA
+}
+state_category = a6
+provinces={
+124
+}
+local_supplies=0.0
+}

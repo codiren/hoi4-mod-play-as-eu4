@@ -1,0 +1,22 @@
+state={
+id=991
+name="991_state"
+manpower = 40000
+history={
+owner = FOI
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = FOI
+add_core_of = GUY
+add_core_of = AMG
+}
+state_category = a2
+provinces={
+1163
+}
+local_supplies=0.0
+}

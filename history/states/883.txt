@@ -1,0 +1,21 @@
+state={
+id=883
+name="883_state"
+manpower = 40000
+history={
+owner = HSN
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = Z19
+add_core_of = HSN
+}
+state_category = a2
+provinces={
+1055
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=511
+name="511_state"
+manpower = 60000
+history={
+owner = Z16
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = Z16
+add_core_of = Z25
+}
+state_category = a5
+provinces={
+652
+}
+local_supplies=0.0
+}

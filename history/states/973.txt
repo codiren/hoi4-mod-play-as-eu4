@@ -1,0 +1,21 @@
+state={
+id=973
+name="973_state"
+manpower = 40000
+history={
+owner = Z41
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = Z41
+add_core_of = TET
+}
+state_category = a3
+provinces={
+1145
+}
+local_supplies=0.0
+}

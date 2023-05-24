@@ -1,0 +1,20 @@
+state={
+id=586
+name="586_state"
+manpower = 40000
+history={
+owner = PSK
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = PSK
+}
+state_category = a2
+provinces={
+750
+}
+local_supplies=0.0
+}

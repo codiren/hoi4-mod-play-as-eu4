@@ -1,0 +1,22 @@
+state={
+id=175
+name="175_state"
+manpower = 100000
+history={
+owner = AMG
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = AMG
+add_core_of = GUY
+add_core_of = Z00
+}
+state_category = a6
+provinces={
+175
+}
+local_supplies=0.0
+}

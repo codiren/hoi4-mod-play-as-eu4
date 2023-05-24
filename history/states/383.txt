@@ -1,0 +1,22 @@
+state={
+id=383
+name="383_state"
+manpower = 80000
+history={
+owner = QAR
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = Z19
+add_core_of = QAR
+add_core_of = BHT
+}
+state_category = a4
+provinces={
+383
+}
+local_supplies=0.0
+}

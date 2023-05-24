@@ -1,0 +1,21 @@
+state={
+id=88
+name="88_state"
+manpower = 60000
+history={
+owner = BUR
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = BUR
+add_core_of = PIC
+}
+state_category = a6
+provinces={
+88
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=545
+name="545_state"
+manpower = 60000
+history={
+owner = BUR
+buildings = {
+infrastructure = 7
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = BUR
+add_core_of = Z24
+}
+state_category = a6
+provinces={
+686
+}
+local_supplies=0.0
+}

@@ -1,0 +1,22 @@
+state={
+id=665
+name="665_state"
+manpower = 20000
+history={
+owner = SOS
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = Z41
+add_core_of = SOS
+add_core_of = TFL
+}
+state_category = a2
+provinces={
+832
+}
+local_supplies=0.0
+}

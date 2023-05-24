@@ -1,0 +1,67 @@
+bookmarks = {
+	bookmark = {
+		
+		name = "RISE_OF_THE_OTTOMANS"
+		desc = "RISE_OF_THE_OTTOMANS_DESC"
+		date = 1444.8.14.12
+		picture = "GFX_select_date_1939"
+		default_country = "Z10"
+		default = yes
+		Z06 = {
+			history = LITHUANIA_BOOKMARK
+			ideology = neutrality
+		}
+		Z10 = {
+			history = TURKS_BOOKMARK
+			ideology = neutrality
+		}
+		CAS = {
+			history = CASTILE_BOOKMARK
+			ideology = neutrality
+		}
+		MOS = {
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		Z00 = {
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		HAB = {
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		WCR = {
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		Z14={
+			minor = yes
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		Z00={
+			minor = yes
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		Z18={
+			minor = yes
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+		Z18={
+			minor = yes
+			history = GENERIC_BOOKMARK
+			ideology = neutrality
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

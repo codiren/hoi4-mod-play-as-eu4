@@ -1,0 +1,20 @@
+state={
+id=553
+name="553_state"
+manpower = 80000
+history={
+owner = BRE
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = BRE
+}
+state_category = a6
+provinces={
+694
+}
+local_supplies=0.0
+}

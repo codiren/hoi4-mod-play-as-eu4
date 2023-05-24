@@ -1,0 +1,6 @@
+state_categories={
+	a4 = {
+		local_building_slots = 4
+		color = { 0 200 0 }
+	}
+}

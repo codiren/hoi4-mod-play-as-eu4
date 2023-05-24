@@ -1,0 +1,21 @@
+state={
+id=663
+name="663_state"
+manpower = 20000
+history={
+owner = TLC
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = TLC
+add_core_of = Z40
+}
+state_category = a2
+provinces={
+830
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=507
+name="507_state"
+manpower = 40000
+history={
+owner = HAB
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = TIR
+add_core_of = HAB
+}
+state_category = a3
+provinces={
+648
+}
+local_supplies=0.0
+}

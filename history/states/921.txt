@@ -1,0 +1,20 @@
+state={
+id=921
+name="921_state"
+manpower = 20000
+history={
+owner = FLY
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = FLY
+}
+state_category = a2
+provinces={
+1093
+}
+local_supplies=0.0
+}

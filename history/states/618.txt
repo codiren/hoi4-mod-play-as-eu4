@@ -1,0 +1,21 @@
+state={
+id=618
+name="618_state"
+manpower = 40000
+history={
+owner = QAR
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = Z19
+add_core_of = QAR
+}
+state_category = a2
+provinces={
+785
+}
+local_supplies=0.0
+}

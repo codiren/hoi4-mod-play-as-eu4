@@ -1,0 +1,20 @@
+state={
+id=256
+name="256_state"
+manpower = 40000
+history={
+owner = MAZ
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MAZ
+}
+state_category = a2
+provinces={
+256
+}
+local_supplies=0.0
+}

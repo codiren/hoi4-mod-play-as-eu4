@@ -1,0 +1,22 @@
+state={
+id=998
+name="998_state"
+manpower = 40000
+history={
+owner = BYZ
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ACH
+add_core_of = MOE
+add_core_of = BYZ
+}
+state_category = a2
+provinces={
+1170
+}
+local_supplies=0.0
+}

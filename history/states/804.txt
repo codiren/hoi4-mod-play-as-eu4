@@ -1,0 +1,20 @@
+state={
+id=804
+name="804_state"
+manpower = 60000
+history={
+owner = OKA
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = OKA
+}
+state_category = a3
+provinces={
+973
+}
+local_supplies=0.0
+}
