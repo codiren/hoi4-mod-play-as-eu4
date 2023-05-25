@@ -1,0 +1,21 @@
+state={
+id=1726
+name="1726_state"
+manpower = 20000
+history={
+owner = WGD
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = WGD
+add_core_of = TEN
+}
+state_category = a2
+provinces={
+2267
+}
+local_supplies=0.0
+}

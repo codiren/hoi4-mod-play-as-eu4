@@ -3,14 +3,14 @@ id=420
 name="420_state"
 manpower = 40000
 history={
-owner = TSC
+owner = QAR
 buildings = {
-infrastructure = 1
+infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TSC
+add_core_of = QAR
 }
 state_category = a2
 provinces={

@@ -3,18 +3,21 @@ id=510
 name="510_state"
 manpower = 40000
 history={
-owner = BOH
+owner = SRH
 buildings = {
 infrastructure = 4
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = BOH
+add_core_of = DLH
+add_core_of = PUN
+add_core_of = SRH
+add_core_of = PTA
 }
 state_category = a4
 provinces={
-651
+510
 }
 local_supplies=0.0
 }

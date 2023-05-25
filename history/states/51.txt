@@ -3,14 +3,14 @@ id=51
 name="51_state"
 manpower = 20000
 history={
-owner = Z18
+owner = BRA
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z18
+add_core_of = BRA
 add_core_of = RUP
 }
 state_category = a2

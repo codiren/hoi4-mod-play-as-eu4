@@ -3,18 +3,18 @@ id=886
 name="886_state"
 manpower = 20000
 history={
-owner = DUL
+owner = WIC
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = DUL
+add_core_of = WIC
 }
-state_category = a2
+state_category = a1
 provinces={
-1058
+886
 }
 local_supplies=0.0
 }

@@ -1,0 +1,21 @@
+state={
+id=1766
+name="1766_state"
+manpower = 40000
+history={
+owner = BTL
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = BTL
+add_core_of = ARM
+}
+state_category = a3
+provinces={
+2307
+}
+local_supplies=0.0
+}

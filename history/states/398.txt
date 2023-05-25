@@ -3,13 +3,15 @@ id=398
 name="398_state"
 manpower = 20000
 history={
-owner = NAT
+owner = ORM
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = ORM
+add_core_of = SHR
 }
 state_category = a2
 provinces={

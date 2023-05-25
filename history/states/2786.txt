@@ -1,0 +1,22 @@
+state={
+id=2786
+name="2786_state"
+manpower = 20000
+history={
+owner = ENG
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ENG
+add_core_of = KOI
+add_core_of = SCO
+}
+state_category = a1
+provinces={
+3349
+}
+local_supplies=0.0
+}

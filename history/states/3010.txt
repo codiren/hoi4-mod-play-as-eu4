@@ -1,0 +1,20 @@
+state={
+id=3010
+name="3010_state"
+manpower = 20000
+history={
+owner = CTM
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = CTM
+}
+state_category = a2
+provinces={
+3573
+}
+local_supplies=0.0
+}

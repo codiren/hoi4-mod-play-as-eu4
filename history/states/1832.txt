@@ -1,0 +1,21 @@
+state={
+id=1832
+name="1832_state"
+manpower = 60000
+history={
+owner = DAI
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = DAI
+add_core_of = ANN
+}
+state_category = a5
+provinces={
+2373
+}
+local_supplies=0.0
+}

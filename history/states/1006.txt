@@ -3,18 +3,17 @@ id=1006
 name="1006_state"
 manpower = 20000
 history={
-owner = PSS
+owner = NAT
 buildings = {
-infrastructure = 5
-industrial_complex = 2
-arms_factory = 1
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
 }
 
-add_core_of = PSS
 }
-state_category = a4
+state_category = a1
 provinces={
-1178
+1006
 }
 local_supplies=0.0
 }

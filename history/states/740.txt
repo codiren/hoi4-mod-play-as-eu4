@@ -3,18 +3,18 @@ id=740
 name="740_state"
 manpower = 20000
 history={
-owner = Z49
+owner = MLW
 buildings = {
-infrastructure = 2
-industrial_complex = 0
+infrastructure = 3
+industrial_complex = 1
 arms_factory = 0
 }
 
-add_core_of = Z49
+add_core_of = MLW
 }
 state_category = a2
 provinces={
-908
+740
 }
 local_supplies=0.0
 }

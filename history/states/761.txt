@@ -3,18 +3,18 @@ id=761
 name="761_state"
 manpower = 20000
 history={
-owner = THU
+owner = TUA
 buildings = {
-infrastructure = 3
+infrastructure = 2
 industrial_complex = 1
 arms_factory = 0
 }
 
-add_core_of = THU
+add_core_of = TUA
 }
 state_category = a2
 provinces={
-930
+761
 }
 local_supplies=0.0
 }

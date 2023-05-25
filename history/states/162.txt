@@ -3,16 +3,16 @@ id=162
 name="162_state"
 manpower = 40000
 history={
-owner = Z16
+owner = HUN
 buildings = {
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 0
 }
 
-add_core_of = Z16
-add_core_of = Z59
-add_core_of = Z25
+add_core_of = HUN
+add_core_of = TRA
+add_core_of = SLO
 }
 state_category = a2
 provinces={

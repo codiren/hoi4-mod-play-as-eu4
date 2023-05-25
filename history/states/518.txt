@@ -3,17 +3,18 @@ id=518
 name="518_state"
 manpower = 20000
 history={
-owner = NAT
+owner = MER
 buildings = {
-infrastructure = 1
+infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = MER
 }
-state_category = a1
+state_category = a2
 provinces={
-659
+518
 }
 local_supplies=0.0
 }

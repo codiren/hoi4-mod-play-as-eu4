@@ -5,14 +5,14 @@ manpower = 40000
 history={
 owner = MAM
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 5
+industrial_complex = 2
 arms_factory = 1
 }
 
 add_core_of = MAM
 }
-state_category = a3
+state_category = a4
 provinces={
 359
 }

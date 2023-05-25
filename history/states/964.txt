@@ -3,18 +3,18 @@ id=964
 name="964_state"
 manpower = 40000
 history={
-owner = CAS
+owner = MOH
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = CAS
+add_core_of = MOH
 }
 state_category = a2
 provinces={
-1136
+964
 }
 local_supplies=0.0
 }

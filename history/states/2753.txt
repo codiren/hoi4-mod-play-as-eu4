@@ -1,0 +1,21 @@
+state={
+id=2753
+name="2753_state"
+manpower = 20000
+history={
+owner = TIM
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = BAL
+add_core_of = TIM
+}
+state_category = a1
+provinces={
+3311
+}
+local_supplies=0.0
+}

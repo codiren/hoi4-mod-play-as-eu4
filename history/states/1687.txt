@@ -1,0 +1,21 @@
+state={
+id=1687
+name="1687_state"
+manpower = 40000
+history={
+owner = TIM
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = TIM
+add_core_of = AFG
+}
+state_category = a3
+provinces={
+2228
+}
+local_supplies=0.0
+}

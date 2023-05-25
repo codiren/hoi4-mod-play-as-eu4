@@ -1,0 +1,22 @@
+state={
+id=1821
+name="1821_state"
+manpower = 20000
+history={
+owner = TRS
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = TIM
+add_core_of = KHI
+add_core_of = TRS
+}
+state_category = a1
+provinces={
+2362
+}
+local_supplies=0.0
+}

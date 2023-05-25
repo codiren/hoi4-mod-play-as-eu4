@@ -1,0 +1,21 @@
+state={
+id=1664
+name="1664_state"
+manpower = 40000
+history={
+owner = QAR
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ARM
+add_core_of = QAR
+}
+state_category = a2
+provinces={
+2205
+}
+local_supplies=0.0
+}

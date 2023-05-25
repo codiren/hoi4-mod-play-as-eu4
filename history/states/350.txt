@@ -3,17 +3,16 @@ id=350
 name="350_state"
 manpower = 20000
 history={
-owner = Z42
+owner = MZB
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z42
-add_core_of = TRP
+add_core_of = MZB
 }
-state_category = a2
+state_category = a1
 provinces={
 350
 }

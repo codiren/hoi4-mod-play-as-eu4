@@ -1,21 +1,19 @@
 state={
 id=884
 name="884_state"
-manpower = 40000
+manpower = 20000
 history={
-owner = BTL
+owner = NAT
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z19
-add_core_of = BTL
 }
-state_category = a2
+state_category = a1
 provinces={
-1056
+884
 }
 local_supplies=0.0
 }

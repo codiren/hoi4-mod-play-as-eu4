@@ -3,14 +3,15 @@ id=347
 name="347_state"
 manpower = 20000
 history={
-owner = TGT
+owner = SOS
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TGT
+add_core_of = MOR
+add_core_of = SOS
 }
 state_category = a1
 provinces={

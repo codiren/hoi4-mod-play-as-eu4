@@ -1,0 +1,21 @@
+state={
+id=2887
+name="2887_state"
+manpower = 20000
+history={
+owner = BND
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = BND
+add_core_of = PAN
+}
+state_category = a2
+provinces={
+3450
+}
+local_supplies=0.0
+}

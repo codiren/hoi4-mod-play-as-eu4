@@ -3,18 +3,18 @@ id=877
 name="877_state"
 manpower = 20000
 history={
-owner = MAM
+owner = PIM
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = MAM
+add_core_of = PIM
 }
 state_category = a1
 provinces={
-1049
+877
 }
 local_supplies=0.0
 }

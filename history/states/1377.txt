@@ -1,0 +1,21 @@
+state={
+id=1377
+name="1377_state"
+manpower = 60000
+history={
+owner = BUR
+buildings = {
+infrastructure = 7
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = BUR
+add_core_of = HAI
+}
+state_category = a6
+provinces={
+1866
+}
+local_supplies=0.0
+}

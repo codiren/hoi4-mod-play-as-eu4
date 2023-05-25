@@ -3,18 +3,17 @@ id=314
 name="314_state"
 manpower = 40000
 history={
-owner = Z10
+owner = MOS
 buildings = {
-infrastructure = 4
+infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z10
-add_core_of = KNI
-add_core_of = AYD
+add_core_of = MOS
+add_core_of = NOV
 }
-state_category = a4
+state_category = a3
 provinces={
 314
 }

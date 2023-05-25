@@ -3,17 +3,18 @@ id=849
 name="849_state"
 manpower = 20000
 history={
-owner = NAT
+owner = TLA
 buildings = {
-infrastructure = 1
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
 }
 
+add_core_of = TLA
 }
-state_category = a1
+state_category = a3
 provinces={
-1020
+849
 }
 local_supplies=0.0
 }

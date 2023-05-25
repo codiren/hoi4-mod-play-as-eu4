@@ -3,18 +3,18 @@ id=936
 name="936_state"
 manpower = 20000
 history={
-owner = Z05
+owner = JOA
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z05
+add_core_of = JOA
 }
-state_category = a1
+state_category = a2
 provinces={
-1108
+936
 }
 local_supplies=0.0
 }

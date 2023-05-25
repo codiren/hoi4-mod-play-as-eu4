@@ -3,17 +3,18 @@ id=599
 name="599_state"
 manpower = 40000
 history={
-owner = NAT
+owner = KEL
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = KEL
 }
 state_category = a2
 provinces={
-766
+599
 }
 local_supplies=0.0
 }

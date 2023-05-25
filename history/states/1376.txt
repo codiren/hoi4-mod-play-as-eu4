@@ -1,0 +1,20 @@
+state={
+id=1376
+name="1376_state"
+manpower = 60000
+history={
+owner = FLA
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = FLA
+}
+state_category = a5
+provinces={
+1865
+}
+local_supplies=0.0
+}

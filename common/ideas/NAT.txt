@@ -1,0 +1,30 @@
+ideas = {
+
+	country = {
+		stateless = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				enemy_justify_war_goal_time = 100000000
+				justify_war_goal_time = 100000000
+				recruitable_population_factor = -1000
+				consumer_goods_factor = 1000
+				weekly_manpower = -100000
+			}
+rule = {
+    can_join_factions = no
+    can_send_volunteers = no
+	can_not_declare_war = yes
+}
+		}
+	}
+}

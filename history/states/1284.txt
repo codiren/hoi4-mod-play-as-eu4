@@ -1,0 +1,22 @@
+state={
+id=1284
+name="1284_state"
+manpower = 20000
+history={
+owner = BYZ
+buildings = {
+infrastructure = 2
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = ACH
+add_core_of = MOE
+add_core_of = BYZ
+}
+state_category = a2
+provinces={
+1773
+}
+local_supplies=0.0
+}

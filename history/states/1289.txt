@@ -1,0 +1,21 @@
+state={
+id=1289
+name="1289_state"
+manpower = 100000
+history={
+owner = MOS
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = MOS
+add_core_of = QAS
+}
+state_category = a5
+provinces={
+1778
+}
+local_supplies=0.0
+}

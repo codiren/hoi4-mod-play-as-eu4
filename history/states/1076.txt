@@ -3,19 +3,19 @@ id=1076
 name="1076_state"
 manpower = 60000
 history={
-owner = Z10
+owner = SHY
 buildings = {
-infrastructure = 2
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
 }
 
-add_core_of = BYZ
-add_core_of = Z10
+add_core_of = SIB
+add_core_of = SHY
 }
-state_category = a2
+state_category = a3
 provinces={
-1248
+1076
 }
 local_supplies=0.0
 }

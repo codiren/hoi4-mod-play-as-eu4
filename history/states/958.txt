@@ -3,18 +3,18 @@ id=958
 name="958_state"
 manpower = 20000
 history={
-owner = GRA
+owner = SEN
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 1
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = GRA
+add_core_of = SEN
 }
-state_category = a2
+state_category = a1
 provinces={
-1130
+958
 }
 local_supplies=0.0
 }

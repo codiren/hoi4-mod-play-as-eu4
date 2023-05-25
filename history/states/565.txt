@@ -3,18 +3,19 @@ id=565
 name="565_state"
 manpower = 20000
 history={
-owner = NAP
+owner = PHA
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = NAP
+add_core_of = PHA
+add_core_of = BHU
 }
 state_category = a2
 provinces={
-729
+565
 }
 local_supplies=0.0
 }

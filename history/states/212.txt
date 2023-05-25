@@ -11,7 +11,7 @@ arms_factory = 1
 }
 
 add_core_of = ARA
-add_core_of = Z55
+add_core_of = CAT
 }
 state_category = a3
 provinces={

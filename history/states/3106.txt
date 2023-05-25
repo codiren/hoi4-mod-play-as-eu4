@@ -1,0 +1,21 @@
+state={
+id=3106
+name="3106_state"
+manpower = 20000
+history={
+owner = SHY
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = KZH
+add_core_of = SHY
+}
+state_category = a1
+provinces={
+3669
+}
+local_supplies=0.0
+}

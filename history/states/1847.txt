@@ -1,0 +1,21 @@
+state={
+id=1847
+name="1847_state"
+manpower = 60000
+history={
+owner = SUK
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = AYU
+add_core_of = SUK
+}
+state_category = a4
+provinces={
+2388
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=3104
+name="3104_state"
+manpower = 40000
+history={
+owner = OIR
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = OIR
+add_core_of = CHG
+}
+state_category = a1
+provinces={
+3667
+}
+local_supplies=0.0
+}

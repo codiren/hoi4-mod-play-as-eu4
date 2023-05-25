@@ -3,14 +3,14 @@ id=166
 name="166_state"
 manpower = 40000
 history={
-owner = Z09
+owner = SWI
 buildings = {
 infrastructure = 4
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z09
+add_core_of = SWI
 }
 state_category = a4
 provinces={

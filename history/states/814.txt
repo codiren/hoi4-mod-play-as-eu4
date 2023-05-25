@@ -3,18 +3,18 @@ id=814
 name="814_state"
 manpower = 20000
 history={
-owner = Z16
+owner = HJA
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z16
+add_core_of = HJA
 }
 state_category = a2
 provinces={
-983
+814
 }
 local_supplies=0.0
 }

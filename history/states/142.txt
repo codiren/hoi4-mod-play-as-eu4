@@ -3,7 +3,7 @@ id=142
 name="142_state"
 manpower = 60000
 history={
-owner = Z21
+owner = VEN
 buildings = {
 infrastructure = 2
 industrial_complex = 0
@@ -11,7 +11,7 @@ arms_factory = 0
 }
 
 add_core_of = CEP
-add_core_of = Z21
+add_core_of = VEN
 }
 state_category = a2
 provinces={

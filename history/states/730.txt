@@ -1,20 +1,20 @@
 state={
 id=730
 name="730_state"
-manpower = 20000
+manpower = 100000
 history={
-owner = OTT
+owner = MHX
 buildings = {
-infrastructure = 1
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 2
 }
 
-add_core_of = OTT
+add_core_of = MHX
 }
-state_category = a1
+state_category = a6
 provinces={
-898
+730
 }
 local_supplies=0.0
 }

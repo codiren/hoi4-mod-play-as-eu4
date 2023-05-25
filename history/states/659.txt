@@ -3,19 +3,18 @@ id=659
 name="659_state"
 manpower = 20000
 history={
-owner = Z42
+owner = JMB
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z42
-add_core_of = KBA
+add_core_of = JMB
 }
 state_category = a1
 provinces={
-826
+659
 }
 local_supplies=0.0
 }

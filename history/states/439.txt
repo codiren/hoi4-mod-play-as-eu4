@@ -3,16 +3,16 @@ id=439
 name="439_state"
 manpower = 20000
 history={
-owner = ONE
+owner = NOG
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = ONE
+add_core_of = NOG
 }
-state_category = a2
+state_category = a1
 provinces={
 439
 }

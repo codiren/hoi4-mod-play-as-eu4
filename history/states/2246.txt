@@ -1,0 +1,21 @@
+state={
+id=2246
+name="2246_state"
+manpower = 20000
+history={
+owner = MRE
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MRE
+add_core_of = MJE
+}
+state_category = a2
+provinces={
+2788
+}
+local_supplies=0.0
+}

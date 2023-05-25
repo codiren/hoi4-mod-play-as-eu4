@@ -1,0 +1,20 @@
+state={
+id=2831
+name="2831_state"
+manpower = 40000
+history={
+owner = VND
+buildings = {
+infrastructure = 2
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = VND
+}
+state_category = a2
+provinces={
+3394
+}
+local_supplies=0.0
+}

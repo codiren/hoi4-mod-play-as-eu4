@@ -1,19 +1,18 @@
 state={
 id=334
 name="334_state"
-manpower = 60000
+manpower = 20000
 history={
-owner = Z42
+owner = MOR
 buildings = {
-infrastructure = 5
-industrial_complex = 2
-arms_factory = 1
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
 }
 
-add_core_of = Z42
-add_core_of = Z40
+add_core_of = MOR
 }
-state_category = a5
+state_category = a2
 provinces={
 334
 }

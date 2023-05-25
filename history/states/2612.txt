@@ -1,0 +1,21 @@
+state={
+id=2612
+name="2612_state"
+manpower = 40000
+history={
+owner = ITO
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = ITO
+add_core_of = SMZ
+}
+state_category = a2
+provinces={
+3164
+}
+local_supplies=0.0
+}

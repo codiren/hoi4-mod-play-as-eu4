@@ -3,17 +3,18 @@ id=1099
 name="1099_state"
 manpower = 20000
 history={
-owner = NAT
+owner = MHR
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 1
+industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = MHR
 }
-state_category = a2
+state_category = a1
 provinces={
-1271
+1099
 }
 local_supplies=0.0
 }

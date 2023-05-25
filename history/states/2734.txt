@@ -1,0 +1,21 @@
+state={
+id=2734
+name="2734_state"
+manpower = 20000
+history={
+owner = TUR
+buildings = {
+infrastructure = 2
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = TUR
+add_core_of = GRM
+}
+state_category = a2
+provinces={
+3292
+}
+local_supplies=0.0
+}

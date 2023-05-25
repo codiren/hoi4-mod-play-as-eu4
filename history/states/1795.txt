@@ -1,0 +1,20 @@
+state={
+id=1795
+name="1795_state"
+manpower = 20000
+history={
+owner = DAW
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = DAW
+}
+state_category = a1
+provinces={
+2336
+}
+local_supplies=0.0
+}

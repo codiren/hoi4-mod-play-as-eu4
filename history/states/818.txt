@@ -1,20 +1,19 @@
 state={
 id=818
 name="818_state"
-manpower = 60000
+manpower = 20000
 history={
-owner = DTT
+owner = NAT
 buildings = {
 infrastructure = 2
-industrial_complex = 1
-arms_factory = 1
+industrial_complex = 0
+arms_factory = 0
 }
 
-add_core_of = DTT
 }
-state_category = a3
+state_category = a1
 provinces={
-989
+818
 }
 local_supplies=0.0
 }

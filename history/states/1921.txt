@@ -1,0 +1,21 @@
+state={
+id=1921
+name="1921_state"
+manpower = 20000
+history={
+owner = TLC
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = TLC
+add_core_of = ALG
+}
+state_category = a2
+provinces={
+2462
+}
+local_supplies=0.0
+}

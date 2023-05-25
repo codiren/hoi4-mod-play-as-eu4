@@ -1,0 +1,21 @@
+state={
+id=1158
+name="1158_state"
+manpower = 40000
+history={
+owner = YAO
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = YAO
+add_core_of = KBO
+}
+state_category = a3
+provinces={
+1158
+}
+local_supplies=0.0
+}

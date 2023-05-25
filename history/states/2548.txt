@@ -1,0 +1,20 @@
+state={
+id=2548
+name="2548_state"
+manpower = 40000
+history={
+owner = KIK
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = KIK
+}
+state_category = a2
+provinces={
+3091
+}
+local_supplies=0.0
+}

@@ -1,0 +1,20 @@
+state={
+id=1152
+name="1152_state"
+manpower = 20000
+history={
+owner = NUP
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = NUP
+}
+state_category = a1
+provinces={
+1152
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=2222
+name="2222_state"
+manpower = 40000
+history={
+owner = ADA
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ADA
+add_core_of = AFA
+}
+state_category = a2
+provinces={
+2764
+}
+local_supplies=0.0
+}

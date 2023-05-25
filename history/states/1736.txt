@@ -1,0 +1,21 @@
+state={
+id=1736
+name="1736_state"
+manpower = 20000
+history={
+owner = AIR
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = AIR
+add_core_of = KBO
+}
+state_category = a1
+provinces={
+2277
+}
+local_supplies=0.0
+}

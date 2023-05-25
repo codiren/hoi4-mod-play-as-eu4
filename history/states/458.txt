@@ -3,16 +3,18 @@ id=458
 name="458_state"
 manpower = 80000
 history={
-owner = ATT
+owner = TRS
 buildings = {
-infrastructure = 2
-industrial_complex = 0
+infrastructure = 4
+industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = ATT
+add_core_of = TIM
+add_core_of = KOK
+add_core_of = TRS
 }
-state_category = a3
+state_category = a4
 provinces={
 458
 }

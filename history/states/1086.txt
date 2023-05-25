@@ -3,17 +3,18 @@ id=1086
 name="1086_state"
 manpower = 20000
 history={
-owner = NAT
+owner = KAU
 buildings = {
-infrastructure = 2
-industrial_complex = 0
+infrastructure = 3
+industrial_complex = 1
 arms_factory = 0
 }
 
+add_core_of = KAU
 }
 state_category = a2
 provinces={
-1258
+1086
 }
 local_supplies=0.0
 }

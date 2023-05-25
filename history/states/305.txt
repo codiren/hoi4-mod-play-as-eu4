@@ -3,14 +3,15 @@ id=305
 name="305_state"
 manpower = 60000
 history={
-owner = YAR
+owner = KAZ
 buildings = {
 infrastructure = 4
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = YAR
+add_core_of = KAZ
+add_core_of = PRM
 }
 state_category = a4
 provinces={

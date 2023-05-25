@@ -11,7 +11,7 @@ arms_factory = 1
 }
 
 add_core_of = LIV
-add_core_of = Z07
+add_core_of = EST
 }
 state_category = a4
 provinces={

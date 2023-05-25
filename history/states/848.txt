@@ -3,18 +3,18 @@ id=848
 name="848_state"
 manpower = 20000
 history={
-owner = Z08
+owner = TOT
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 2
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z08
+add_core_of = TOT
 }
 state_category = a2
 provinces={
-1019
+848
 }
 local_supplies=0.0
 }

@@ -3,18 +3,17 @@ id=772
 name="772_state"
 manpower = 20000
 history={
-owner = PGA
+owner = NAT
 buildings = {
-infrastructure = 3
-industrial_complex = 1
-arms_factory = 1
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
 }
 
-add_core_of = PGA
 }
-state_category = a3
+state_category = a1
 provinces={
-941
+772
 }
 local_supplies=0.0
 }

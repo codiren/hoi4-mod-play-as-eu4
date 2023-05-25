@@ -1,15 +1,17 @@
 state={
 id=448
 name="448_state"
-manpower = 20000
+manpower = 60000
 history={
-owner = NAT
+owner = AFG
 buildings = {
 infrastructure = 2
 industrial_complex = 0
-arms_factory = 0
+arms_factory = 1
 }
 
+add_core_of = TIM
+add_core_of = AFG
 }
 state_category = a2
 provinces={

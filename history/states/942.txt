@@ -3,18 +3,17 @@ id=942
 name="942_state"
 manpower = 20000
 history={
-owner = Z36
+owner = NAT
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z36
 }
 state_category = a1
 provinces={
-1114
+942
 }
 local_supplies=0.0
 }

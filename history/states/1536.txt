@@ -1,0 +1,22 @@
+state={
+id=1536
+name="1536_state"
+manpower = 20000
+history={
+owner = KSH
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = DLH
+add_core_of = PUN
+add_core_of = KSH
+}
+state_category = a2
+provinces={
+2077
+}
+local_supplies=0.0
+}

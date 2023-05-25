@@ -1,0 +1,21 @@
+state={
+id=2715
+name="2715_state"
+manpower = 40000
+history={
+owner = MSY
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MSY
+add_core_of = LRI
+}
+state_category = a2
+provinces={
+3273
+}
+local_supplies=0.0
+}

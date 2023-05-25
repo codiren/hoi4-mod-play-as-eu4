@@ -1,0 +1,21 @@
+state={
+id=1842
+name="1842_state"
+manpower = 40000
+history={
+owner = LXA
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = LXA
+add_core_of = CHK
+}
+state_category = a2
+provinces={
+2383
+}
+local_supplies=0.0
+}

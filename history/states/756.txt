@@ -3,18 +3,17 @@ id=756
 name="756_state"
 manpower = 40000
 history={
-owner = Z05
+owner = NAT
 buildings = {
-infrastructure = 6
-industrial_complex = 2
+infrastructure = 3
+industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z05
 }
-state_category = a5
+state_category = a4
 provinces={
-925
+756
 }
 local_supplies=0.0
 }

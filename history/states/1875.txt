@@ -1,0 +1,21 @@
+state={
+id=1875
+name="1875_state"
+manpower = 40000
+history={
+owner = GOL
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = GOL
+add_core_of = AST
+}
+state_category = a3
+provinces={
+2416
+}
+local_supplies=0.0
+}

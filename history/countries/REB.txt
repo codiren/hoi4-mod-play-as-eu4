@@ -1,2 +1,5 @@
+oob = "AAA_basic"
 capital = 1
-oob = "LIT"
+add_ideas = {
+	stateless
+}

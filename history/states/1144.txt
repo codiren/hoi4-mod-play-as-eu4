@@ -1,0 +1,20 @@
+state={
+id=1144
+name="1144_state"
+manpower = 20000
+history={
+owner = OYO
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = OYO
+}
+state_category = a2
+provinces={
+1144
+}
+local_supplies=0.0
+}

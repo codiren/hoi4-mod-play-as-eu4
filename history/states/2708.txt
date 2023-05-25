@@ -1,0 +1,21 @@
+state={
+id=2708
+name="2708_state"
+manpower = 40000
+history={
+owner = RAS
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = RAS
+add_core_of = NJR
+}
+state_category = a2
+provinces={
+3266
+}
+local_supplies=0.0
+}

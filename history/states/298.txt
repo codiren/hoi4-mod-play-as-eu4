@@ -3,7 +3,7 @@ id=298
 name="298_state"
 manpower = 20000
 history={
-owner = Z06
+owner = LIT
 buildings = {
 infrastructure = 2
 industrial_complex = 0
@@ -11,7 +11,7 @@ arms_factory = 0
 }
 
 add_core_of = CHR
-add_core_of = Z06
+add_core_of = LIT
 }
 state_category = a1
 provinces={

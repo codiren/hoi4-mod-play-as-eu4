@@ -1,0 +1,21 @@
+state={
+id=3171
+name="3171_state"
+manpower = 20000
+history={
+owner = ALB
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ALB
+add_core_of = TUR
+}
+state_category = a2
+provinces={
+3734
+}
+local_supplies=0.0
+}

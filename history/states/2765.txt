@@ -1,0 +1,21 @@
+state={
+id=2765
+name="2765_state"
+manpower = 20000
+history={
+owner = BPI
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = BPI
+add_core_of = ARL
+}
+state_category = a1
+provinces={
+3324
+}
+local_supplies=0.0
+}

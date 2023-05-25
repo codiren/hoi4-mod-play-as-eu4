@@ -1,0 +1,20 @@
+state={
+id=2433
+name="2433_state"
+manpower = 20000
+history={
+owner = PGA
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = PGA
+}
+state_category = a3
+provinces={
+2976
+}
+local_supplies=0.0
+}

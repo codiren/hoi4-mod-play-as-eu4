@@ -3,18 +3,19 @@ id=664
 name="664_state"
 manpower = 20000
 history={
-owner = TLC
+owner = MNG
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TLC
+add_core_of = MNG
+add_core_of = CGS
 }
 state_category = a1
 provinces={
-831
+664
 }
 local_supplies=0.0
 }

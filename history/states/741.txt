@@ -3,18 +3,17 @@ id=741
 name="741_state"
 manpower = 20000
 history={
-owner = MSG
+owner = NAT
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = MSG
 }
 state_category = a1
 provinces={
-909
+741
 }
 local_supplies=0.0
 }

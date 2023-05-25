@@ -3,19 +3,17 @@ id=742
 name="742_state"
 manpower = 20000
 history={
-owner = Z10
+owner = NAT
 buildings = {
 infrastructure = 2
-industrial_complex = 1
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z10
-add_core_of = Z13
 }
-state_category = a2
+state_category = a1
 provinces={
-910
+742
 }
 local_supplies=0.0
 }

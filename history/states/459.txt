@@ -1,16 +1,17 @@
 state={
 id=459
 name="459_state"
-manpower = 40000
+manpower = 60000
 history={
-owner = AGG
+owner = CHG
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = AGG
+add_core_of = CHG
+add_core_of = KZH
 }
 state_category = a2
 provinces={

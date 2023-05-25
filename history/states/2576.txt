@@ -1,0 +1,20 @@
+state={
+id=2576
+name="2576_state"
+manpower = 20000
+history={
+owner = NOR
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = NOR
+}
+state_category = a2
+provinces={
+3128
+}
+local_supplies=0.0
+}

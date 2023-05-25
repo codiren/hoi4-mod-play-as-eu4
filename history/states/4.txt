@@ -3,14 +3,14 @@ id=4
 name="4_state"
 manpower = 40000
 history={
-owner = Z01
+owner = SWE
 buildings = {
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z01
+add_core_of = SWE
 }
 state_category = a2
 provinces={

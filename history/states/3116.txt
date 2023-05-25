@@ -1,0 +1,21 @@
+state={
+id=3116
+name="3116_state"
+manpower = 40000
+history={
+owner = FRA
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = FRA
+add_core_of = TOU
+}
+state_category = a2
+provinces={
+3679
+}
+local_supplies=0.0
+}

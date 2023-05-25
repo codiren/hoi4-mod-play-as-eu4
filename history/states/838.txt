@@ -3,18 +3,18 @@ id=838
 name="838_state"
 manpower = 20000
 history={
-owner = Z01
+owner = MIS
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z01
+add_core_of = MIS
 }
 state_category = a1
 provinces={
-1009
+838
 }
 local_supplies=0.0
 }

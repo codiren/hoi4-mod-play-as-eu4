@@ -1,0 +1,20 @@
+state={
+id=2506
+name="2506_state"
+manpower = 60000
+history={
+owner = BNY
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = BNY
+}
+state_category = a4
+provinces={
+3049
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=2762
+name="2762_state"
+manpower = 40000
+history={
+owner = QOM
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = TIM
+add_core_of = QOM
+}
+state_category = a2
+provinces={
+3321
+}
+local_supplies=0.0
+}

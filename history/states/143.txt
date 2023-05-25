@@ -3,15 +3,15 @@ id=143
 name="143_state"
 manpower = 20000
 history={
-owner = Z10
+owner = TUR
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z10
-add_core_of = Z11
+add_core_of = TUR
+add_core_of = ALB
 }
 state_category = a1
 provinces={

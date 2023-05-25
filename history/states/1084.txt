@@ -3,18 +3,18 @@ id=1084
 name="1084_state"
 manpower = 40000
 history={
-owner = WEN
+owner = NOO
 buildings = {
-infrastructure = 1
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
 }
 
-add_core_of = WEN
+add_core_of = NOO
 }
-state_category = a2
+state_category = a3
 provinces={
-1256
+1084
 }
 local_supplies=0.0
 }

@@ -1,0 +1,21 @@
+state={
+id=1803
+name="1803_state"
+manpower = 20000
+history={
+owner = RAS
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = RAS
+add_core_of = YEM
+}
+state_category = a1
+provinces={
+2344
+}
+local_supplies=0.0
+}

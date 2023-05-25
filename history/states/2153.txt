@@ -1,0 +1,19 @@
+state={
+id=2153
+name="2153_state"
+manpower = 60000
+history={
+owner = NAT
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+}
+state_category = a3
+provinces={
+2695
+}
+local_supplies=0.0
+}

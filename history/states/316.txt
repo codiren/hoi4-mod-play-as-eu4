@@ -3,16 +3,16 @@ id=316
 name="316_state"
 manpower = 60000
 history={
-owner = KNI
+owner = TUR
 buildings = {
-infrastructure = 4
+infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = KNI
+add_core_of = TUR
 }
-state_category = a4
+state_category = a3
 provinces={
 316
 }

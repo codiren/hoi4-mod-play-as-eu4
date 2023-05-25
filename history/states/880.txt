@@ -3,19 +3,18 @@ id=880
 name="880_state"
 manpower = 20000
 history={
-owner = FAD
+owner = OHK
 buildings = {
-infrastructure = 1
+infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = FAD
-add_core_of = Z29
+add_core_of = OHK
 }
-state_category = a1
+state_category = a2
 provinces={
-1052
+880
 }
 local_supplies=0.0
 }

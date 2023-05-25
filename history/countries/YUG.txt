@@ -1,0 +1,2 @@
+oob = "AAA_basic"
+capital = 1

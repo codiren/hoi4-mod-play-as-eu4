@@ -1,0 +1,21 @@
+state={
+id=3213
+name="3213_state"
+manpower = 40000
+history={
+owner = MAJ
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MAJ
+add_core_of = DMK
+}
+state_category = a2
+provinces={
+3776
+}
+local_supplies=0.0
+}

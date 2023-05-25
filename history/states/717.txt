@@ -3,17 +3,19 @@ id=717
 name="717_state"
 manpower = 20000
 history={
-owner = NAT
+owner = KHA
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = KHA
+add_core_of = OIR
 }
 state_category = a1
 provinces={
-885
+717
 }
 local_supplies=0.0
 }

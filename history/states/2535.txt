@@ -1,0 +1,20 @@
+state={
+id=2535
+name="2535_state"
+manpower = 40000
+history={
+owner = CKW
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = CKW
+}
+state_category = a1
+provinces={
+3078
+}
+local_supplies=0.0
+}

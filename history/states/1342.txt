@@ -1,0 +1,21 @@
+state={
+id=1342
+name="1342_state"
+manpower = 40000
+history={
+owner = HRZ
+buildings = {
+infrastructure = 2
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = HRZ
+add_core_of = BOS
+}
+state_category = a2
+provinces={
+1831
+}
+local_supplies=0.0
+}

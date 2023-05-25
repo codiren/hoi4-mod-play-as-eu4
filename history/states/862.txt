@@ -3,18 +3,18 @@ id=862
 name="862_state"
 manpower = 20000
 history={
-owner = TVE
+owner = YAQ
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 1
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TVE
+add_core_of = YAQ
 }
-state_category = a2
+state_category = a1
 provinces={
-1034
+862
 }
 local_supplies=0.0
 }

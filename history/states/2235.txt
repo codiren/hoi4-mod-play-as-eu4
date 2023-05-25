@@ -1,0 +1,21 @@
+state={
+id=2235
+name="2235_state"
+manpower = 20000
+history={
+owner = AJU
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = AJU
+add_core_of = GLE
+}
+state_category = a1
+provinces={
+2777
+}
+local_supplies=0.0
+}

@@ -3,18 +3,18 @@ id=807
 name="807_state"
 manpower = 40000
 history={
-owner = SLN
+owner = CSU
 buildings = {
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = SLN
+add_core_of = CSU
 }
 state_category = a3
 provinces={
-976
+807
 }
 local_supplies=0.0
 }

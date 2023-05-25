@@ -1,0 +1,23 @@
+state={
+id=2206
+name="2206_state"
+manpower = 40000
+history={
+owner = MNG
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MNG
+add_core_of = CYI
+add_core_of = CDL
+add_core_of = CXI
+}
+state_category = a2
+provinces={
+2748
+}
+local_supplies=0.0
+}

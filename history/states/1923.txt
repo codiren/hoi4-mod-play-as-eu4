@@ -1,0 +1,22 @@
+state={
+id=1923
+name="1923_state"
+manpower = 20000
+history={
+owner = SOS
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MOR
+add_core_of = SOS
+add_core_of = TFL
+}
+state_category = a2
+provinces={
+2464
+}
+local_supplies=0.0
+}

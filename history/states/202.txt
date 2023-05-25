@@ -3,7 +3,7 @@ id=202
 name="202_state"
 manpower = 80000
 history={
-owner = Z66
+owner = PAP
 buildings = {
 infrastructure = 4
 industrial_complex = 1
@@ -12,7 +12,7 @@ arms_factory = 1
 
 add_core_of = AVI
 add_core_of = PRO
-add_core_of = Z66
+add_core_of = PAP
 }
 state_category = a4
 provinces={

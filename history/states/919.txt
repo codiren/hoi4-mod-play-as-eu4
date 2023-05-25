@@ -3,18 +3,18 @@ id=919
 name="919_state"
 manpower = 20000
 history={
-owner = ORD
+owner = CHI
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 2
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = ORD
+add_core_of = CHI
 }
 state_category = a2
 provinces={
-1091
+919
 }
 local_supplies=0.0
 }

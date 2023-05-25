@@ -1,0 +1,20 @@
+state={
+id=1278
+name="1278_state"
+manpower = 40000
+history={
+owner = CRO
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = CRO
+}
+state_category = a2
+provinces={
+1767
+}
+local_supplies=0.0
+}

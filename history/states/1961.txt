@@ -1,0 +1,20 @@
+state={
+id=1961
+name="1961_state"
+manpower = 20000
+history={
+owner = KIO
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = KIO
+}
+state_category = a1
+provinces={
+2503
+}
+local_supplies=0.0
+}

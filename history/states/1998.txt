@@ -1,0 +1,20 @@
+state={
+id=1998
+name="1998_state"
+manpower = 20000
+history={
+owner = ETO
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ETO
+}
+state_category = a1
+provinces={
+2540
+}
+local_supplies=0.0
+}

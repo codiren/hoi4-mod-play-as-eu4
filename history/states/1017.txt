@@ -3,18 +3,18 @@ id=1017
 name="1017_state"
 manpower = 60000
 history={
-owner = GNV
+owner = OUC
 buildings = {
-infrastructure = 6
-industrial_complex = 2
+infrastructure = 4
+industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = GNV
+add_core_of = OUC
 }
-state_category = a5
+state_category = a3
 provinces={
-1189
+1017
 }
 local_supplies=0.0
 }

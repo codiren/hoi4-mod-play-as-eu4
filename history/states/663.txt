@@ -3,19 +3,19 @@ id=663
 name="663_state"
 manpower = 20000
 history={
-owner = TLC
+owner = MNG
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TLC
-add_core_of = Z40
+add_core_of = MNG
+add_core_of = CDL
 }
-state_category = a2
+state_category = a1
 provinces={
-830
+663
 }
 local_supplies=0.0
 }

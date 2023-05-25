@@ -1,0 +1,21 @@
+state={
+id=1337
+name="1337_state"
+manpower = 20000
+history={
+owner = CRO
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = CRO
+add_core_of = DAL
+}
+state_category = a2
+provinces={
+1826
+}
+local_supplies=0.0
+}

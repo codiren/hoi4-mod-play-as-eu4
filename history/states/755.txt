@@ -3,18 +3,17 @@ id=755
 name="755_state"
 manpower = 40000
 history={
-owner = Z05
+owner = NAT
 buildings = {
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z05
 }
-state_category = a3
+state_category = a4
 provinces={
-924
+755
 }
 local_supplies=0.0
 }

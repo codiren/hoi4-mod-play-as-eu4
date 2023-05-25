@@ -1,0 +1,20 @@
+state={
+id=2087
+name="2087_state"
+manpower = 20000
+history={
+owner = MIX
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MIX
+}
+state_category = a2
+provinces={
+2629
+}
+local_supplies=0.0
+}

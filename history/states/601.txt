@@ -1,19 +1,21 @@
 state={
 id=601
 name="601_state"
-manpower = 40000
+manpower = 60000
 history={
-owner = NAT
+owner = SUK
 buildings = {
-infrastructure = 2
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 1
 }
 
+add_core_of = SUK
+add_core_of = AYU
 }
-state_category = a2
+state_category = a6
 provinces={
-768
+601
 }
 local_supplies=0.0
 }

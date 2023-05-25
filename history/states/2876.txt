@@ -1,0 +1,20 @@
+state={
+id=2876
+name="2876_state"
+manpower = 20000
+history={
+owner = JGD
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = JGD
+}
+state_category = a2
+provinces={
+3439
+}
+local_supplies=0.0
+}

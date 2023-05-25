@@ -3,17 +3,16 @@ id=366
 name="366_state"
 manpower = 20000
 history={
-owner = Z12
+owner = CAS
 buildings = {
-infrastructure = 1
-industrial_complex = 0
+infrastructure = 3
+industrial_complex = 1
 arms_factory = 0
 }
 
-add_core_of = Z12
-add_core_of = Z27
+add_core_of = CAS
 }
-state_category = a1
+state_category = a2
 provinces={
 366
 }

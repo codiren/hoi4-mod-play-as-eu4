@@ -1,0 +1,20 @@
+state={
+id=1587
+name="1587_state"
+manpower = 20000
+history={
+owner = GUG
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = GUG
+}
+state_category = a1
+provinces={
+2128
+}
+local_supplies=0.0
+}

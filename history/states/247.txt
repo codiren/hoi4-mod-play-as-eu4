@@ -3,14 +3,14 @@ id=247
 name="247_state"
 manpower = 20000
 history={
-owner = Z00
+owner = ENG
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z00
+add_core_of = ENG
 add_core_of = NOL
 }
 state_category = a2

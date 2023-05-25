@@ -3,14 +3,14 @@ id=262
 name="262_state"
 manpower = 120000
 history={
-owner = Z05
+owner = POL
 buildings = {
 infrastructure = 7
 industrial_complex = 2
 arms_factory = 2
 }
 
-add_core_of = Z05
+add_core_of = POL
 add_core_of = KRA
 }
 state_category = a8

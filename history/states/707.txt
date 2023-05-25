@@ -3,18 +3,18 @@ id=707
 name="707_state"
 manpower = 20000
 history={
-owner = ABE
+owner = HMI
 buildings = {
-infrastructure = 1
+infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = ABE
+add_core_of = HMI
 }
-state_category = a1
+state_category = a2
 provinces={
-875
+707
 }
 local_supplies=0.0
 }

@@ -1,0 +1,20 @@
+state={
+id=2805
+name="2805_state"
+manpower = 80000
+history={
+owner = BRI
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = BRI
+}
+state_category = a4
+provinces={
+3368
+}
+local_supplies=0.0
+}

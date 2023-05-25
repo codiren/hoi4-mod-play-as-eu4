@@ -3,15 +3,14 @@ id=365
 name="365_state"
 manpower = 20000
 history={
-owner = Z12
+owner = MAM
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z12
-add_core_of = Z27
+add_core_of = MAM
 }
 state_category = a1
 provinces={

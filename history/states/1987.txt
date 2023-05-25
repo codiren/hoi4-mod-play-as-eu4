@@ -1,0 +1,20 @@
+state={
+id=1987
+name="1987_state"
+manpower = 20000
+history={
+owner = NTZ
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = NTZ
+}
+state_category = a1
+provinces={
+2529
+}
+local_supplies=0.0
+}

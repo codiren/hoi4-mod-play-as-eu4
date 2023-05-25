@@ -5,15 +5,15 @@ manpower = 20000
 history={
 owner = NAT
 buildings = {
-infrastructure = 2
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
 }
 
 }
-state_category = a2
+state_category = a4
 provinces={
-1274
+1102
 }
 local_supplies=0.0
 }

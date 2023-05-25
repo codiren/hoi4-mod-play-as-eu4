@@ -3,14 +3,14 @@ id=50
 name="50_state"
 manpower = 80000
 history={
-owner = Z18
+owner = BRA
 buildings = {
 infrastructure = 4
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z18
+add_core_of = BRA
 }
 state_category = a4
 provinces={

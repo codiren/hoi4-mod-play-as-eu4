@@ -1,0 +1,20 @@
+state={
+id=1383
+name="1383_state"
+manpower = 80000
+history={
+owner = ULM
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = ULM
+}
+state_category = a6
+provinces={
+1872
+}
+local_supplies=0.0
+}

@@ -3,17 +3,18 @@ id=560
 name="560_state"
 manpower = 20000
 history={
-owner = NAT
+owner = NGP
 buildings = {
-infrastructure = 4
-industrial_complex = 1
-arms_factory = 1
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
 }
 
+add_core_of = NGP
 }
-state_category = a4
+state_category = a2
 provinces={
-701
+560
 }
 local_supplies=0.0
 }

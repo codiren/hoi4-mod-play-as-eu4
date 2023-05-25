@@ -3,14 +3,14 @@ id=140
 name="140_state"
 manpower = 20000
 history={
-owner = Z50
+owner = BOS
 buildings = {
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 0
 }
 
-add_core_of = Z50
+add_core_of = BOS
 }
 state_category = a2
 provinces={

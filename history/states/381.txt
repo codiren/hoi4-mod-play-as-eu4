@@ -3,15 +3,14 @@ id=381
 name="381_state"
 manpower = 40000
 history={
-owner = QAR
+owner = MAM
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z19
-add_core_of = QAR
+add_core_of = MAM
 }
 state_category = a2
 provinces={

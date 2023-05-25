@@ -3,18 +3,18 @@ id=1020
 name="1020_state"
 manpower = 40000
 history={
-owner = OPL
+owner = ASK
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 6
+industrial_complex = 2
 arms_factory = 1
 }
 
-add_core_of = OPL
+add_core_of = ASK
 }
-state_category = a3
+state_category = a5
 provinces={
-1192
+1020
 }
 local_supplies=0.0
 }

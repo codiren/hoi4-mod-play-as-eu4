@@ -1,5 +1,5 @@
+oob = "AAA_basic"
 capital = 70
-oob = "LIT"
 set_politics = {
 ruling_party = neutrality
 last_election = "1444.1.1"

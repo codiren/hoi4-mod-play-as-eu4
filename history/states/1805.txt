@@ -1,0 +1,21 @@
+state={
+id=1805
+name="1805_state"
+manpower = 20000
+history={
+owner = MFL
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = MFL
+add_core_of = YEM
+}
+state_category = a2
+provinces={
+2346
+}
+local_supplies=0.0
+}

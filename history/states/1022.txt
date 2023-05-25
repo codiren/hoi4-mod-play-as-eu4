@@ -3,18 +3,20 @@ id=1022
 name="1022_state"
 manpower = 40000
 history={
-owner = BOH
+owner = DAI
 buildings = {
-infrastructure = 3
+infrastructure = 4
 industrial_complex = 1
-arms_factory = 0
+arms_factory = 1
 }
 
-add_core_of = BOH
+add_core_of = CHA
+add_core_of = ANN
+add_core_of = DAI
 }
-state_category = a2
+state_category = a4
 provinces={
-1194
+1022
 }
 local_supplies=0.0
 }

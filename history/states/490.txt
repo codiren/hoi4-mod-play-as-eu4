@@ -3,20 +3,17 @@ id=490
 name="490_state"
 manpower = 20000
 history={
-owner = Z14
+owner = NAT
 buildings = {
-infrastructure = 3
+infrastructure = 2
 industrial_complex = 1
 arms_factory = 0
 }
 
-add_core_of = Z41
-add_core_of = GRA
-add_core_of = Z14
 }
 state_category = a2
 provinces={
-631
+490
 }
 local_supplies=0.0
 }

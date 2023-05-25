@@ -1,0 +1,21 @@
+state={
+id=2443
+name="2443_state"
+manpower = 20000
+history={
+owner = ARA
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = SAR
+add_core_of = ARA
+}
+state_category = a2
+provinces={
+2986
+}
+local_supplies=0.0
+}

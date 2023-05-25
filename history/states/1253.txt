@@ -1,0 +1,20 @@
+state={
+id=1253
+name="1253_state"
+manpower = 80000
+history={
+owner = GEL
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = GEL
+}
+state_category = a5
+provinces={
+1742
+}
+local_supplies=0.0
+}

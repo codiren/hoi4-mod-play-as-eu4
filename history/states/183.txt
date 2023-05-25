@@ -3,14 +3,14 @@ id=183
 name="183_state"
 manpower = 140000
 history={
-owner = Z02
+owner = FRA
 buildings = {
 infrastructure = 8
 industrial_complex = 3
 arms_factory = 3
 }
 
-add_core_of = Z02
+add_core_of = FRA
 }
 state_category = a9
 provinces={

@@ -1,0 +1,20 @@
+state={
+id=2524
+name="2524_state"
+manpower = 60000
+history={
+owner = KSJ
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 1
+}
+
+add_core_of = KSJ
+}
+state_category = a2
+provinces={
+3067
+}
+local_supplies=0.0
+}

@@ -1,0 +1,21 @@
+state={
+id=2879
+name="2879_state"
+manpower = 20000
+history={
+owner = MLW
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = GDW
+add_core_of = MLW
+}
+state_category = a1
+provinces={
+3442
+}
+local_supplies=0.0
+}

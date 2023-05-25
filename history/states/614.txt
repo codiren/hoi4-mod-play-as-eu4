@@ -1,21 +1,21 @@
 state={
 id=614
 name="614_state"
-manpower = 40000
+manpower = 80000
 history={
-owner = Z10
+owner = LXA
 buildings = {
-infrastructure = 2
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
 }
 
-add_core_of = CND
-add_core_of = Z10
+add_core_of = LXA
+add_core_of = VIE
 }
-state_category = a2
+state_category = a5
 provinces={
-781
+614
 }
 local_supplies=0.0
 }

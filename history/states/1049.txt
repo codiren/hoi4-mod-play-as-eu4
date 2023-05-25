@@ -3,19 +3,18 @@ id=1049
 name="1049_state"
 manpower = 40000
 history={
-owner = Z26
+owner = SOL
 buildings = {
-infrastructure = 4
-industrial_complex = 1
-arms_factory = 1
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
 }
 
-add_core_of = Z26
-add_core_of = DAL
+add_core_of = SOL
 }
-state_category = a4
+state_category = a2
 provinces={
-1221
+1049
 }
 local_supplies=0.0
 }

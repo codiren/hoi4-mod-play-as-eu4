@@ -3,20 +3,17 @@ id=885
 name="885_state"
 manpower = 20000
 history={
-owner = MAM
+owner = NAT
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z29
-add_core_of = FAD
-add_core_of = MAM
 }
-state_category = a2
+state_category = a1
 provinces={
-1057
+885
 }
 local_supplies=0.0
 }

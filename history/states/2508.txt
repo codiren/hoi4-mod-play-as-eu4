@@ -1,0 +1,20 @@
+state={
+id=2508
+name="2508_state"
+manpower = 60000
+history={
+owner = RWA
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = RWA
+}
+state_category = a4
+provinces={
+3051
+}
+local_supplies=0.0
+}

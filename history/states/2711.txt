@@ -1,0 +1,21 @@
+state={
+id=2711
+name="2711_state"
+manpower = 40000
+history={
+owner = OMA
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = OMA
+add_core_of = YAS
+}
+state_category = a2
+provinces={
+3269
+}
+local_supplies=0.0
+}

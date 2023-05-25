@@ -12,7 +12,7 @@ arms_factory = 2
 
 add_core_of = AMG
 add_core_of = GUY
-add_core_of = Z00
+add_core_of = ENG
 }
 state_category = a6
 provinces={

@@ -1,0 +1,22 @@
+state={
+id=2607
+name="2607_state"
+manpower = 40000
+history={
+owner = ALB
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ALB
+add_core_of = VEN
+add_core_of = TUR
+}
+state_category = a2
+provinces={
+3159
+}
+local_supplies=0.0
+}

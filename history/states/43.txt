@@ -11,7 +11,7 @@ arms_factory = 1
 }
 
 add_core_of = TEU
-add_core_of = Z60
+add_core_of = DNZ
 }
 state_category = a6
 provinces={

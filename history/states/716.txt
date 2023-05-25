@@ -3,17 +3,18 @@ id=716
 name="716_state"
 manpower = 20000
 history={
-owner = NAT
+owner = OIR
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = OIR
 }
-state_category = a2
+state_category = a1
 provinces={
-884
+716
 }
 local_supplies=0.0
 }

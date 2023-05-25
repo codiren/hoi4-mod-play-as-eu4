@@ -3,15 +3,15 @@ id=114
 name="114_state"
 manpower = 40000
 history={
-owner = Z21
+owner = VEN
 buildings = {
 infrastructure = 4
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z21
-add_core_of = Z66
+add_core_of = VEN
+add_core_of = PAP
 }
 state_category = a4
 provinces={

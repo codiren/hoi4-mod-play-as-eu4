@@ -1,0 +1,21 @@
+state={
+id=1405
+name="1405_state"
+manpower = 40000
+history={
+owner = MAZ
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = MAZ
+add_core_of = VOL
+}
+state_category = a3
+provinces={
+1940
+}
+local_supplies=0.0
+}

@@ -3,18 +3,18 @@ id=526
 name="526_state"
 manpower = 60000
 history={
-owner = TEU
+owner = MLW
 buildings = {
-infrastructure = 4
-industrial_complex = 1
+infrastructure = 5
+industrial_complex = 2
 arms_factory = 1
 }
 
-add_core_of = TEU
+add_core_of = MLW
 }
-state_category = a4
+state_category = a5
 provinces={
-667
+526
 }
 local_supplies=0.0
 }

@@ -1,0 +1,20 @@
+state={
+id=2622
+name="2622_state"
+manpower = 40000
+history={
+owner = CBA
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = CBA
+}
+state_category = a2
+provinces={
+3174
+}
+local_supplies=0.0
+}

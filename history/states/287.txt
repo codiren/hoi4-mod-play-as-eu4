@@ -3,14 +3,14 @@ id=287
 name="287_state"
 manpower = 60000
 history={
-owner = Z63
+owner = CRI
 buildings = {
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z63
+add_core_of = CRI
 }
 state_category = a3
 provinces={

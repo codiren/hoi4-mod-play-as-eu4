@@ -1,0 +1,20 @@
+state={
+id=1343
+name="1343_state"
+manpower = 40000
+history={
+owner = TTI
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = TTI
+}
+state_category = a3
+provinces={
+1832
+}
+local_supplies=0.0
+}

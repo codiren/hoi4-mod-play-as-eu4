@@ -3,18 +3,17 @@ id=1044
 name="1044_state"
 manpower = 20000
 history={
-owner = TEU
+owner = NAT
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TEU
 }
-state_category = a2
+state_category = a1
 provinces={
-1216
+1044
 }
 local_supplies=0.0
 }

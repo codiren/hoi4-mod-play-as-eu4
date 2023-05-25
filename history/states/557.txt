@@ -3,18 +3,18 @@ id=557
 name="557_state"
 manpower = 40000
 history={
-owner = AAC
+owner = KTU
 buildings = {
-infrastructure = 6
-industrial_complex = 2
+infrastructure = 3
+industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = AAC
+add_core_of = KTU
 }
-state_category = a5
+state_category = a3
 provinces={
-698
+557
 }
 local_supplies=0.0
 }

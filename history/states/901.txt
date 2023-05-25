@@ -3,17 +3,18 @@ id=901
 name="901_state"
 manpower = 20000
 history={
-owner = NAT
+owner = PAW
 buildings = {
-infrastructure = 1
+infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = PAW
 }
 state_category = a1
 provinces={
-1073
+901
 }
 local_supplies=0.0
 }

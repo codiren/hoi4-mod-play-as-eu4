@@ -3,18 +3,19 @@ id=549
 name="549_state"
 manpower = 40000
 history={
-owner = Z09
+owner = ORI
 buildings = {
-infrastructure = 4
+infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = Z09
+add_core_of = YOR
+add_core_of = ORI
 }
-state_category = a4
+state_category = a3
 provinces={
-690
+549
 }
 local_supplies=0.0
 }

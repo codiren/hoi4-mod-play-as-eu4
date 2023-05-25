@@ -1,0 +1,20 @@
+state={
+id=2225
+name="2225_state"
+manpower = 40000
+history={
+owner = ETH
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ETH
+}
+state_category = a1
+provinces={
+2767
+}
+local_supplies=0.0
+}

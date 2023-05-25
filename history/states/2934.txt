@@ -1,0 +1,23 @@
+state={
+id=2934
+name="2934_state"
+manpower = 60000
+history={
+owner = SRH
+buildings = {
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = MUL
+add_core_of = DLH
+add_core_of = PUN
+add_core_of = SRH
+}
+state_category = a5
+provinces={
+3497
+}
+local_supplies=0.0
+}

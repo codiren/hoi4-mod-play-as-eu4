@@ -1,0 +1,20 @@
+state={
+id=1990
+name="1990_state"
+manpower = 20000
+history={
+owner = ATA
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ATA
+}
+state_category = a2
+provinces={
+2532
+}
+local_supplies=0.0
+}

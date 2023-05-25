@@ -3,14 +3,15 @@ id=333
 name="333_state"
 manpower = 20000
 history={
-owner = TLC
+owner = ARA
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 2
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = TLC
+add_core_of = ARA
+add_core_of = MJO
 }
 state_category = a2
 provinces={

@@ -1,0 +1,22 @@
+state={
+id=2920
+name="2920_state"
+manpower = 40000
+history={
+owner = JNP
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = DLH
+add_core_of = RMP
+add_core_of = JNP
+}
+state_category = a2
+provinces={
+3483
+}
+local_supplies=0.0
+}

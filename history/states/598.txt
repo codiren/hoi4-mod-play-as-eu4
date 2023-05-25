@@ -3,17 +3,18 @@ id=598
 name="598_state"
 manpower = 20000
 history={
-owner = NAT
+owner = PAH
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = PAH
 }
 state_category = a2
 provinces={
-765
+598
 }
 local_supplies=0.0
 }

@@ -3,18 +3,18 @@ id=604
 name="604_state"
 manpower = 40000
 history={
-owner = CIR
+owner = KHM
 buildings = {
-infrastructure = 1
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
 }
 
-add_core_of = CIR
+add_core_of = KHM
 }
-state_category = a1
+state_category = a4
 provinces={
-771
+604
 }
 local_supplies=0.0
 }

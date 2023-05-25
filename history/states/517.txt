@@ -3,17 +3,18 @@ id=517
 name="517_state"
 manpower = 20000
 history={
-owner = NAT
+owner = GUJ
 buildings = {
-infrastructure = 1
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 5
+industrial_complex = 2
+arms_factory = 1
 }
 
+add_core_of = GUJ
 }
-state_category = a1
+state_category = a4
 provinces={
-658 1537 1543 1547 1548 1552 1554 1555 1556 1557 1558 1559 1560 1561
+517
 }
 local_supplies=0.0
 }

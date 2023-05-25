@@ -1,0 +1,20 @@
+state={
+id=2513
+name="2513_state"
+manpower = 40000
+history={
+owner = UBH
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = UBH
+}
+state_category = a2
+provinces={
+3056
+}
+local_supplies=0.0
+}

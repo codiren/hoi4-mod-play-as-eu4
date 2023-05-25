@@ -1,0 +1,22 @@
+state={
+id=1336
+name="1336_state"
+manpower = 60000
+history={
+owner = HSK
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = HSK
+add_core_of = MRI
+add_core_of = OUC
+}
+state_category = a4
+provinces={
+1825
+}
+local_supplies=0.0
+}

@@ -3,17 +3,18 @@ id=829
 name="829_state"
 manpower = 20000
 history={
-owner = NAT
+owner = TAI
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = TAI
 }
 state_category = a1
 provinces={
-1000
+829
 }
 local_supplies=0.0
 }

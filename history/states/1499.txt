@@ -1,0 +1,20 @@
+state={
+id=1499
+name="1499_state"
+manpower = 40000
+history={
+owner = SDY
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = SDY
+}
+state_category = a2
+provinces={
+2040
+}
+local_supplies=0.0
+}

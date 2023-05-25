@@ -3,18 +3,17 @@ id=900
 name="900_state"
 manpower = 20000
 history={
-owner = MAM
+owner = NAT
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 2
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = MAM
 }
 state_category = a2
 provinces={
-1072
+900
 }
 local_supplies=0.0
 }

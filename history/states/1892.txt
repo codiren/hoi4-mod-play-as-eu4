@@ -1,0 +1,21 @@
+state={
+id=1892
+name="1892_state"
+manpower = 40000
+history={
+owner = SHY
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = SHY
+add_core_of = SIB
+}
+state_category = a2
+provinces={
+2433
+}
+local_supplies=0.0
+}

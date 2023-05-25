@@ -1,0 +1,20 @@
+state={
+id=2131
+name="2131_state"
+manpower = 60000
+history={
+owner = PSA
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 1
+}
+
+add_core_of = PSA
+}
+state_category = a6
+provinces={
+2673
+}
+local_supplies=0.0
+}

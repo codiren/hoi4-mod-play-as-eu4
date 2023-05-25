@@ -1,0 +1,21 @@
+state={
+id=1827
+name="1827_state"
+manpower = 40000
+history={
+owner = CHG
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = CHG
+add_core_of = KZH
+}
+state_category = a2
+provinces={
+2368
+}
+local_supplies=0.0
+}

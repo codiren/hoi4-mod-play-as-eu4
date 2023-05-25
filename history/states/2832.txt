@@ -1,0 +1,22 @@
+state={
+id=2832
+name="2832_state"
+manpower = 20000
+history={
+owner = SRH
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+add_core_of = DLH
+add_core_of = SRH
+add_core_of = PTA
+}
+state_category = a2
+provinces={
+3395
+}
+local_supplies=0.0
+}

@@ -1,0 +1,20 @@
+state={
+id=1733
+name="1733_state"
+manpower = 20000
+history={
+owner = AIR
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = AIR
+}
+state_category = a3
+provinces={
+2274
+}
+local_supplies=0.0
+}

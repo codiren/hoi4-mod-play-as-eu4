@@ -3,18 +3,18 @@ id=916
 name="916_state"
 manpower = 20000
 history={
-owner = Z00
+owner = KSK
 buildings = {
 infrastructure = 2
-industrial_complex = 1
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = Z00
+add_core_of = KSK
 }
 state_category = a2
 provinces={
-1088
+916
 }
 local_supplies=0.0
 }

@@ -1,0 +1,21 @@
+state={
+id=1682
+name="1682_state"
+manpower = 40000
+history={
+owner = FRS
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = FRS
+add_core_of = TIM
+}
+state_category = a2
+provinces={
+2223
+}
+local_supplies=0.0
+}

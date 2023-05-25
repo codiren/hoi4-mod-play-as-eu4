@@ -1,0 +1,20 @@
+state={
+id=1268
+name="1268_state"
+manpower = 60000
+history={
+owner = PAL
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = PAL
+}
+state_category = a3
+provinces={
+1757
+}
+local_supplies=0.0
+}

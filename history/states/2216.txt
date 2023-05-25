@@ -1,0 +1,20 @@
+state={
+id=2216
+name="2216_state"
+manpower = 40000
+history={
+owner = ENA
+buildings = {
+infrastructure = 2
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = ENA
+}
+state_category = a2
+provinces={
+2758
+}
+local_supplies=0.0
+}

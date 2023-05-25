@@ -3,14 +3,14 @@ id=248
 name="248_state"
 manpower = 80000
 history={
-owner = Z37
+owner = SCO
 buildings = {
 infrastructure = 6
 industrial_complex = 2
 arms_factory = 2
 }
 
-add_core_of = Z37
+add_core_of = SCO
 }
 state_category = a6
 provinces={

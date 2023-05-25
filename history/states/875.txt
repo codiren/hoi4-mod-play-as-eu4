@@ -3,19 +3,17 @@ id=875
 name="875_state"
 manpower = 20000
 history={
-owner = MOS
+owner = NAT
 buildings = {
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = MOS
-add_core_of = NOV
 }
 state_category = a1
 provinces={
-1047
+875
 }
 local_supplies=0.0
 }

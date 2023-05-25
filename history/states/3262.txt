@@ -1,0 +1,20 @@
+state={
+id=3262
+name="3262_state"
+manpower = 60000
+history={
+owner = LNA
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = LNA
+}
+state_category = a4
+provinces={
+3825
+}
+local_supplies=0.0
+}

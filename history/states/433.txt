@@ -3,13 +3,15 @@ id=433
 name="433_state"
 manpower = 40000
 history={
-owner = NAT
+owner = TIM
 buildings = {
 infrastructure = 2
 industrial_complex = 0
 arms_factory = 0
 }
 
+add_core_of = YZD
+add_core_of = TIM
 }
 state_category = a2
 provinces={

@@ -3,17 +3,19 @@ id=703
 name="703_state"
 manpower = 20000
 history={
-owner = NAT
+owner = KRC
 buildings = {
-infrastructure = 2
-industrial_complex = 0
+infrastructure = 3
+industrial_complex = 1
 arms_factory = 0
 }
 
+add_core_of = KRC
+add_core_of = CHH
 }
 state_category = a2
 provinces={
-871
+703
 }
 local_supplies=0.0
 }

@@ -1,0 +1,20 @@
+state={
+id=1862
+name="1862_state"
+manpower = 40000
+history={
+owner = PEG
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = PEG
+}
+state_category = a3
+provinces={
+2403
+}
+local_supplies=0.0
+}

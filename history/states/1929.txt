@@ -1,0 +1,21 @@
+state={
+id=1929
+name="1929_state"
+manpower = 20000
+history={
+owner = MRK
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MOR
+add_core_of = MRK
+}
+state_category = a2
+provinces={
+2470
+}
+local_supplies=0.0
+}

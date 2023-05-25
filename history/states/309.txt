@@ -3,16 +3,17 @@ id=309
 name="309_state"
 manpower = 40000
 history={
-owner = BLO
+owner = NOV
 buildings = {
-infrastructure = 2
+infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = BLO
+add_core_of = NOV
+add_core_of = KRL
 }
-state_category = a2
+state_category = a3
 provinces={
 309
 }

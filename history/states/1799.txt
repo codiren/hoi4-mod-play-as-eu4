@@ -1,0 +1,21 @@
+state={
+id=1799
+name="1799_state"
+manpower = 20000
+history={
+owner = ALH
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ALH
+add_core_of = BSR
+}
+state_category = a1
+provinces={
+2340
+}
+local_supplies=0.0
+}

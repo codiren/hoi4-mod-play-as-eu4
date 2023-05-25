@@ -1,22 +1,20 @@
 state={
 id=1050
 name="1050_state"
-manpower = 40000
+manpower = 60000
 history={
-owner = Z21
+owner = NVK
 buildings = {
-infrastructure = 3
+infrastructure = 4
 industrial_complex = 1
-arms_factory = 0
+arms_factory = 1
 }
 
-add_core_of = Z26
-add_core_of = DAL
-add_core_of = Z21
+add_core_of = NVK
 }
-state_category = a2
+state_category = a4
 provinces={
-1222
+1050
 }
 local_supplies=0.0
 }

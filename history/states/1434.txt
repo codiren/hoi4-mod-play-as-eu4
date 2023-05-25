@@ -1,0 +1,22 @@
+state={
+id=1434
+name="1434_state"
+manpower = 20000
+history={
+owner = SHY
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = SHY
+add_core_of = KZH
+add_core_of = TRS
+}
+state_category = a1
+provinces={
+1969
+}
+local_supplies=0.0
+}

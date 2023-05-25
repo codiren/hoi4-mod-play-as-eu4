@@ -3,18 +3,18 @@ id=641
 name="641_state"
 manpower = 60000
 history={
-owner = Z63
+owner = MKS
 buildings = {
-infrastructure = 4
-industrial_complex = 1
+infrastructure = 5
+industrial_complex = 2
 arms_factory = 1
 }
 
-add_core_of = Z63
+add_core_of = MKS
 }
-state_category = a4
+state_category = a5
 provinces={
-808
+641
 }
 local_supplies=0.0
 }

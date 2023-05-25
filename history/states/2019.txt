@@ -1,0 +1,19 @@
+state={
+id=2019
+name="2019_state"
+manpower = 20000
+history={
+owner = NAT
+buildings = {
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 0
+}
+
+}
+state_category = a2
+provinces={
+2561
+}
+local_supplies=0.0
+}

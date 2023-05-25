@@ -1,0 +1,20 @@
+state={
+id=3053
+name="3053_state"
+manpower = 20000
+history={
+owner = KER
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = KER
+}
+state_category = a2
+provinces={
+3616
+}
+local_supplies=0.0
+}

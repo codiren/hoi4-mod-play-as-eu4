@@ -1,0 +1,20 @@
+state={
+id=3311
+name="3311_state"
+manpower = 20000
+history={
+owner = MIK
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = MIK
+}
+state_category = a2
+provinces={
+3875
+}
+local_supplies=0.0
+}

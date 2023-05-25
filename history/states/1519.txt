@@ -1,0 +1,21 @@
+state={
+id=1519
+name="1519_state"
+manpower = 80000
+history={
+owner = DLH
+buildings = {
+infrastructure = 6
+industrial_complex = 2
+arms_factory = 2
+}
+
+add_core_of = DLH
+add_core_of = SRH
+}
+state_category = a6
+provinces={
+2060
+}
+local_supplies=0.0
+}

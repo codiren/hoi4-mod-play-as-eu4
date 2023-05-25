@@ -1,0 +1,20 @@
+state={
+id=1850
+name="1850_state"
+manpower = 40000
+history={
+owner = LIG
+buildings = {
+infrastructure = 4
+industrial_complex = 1
+arms_factory = 1
+}
+
+add_core_of = LIG
+}
+state_category = a4
+provinces={
+2391
+}
+local_supplies=0.0
+}

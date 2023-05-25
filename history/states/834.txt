@@ -13,7 +13,7 @@ arms_factory = 0
 }
 state_category = a1
 provinces={
-1005
+834
 }
 local_supplies=0.0
 }

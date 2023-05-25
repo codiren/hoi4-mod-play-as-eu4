@@ -1,0 +1,21 @@
+state={
+id=2935
+name="2935_state"
+manpower = 20000
+history={
+owner = UTS
+buildings = {
+infrastructure = 2
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = UTS
+add_core_of = PHA
+}
+state_category = a2
+provinces={
+3498
+}
+local_supplies=0.0
+}

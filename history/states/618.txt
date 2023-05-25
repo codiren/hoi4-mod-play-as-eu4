@@ -3,19 +3,18 @@ id=618
 name="618_state"
 manpower = 40000
 history={
-owner = QAR
+owner = DLI
 buildings = {
-infrastructure = 2
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
 }
 
-add_core_of = Z19
-add_core_of = QAR
+add_core_of = DLI
 }
-state_category = a2
+state_category = a3
 provinces={
-785
+618
 }
 local_supplies=0.0
 }

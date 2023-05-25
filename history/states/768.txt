@@ -3,19 +3,17 @@ id=768
 name="768_state"
 manpower = 20000
 history={
-owner = KOL
+owner = NAT
 buildings = {
-infrastructure = 2
+infrastructure = 1
 industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = KOL
-add_core_of = PAD
 }
-state_category = a2
+state_category = a1
 provinces={
-937
+768
 }
 local_supplies=0.0
 }

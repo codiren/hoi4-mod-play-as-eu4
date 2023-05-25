@@ -3,18 +3,17 @@ id=1009
 name="1009_state"
 manpower = 20000
 history={
-owner = KNZ
+owner = NAT
 buildings = {
-infrastructure = 6
-industrial_complex = 2
-arms_factory = 1
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
 }
 
-add_core_of = KNZ
 }
-state_category = a5
+state_category = a1
 provinces={
-1181
+1009
 }
 local_supplies=0.0
 }

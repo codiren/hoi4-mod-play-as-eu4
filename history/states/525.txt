@@ -3,20 +3,18 @@ id=525
 name="525_state"
 manpower = 40000
 history={
-owner = LIV
+owner = GWA
 buildings = {
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 1
 }
 
-add_core_of = LIV
-add_core_of = LTG
-add_core_of = Z07
+add_core_of = GWA
 }
 state_category = a3
 provinces={
-666
+525
 }
 local_supplies=0.0
 }

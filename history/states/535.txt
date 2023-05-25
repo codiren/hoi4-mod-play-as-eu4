@@ -3,19 +3,18 @@ id=535
 name="535_state"
 manpower = 40000
 history={
-owner = IME
+owner = KOC
 buildings = {
-infrastructure = 2
-industrial_complex = 0
-arms_factory = 0
+infrastructure = 3
+industrial_complex = 1
+arms_factory = 1
 }
 
-add_core_of = Z31
-add_core_of = IME
+add_core_of = KOC
 }
-state_category = a2
+state_category = a3
 provinces={
-676
+535
 }
 local_supplies=0.0
 }

@@ -3,19 +3,17 @@ id=996
 name="996_state"
 manpower = 20000
 history={
-owner = EPI
+owner = NAT
 buildings = {
-infrastructure = 3
-industrial_complex = 1
+infrastructure = 1
+industrial_complex = 0
 arms_factory = 0
 }
 
-add_core_of = EPI
-add_core_of = BYZ
 }
-state_category = a2
+state_category = a1
 provinces={
-1168
+996
 }
 local_supplies=0.0
 }

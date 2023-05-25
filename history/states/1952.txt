@@ -1,0 +1,20 @@
+state={
+id=1952
+name="1952_state"
+manpower = 20000
+history={
+owner = ZNI
+buildings = {
+infrastructure = 1
+industrial_complex = 0
+arms_factory = 0
+}
+
+add_core_of = ZNI
+}
+state_category = a1
+provinces={
+2494
+}
+local_supplies=0.0
+}
