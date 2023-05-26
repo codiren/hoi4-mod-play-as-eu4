@@ -13,12 +13,14 @@ int main(){
 	ifstream idsam("wasteland ids.txt");
 	while(getline(idsam,t)){
 		ifstream in("history/states/"+to_string(astate[stoi(t)])+".txt");
-		while(getline(out,ta)){
-			if(ta.find("owner =")!=-1)full+= "owner = REB\n";
+		full = "";
+		while(getline(in,ta)){
+			if(ta.find("infrastructure = 1")!=-1)full+= "infrastructure = 0\n";
 			else full+= ta+"\n";
-		}
+		}in.close();
 		ofstream out("history/states/"+to_string(astate[stoi(t)])+".txt");
-		out<<"\nimpassable = yes";
+		out<<full;
+		//out<<"\nimpassable = yes";
 		out.close();
 	}
 }
