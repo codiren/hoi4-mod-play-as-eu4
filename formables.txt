@@ -1,0 +1,3975 @@
+ADU&
+		allow = {
+			NOT = { exists = ADU }
+			is_nomad = no
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			is_tribal = no
+			owns_core_province = 221			# Murcia
+			owns_core_province = 223			# Granada
+			owns_core_province = 224			# Andalucia
+			owns_core_province = 226			# Gibraltar
+			owns_core_province = 1748			# Jaen
+			owns_core_province = 1749			# Cadiz
+			owns_core_province = 222			# Almeria
+			owns_core_province = 4547
+			owns_core_province = 4548
+			owns_core_province = 225			# Cordoba
+			225 = { 							# Cordoba
+				is_state = yes
+			}
+			OR = {
+				AND = {
+					owns_core_province = 230			# Algarve
+					owns_core_province = 229			# Alentejo
+				}
+				AND = {
+					owns_core_province = 1750			# Alicante
+					owns_core_province = 4549
+				}
+			}
+
+AKS&
+		allow = {
+			NOT = { exists = AKS }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 387	# Mukha
+			owns_core_province = 4279	# Zabid
+			central_ethiopia_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			southern_ethiopia_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			damot_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			tigray_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			aussa_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			yemen_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			hadramut_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			mahra_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+
+ALA&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = ALA }
+			capital_scope = {
+				colonial_region = colonial_alaska
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				is_city = yes
+				OR = {
+					area = alaska_area
+					area = east_alaska_area
+				}
+			}
+
+ALG&
+		allow = {
+			NOT = { exists = MOR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 343 	#Fez
+			owns_core_province = 344 	#Marrekech
+			344 = {						#Marrekech
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 348 #Sus
+				owns_core_province = 346 #Tafilalt
+			}
+		allow = {
+			NOT = { exists = ALG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2461 	#Dahra
+			owns_core_province = 338 	#Algiers
+			338 = {						#Algiers
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 336 #Tlemcen
+				owns_core_province = 339 #Kabylia
+			}
+
+AOT&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_australia
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 4
+				OR = {
+					area = te_ika_a_maui_hauauru_area
+					area = te_ika_a_maui_waho_area
+					area = te_waipounamu_area
+				}
+				is_city = yes
+			}
+			NOT = { exists = NZL }
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_australia
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 7
+				OR = {
+					area = te_ika_a_maui_hauauru_area
+					area = te_ika_a_maui_waho_area
+					area = te_waipounamu_area
+				}
+				is_city = yes
+			}
+			NOT = { exists = AOT }
+
+ARB&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			adm_tech = 10
+			owns_core_province = 358			#Alexandria
+			owns_core_province = 361			#Cairo
+			owns_core_province = 377			#Aleppo
+			owns_core_province = 379			#Jerusalem
+			owns_core_province = 382			#Damascus
+			owns_core_province = 384			#Medina
+			owns_core_province = 385			#Mecca
+			owns_core_province = 388			#Aden
+			owns_core_province = 390			#Sanaa
+			owns_core_province = 392			#Al-Arid
+			owns_core_province = 394			#Qatif
+			owns_core_province = 400			#Muscat
+			owns_core_province = 403			#Nizwa
+			owns_core_province = 410			#Baghdad
+
+ARM&
+		allow = {
+			NOT = { exists = ARM }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			religion = coptic
+			is_nomad = no
+			owns_core_province = 327	# Cilicia
+			owns_core_province = 419	# Yerevan
+			owns_core_province = 2202	# Melikates
+			owns_core_province = 2204	# Lomsia
+			owns_core_province = 4302	# Manzikert
+			OR = {
+				owns_core_province = 2306 #Mush
+				owns_core_province = 2307 #Van
+			}
+
+AUS&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_australia
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				region = australia_region
+				is_city = yes
+			}
+			NOT = { exists = AUS }
+
+AVE&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 237		# Oxfordshire
+			owns_core_province = 234		# Wessex
+			owns_core_province = 248		# Lothian
+			owns_core_province = 251		# Aberdeen
+			owns_core_province = 236		# London
+			236 = {							# London
+				is_state = yes
+			}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			legitimacy = 100
+			OR = {
+				AND = {
+					tag = ENG
+					OR = {
+						SCO = {	junior_union_with = ENG	}
+						SCO = {	is_subject_of = ENG	}
+					}
+					SCO = { NOT = { num_of_cities = 15 } } #Keep this number the same as in potential
+				}
+				AND = {
+					tag = SCO
+					OR = {
+						ENG = {	junior_union_with = SCO	}
+						ENG = {	is_subject_of = SCO	}
+					}
+					ENG = { NOT = { num_of_cities = 41 } } #Keep this number the same as in potential
+				}
+			}
+		allow = {
+			adm_tech = 10
+			has_issue_unlocked_tooltip = {
+				issue = english_scottish_act_of_union
+			}
+			has_active_debate = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				AND = {
+					owns_core_province = 237		# Oxfordshire
+					owns_core_province = 234		# Wessex
+					owns_core_province = 248		# Lothian
+					owns_core_province = 251		# Aberdeen
+					owns_core_province = 236		# London
+					236 = {							# London
+						is_state = yes
+					}
+				}
+				AND = {
+					OR = {
+						SCO = {	junior_union_with = ROOT }
+						SCO = {	is_subject_of = ROOT }
+					}
+					SCO = { NOT = { num_of_cities = 15 } }
+				}
+			}
+		allow = {
+			adm_tech = 10
+			has_issue_unlocked_tooltip = {
+				issue = english_french_act_of_union
+			}
+			has_active_debate = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				AND = {
+					owns_core_province = 237		# Oxfordshire
+					owns_core_province = 234		# Wessex
+					owns_core_province = 236		# London
+					owns_core_province = 177		# Maine
+					owns_core_province = 183		# Paris
+					owns_core_province = 178		# Anjou
+					178 = {							# Anjou
+						is_state = yes
+					}
+				}
+				AND = {
+					OR = {
+						FRA = {	junior_union_with = ROOT }
+						FRA = {	is_subject_of = ROOT }
+					}
+					FRA = { NOT = { num_of_cities = 40 } }
+				}
+			}
+
+BAV&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+
+BHA&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = dravidian
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 517 #Surat
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 541 #Vijayanagar
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 2099 #Kandy
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4421 #Seringapatam
+			owns_core_province = 4461 #Ujjain
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = western_aryan
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 517 #Surat
+			owns_core_province = 518 #Chittor
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 550 #Mahakoshal
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 2099 #Kandy
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4461 #Ujjain
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = hindusthani
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 507 #Lahore
+			owns_core_province = 517 #Surat
+			owns_core_province = 522 #Delhi
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 2099 #Kandy
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4461 #Ujjain
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = eastern_aryan
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 507 #Lahore
+			owns_core_province = 517 #Surat
+			owns_core_province = 522 #Delhi
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 563 #Gauda
+			owns_core_province = 566 #Assam
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = central_indic
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 517 #Surat
+			owns_core_province = 522 #Delhi
+			owns_core_province = 524 #Mathura
+			owns_core_province = 527 #Burhanpur
+			owns_core_province = 536 #Madurai
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 553 #Sambalpur
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 563 #Gauda
+			owns_core_province = 566 #Assam
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4503 #Mansura
+
+BRZ&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_brazil
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				region = brazil_region
+				is_city = yes
+			}
+			NOT = { exists = BRZ }
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			custom_trigger_tooltip = {
+				tooltip = brazil_provinces_tooltip
+				any_subject_country = {
+					is_colonial_nation = yes
+					capital_scope = {
+						colonial_region = colonial_brazil
+					}
+					num_of_cities = 20
+				}
+			}
+
+BUK&
+		allow = {
+			has_institution = feudalism
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 442 	#Bukhara
+			442 = {						#Bukhara				
+				is_state = yes
+			}
+			NOT = { 
+				overlord_of = SIB
+			}
+
+BUL&
+		allow = {
+			NOT = { exists = BUL }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 1765	# Sofia
+			owns_core_province = 150	# Nigbolu
+			owns_core_province = 2746	# Vidin
+			owns_core_province = 2750	# Plodiv
+			owns_core_province = 4703	# Kostendil
+			owns_core_province = 4704	# Tirnovo
+			religion_group = christian
+
+BYZ&
+		allow = {
+			owns = 149	# Edirne
+			owns = 144  # Epiros
+			owns = 147	# Salonica
+			owns = 148	# Macedonia
+			owns = 146	# Athens
+			owns = 145	# Morea
+			owns = 1773	# Achea
+			owns = 316	# Bithynia
+			owns = 317	# Bursa
+			owns = 318	# Smyrna
+			owns = 1853	# Kozani
+			owns = 2296	# Biga
+			owns = 151  # Constantinople
+			151 = {		# Constantinople
+				is_state = yes
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+
+CAL&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = CAL }
+			capital_scope = {
+				colonial_region = colonial_california
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				region = california_region
+				is_city = yes
+			}
+
+CAM&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = CAM }
+			num_of_owned_provinces_with = {
+				value = 5
+				region = central_america_region
+				is_city = yes
+			}
+
+CAN&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_canada
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_canada
+				is_city = yes
+			}
+			NOT = { exists = CAN }
+
+CHL&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = CHL }
+			num_of_owned_provinces_with = {
+				value = 5
+				is_city = yes
+				OR = {
+					area = central_chile_area
+					area = southern_chile_area
+					area = northern_chile_area
+				}
+			}
+
+COL&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_colombia
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_colombia
+				is_city = yes
+			}
+			NOT = { exists = COL }
+
+CRO&
+		allow = {
+			NOT = { exists = CRO }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				owns_core_province = 137			# Ragusa
+				AND = {
+					owns_core_province = 131			# Zagreb
+					131 = { 							# Zagreb
+						is_state = yes
+					}
+				}
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					culture = croatian
+					culture = croatian_new
+					culture = dalmatian
+				}
+				is_core = root
+				continent = europe
+			}
+
+CSC&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_alaska
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_alaska
+				is_city = yes
+			}
+			NOT = { exists = CSC }
+
+CUB&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_the_carribean
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 3
+				OR = {
+					area = cuba_area
+					area = east_cuba_area
+				}
+				is_core = root
+				is_city = yes
+			}
+			NOT = { exists = CUB }
+
+DAI&
+		allow = {
+			NOT = { exists = DAI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no		
+			vietnam_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			red_river_delta_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			OR = {
+				tag = TOK
+				NOT = { exists = TOK }
+			}
+			OR = {
+				tag = ANN
+				NOT = { exists = ANN }
+			}
+
+DAL&
+		allow = {
+			NOT = { exists = DAL }
+			NOT = { num_of_cities = 11 }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 136			# Split
+			owns_core_province = 4753			# Zadar
+
+DEC&
+		allow = {
+			NOT = { exists = DEC }
+			is_at_war = no
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 542 #Hyderabad
+			owns_core_province = 569 #Bijapur
+			owns_core_province = 544 #Ahmednagar
+			owns_core_province = 548 #Ilichpur
+			owns_core_province = 541 #Vijayanagar
+			owns_core_province = 2089 #Chaul
+			owns_core_province = 543 #Velanadu
+			owns_core_province = 2027 #Arcot
+			owns_core_province = 4421 #Seringapatam
+			owns_core_province = 531 #Bhatkal
+			owns_core_province = 539 #Madras
+
+DLH&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			is_tribal = no
+			NOT = { exists = DLH }
+			owns_core_province = 522 	#Delhi
+			522 = {						#Delhi
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 510 #Sirhind
+				owns_core_province = 524 #Agra
+			}
+			OR = {
+				owns_core_province = 507 #Lahore
+				owns_core_province = 555 #Jaunpur
+			}
+
+EGY&
+		allow = {
+			capital = 361 # Cairo
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 361 # Cairo
+			owns_core_province = 362 # Rashid
+			owns_core_province = 363 # Dumyat
+			owns_core_province = 358 # Alexandria
+			owns_core_province = 359 # Faiyum
+
+ENG&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = ENG }
+			owns_core_province = 237		# Oxfordshire
+			owns_core_province = 234		# Wessex
+			owns_core_province = 235		# Kent
+			owns_core_province = 238		# East Anglia
+			owns_core_province = 236		# London
+			236 = { 						# London
+				is_state = yes
+			}
+
+ETH&
+		allow = {
+			NOT = { exists = ETH }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 1224	# Gonder
+			owns_core_province = 1227	# Aksum
+			owns_core_province = 1213	# Shewa
+			owns_core_province = 1214	# Wollo
+			owns_core_province = 2772	# Dembiya
+			owns_core_province = 2770	# Agew
+
+FKN&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = WOL } }
+				OR = {
+					NOT = { exists = WOL }
+					WOL = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = STE } }
+				OR = {
+					NOT = { exists = STE }
+					STE = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = RUG } }
+				OR = {
+					NOT = { exists = RUG }
+					RUG = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			OR = { #Wurzburg was the theoretical holder of the title
+				tag = WBG
+				NOT = { exists = WBG }
+			}
+			owns_core_province = 79			#Wurzburg
+			OR = {
+				owns_core_province = 71			#Ansbach
+				owns_core_province = 67			#Nurnberg
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = franconian
+				continent = europe
+				is_core = root
+			}
+			OR = { #just to make it not so easy (owning 6 provinces is really not so hard; Franconia is 70 development at start, so this is that +5)
+				total_development = 75
+				is_elector = yes
+			}
+
+FLO&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				OR = {
+					colonial_region = colonial_eastern_america
+					colonial_region = colonial_louisiana
+				}
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 3
+				OR = {
+					area = florida_area
+					area = north_florida_area
+					area = west_florida_area
+				}
+				is_core = root
+				is_city = yes
+			}
+			NOT = { exists = FLO }
+
+FRA&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = FRA }
+			owns_core_province = 184	# Orl�annais
+			owns_core_province = 186	# Champagne
+			owns_core_province = 183	# �le-de-France
+			183 = { 					# �le-de-France / Paris
+				is_state = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 15
+				region = france_region
+				is_core = root
+			}
+
+GBR&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 237		# Oxfordshire
+			owns_core_province = 234		# Wessex
+			owns_core_province = 248		# Lothian
+			owns_core_province = 251		# Aberdeen
+			owns_core_province = 236		# London
+			236 = {							# London
+				is_state = yes
+			}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			legitimacy = 100
+			OR = {
+				AND = {
+					tag = ENG
+					OR = {
+						SCO = {	junior_union_with = ENG	}
+						SCO = {	is_subject_of = ENG	}
+					}
+					SCO = { NOT = { num_of_cities = 15 } } #Keep this number the same as in potential
+				}
+				AND = {
+					tag = SCO
+					OR = {
+						ENG = {	junior_union_with = SCO	}
+						ENG = {	is_subject_of = SCO	}
+					}
+					ENG = { NOT = { num_of_cities = 41 } } #Keep this number the same as in potential
+				}
+			}
+		allow = {
+			adm_tech = 10
+			has_issue_unlocked_tooltip = {
+				issue = english_scottish_act_of_union
+			}
+			has_active_debate = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				AND = {
+					owns_core_province = 237		# Oxfordshire
+					owns_core_province = 234		# Wessex
+					owns_core_province = 248		# Lothian
+					owns_core_province = 251		# Aberdeen
+					owns_core_province = 236		# London
+					236 = {							# London
+						is_state = yes
+					}
+				}
+				AND = {
+					OR = {
+						SCO = {	junior_union_with = ROOT }
+						SCO = {	is_subject_of = ROOT }
+					}
+					SCO = { NOT = { num_of_cities = 15 } }
+				}
+			}
+
+GEO&
+		allow = {
+			NOT = { exists = GEO }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 422	# Imereti
+			owns_core_province = 423	# Tblisi
+			owns_core_province = 2203	# Kahketi
+			owns_core_province = 2204	# Lomsia
+			owns_core_province = 4301	# Kartli
+			OR = {
+				owns_core_province = 462 #Mingrelia
+				owns_core_province = 2196 #Guria
+				owns_core_province = 4303 #Tao
+			}
+
+GER&
+		allow = {
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 50	# Berlin
+			owns_core_province = 57	# Brunswick
+			owns_core_province = 65	# M�nchen
+			OR = {
+				owns_core_province = 1868 # Augsburg
+				owns_core_province = 70 # Wurttemberg
+			}
+			OR = {
+				owns_core_province = 67	# N�rnberg
+				owns_core_province = 1876 # Frankfurt
+			}
+			OR = {
+				owns_core_province = 1762 # Niederhessen
+				owns_core_province = 85	# K�ln
+			}
+			OR = {
+				owns_core_province = 41	# K�nigsberg
+				owns_core_province = 75	# Strassburg
+			}
+			OR = {
+				owns_core_province = 44	# Hamburg
+				owns_core_province = 45	# Lubeck
+			}
+			OR = {
+				owns_core_province = 61	# Dresden
+				owns_core_province = 63	# Th�ringen
+			}
+			num_of_owned_provinces_with = {
+				is_core = ROOT
+				OR = {
+					region = north_german_region
+					region = south_german_region
+				}
+				value = 50
+			}
+
+GLH&
+		allow = {
+			NOT = { exists = GLH }
+			has_reform = steppe_horde
+			owns_core_province = 284 #Crimea
+			owns_core_province = 302 #Tambov
+			owns_core_province = 464 #Astrakhan
+			owns_core_province = 465 #Nogai
+			owns_core_province = 466 #Sarai
+			owns_core_province = 476 #Kypchak
+			owns_core_province = 1075 #Chimgi-Tura
+			owns_core_province = 1082 #Kazan
+			owns_core_province = 1778 #Qasim
+			owns_core_province = 2411 #Mansur
+			294 = { #Tver
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			295 = { #Moscow
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			301 = { #Ryazan
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			307 = { #Vladimir
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			308 = { #Yaroslavl
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			1956 = { #Suzdal
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			num_of_cities = 30
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+GRE&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 146 #Athens
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = greek
+				OR = {
+					region = balkan_region
+					region = anatolia_region
+				}
+				is_core = root
+			}
+
+GZI&
+		allow = {
+			NOT = { exists = GZI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			butua_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			lower_zambezi_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			zimbabwe_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+
+HAB&
+		allow = {
+			NOT = { exists = HAB }
+			has_regency = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			is_at_war = no
+			owns = 134
+			num_of_owned_provinces_with = {
+				value = 6
+				is_core = root
+				culture = austrian
+				continent = europe
+			}
+
+HAN&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = WOL } }
+				OR = {
+					NOT = { exists = WOL }
+					WOL = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = STE } }
+				OR = {
+					NOT = { exists = STE }
+					STE = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = RUG } }
+				OR = {
+					NOT = { exists = RUG }
+					RUG = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			OR = { #Wurzburg was the theoretical holder of the title
+				tag = WBG
+				NOT = { exists = WBG }
+			}
+			owns_core_province = 79			#Wurzburg
+			OR = {
+				owns_core_province = 71			#Ansbach
+				owns_core_province = 67			#Nurnberg
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = franconian
+				continent = europe
+				is_core = root
+			}
+			OR = { #just to make it not so easy (owning 6 provinces is really not so hard; Franconia is 70 development at start, so this is that +5)
+				total_development = 75
+				is_elector = yes
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			owns_core_province = 70 #Wurttemberg
+			owns_core_province = 1872 #Ulm
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = swabian
+				continent = europe
+				is_core = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = SAX }
+			owns_core_province = 59			#Wittenberg
+			OR = {
+				owns_core_province = 61			#Dresden
+				owns_core_province = 62			#Leipzig
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					area = south_saxony_area
+					area = thuringia_area
+					area = northern_saxony_area
+				}
+				is_core = root
+			}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 53	# Luneburg
+			owns_core_province = 1758	# Hannover
+			1758 = {					# Hannover
+				is_state = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 8 #out of 13 i.e. you can leave out Holstein and stuff
+				culture = lower_saxon
+				region = north_german_region
+				is_core = root
+			}
+			total_development = 100
+
+HAT&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_the_carribean
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 2
+				area = hispaniola_area
+				is_city = yes
+			}
+			NOT = { exists = HAT }
+
+HAU&
+		allow = {
+			NOT = { exists = HAU }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 1148 # Gobir
+			owns_core_province = 1149 # Katsina
+			owns_core_province = 1154 # Zazzau
+			owns_core_province = 1155 # Kano
+			owns_core_province = 2279 # Daura
+			owns_core_province = 2280 # Biram
+			owns_core_province = 2281 # Rano
+
+HIN&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = dravidian
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 517 #Surat
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 541 #Vijayanagar
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 2099 #Kandy
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4421 #Seringapatam
+			owns_core_province = 4461 #Ujjain
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = western_aryan
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 517 #Surat
+			owns_core_province = 518 #Chittor
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 550 #Mahakoshal
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 2099 #Kandy
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4461 #Ujjain
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = hindusthani
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 507 #Lahore
+			owns_core_province = 517 #Surat
+			owns_core_province = 522 #Delhi
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 2099 #Kandy
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4461 #Ujjain
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = eastern_aryan
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 507 #Lahore
+			owns_core_province = 517 #Surat
+			owns_core_province = 522 #Delhi
+			owns_core_province = 524 #Mathura
+			owns_core_province = 536 #Madurai
+			owns_core_province = 539 #Tondainadu
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 563 #Gauda
+			owns_core_province = 566 #Assam
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4503 #Mansura
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			culture_group = central_indic
+			is_at_war = no
+			stability = 3
+			has_institution = feudalism
+			owns_core_province = 506 #Multan
+			owns_core_province = 517 #Surat
+			owns_core_province = 522 #Delhi
+			owns_core_province = 524 #Mathura
+			owns_core_province = 527 #Burhanpur
+			owns_core_province = 536 #Madurai
+			owns_core_province = 545 #Daulatabad
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 553 #Sambalpur
+			owns_core_province = 558 #Pataliputra
+			owns_core_province = 563 #Gauda
+			owns_core_province = 566 #Assam
+			owns_core_province = 1948 #Bidar
+			owns_core_province = 2052 #Halar
+			owns_core_province = 4410 #Kumari
+			owns_core_province = 4503 #Mansura
+
+HSA&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = HSA }
+			owns_core_province = 44
+			owns_core_province = 45
+			owns_core_province = 1874
+			45 = { is_state = yes }
+			is_emperor = no
+			NOT = { num_of_cities = 25 }
+			OR = {
+				mercantilism = 40
+				government = republic
+				estate_influence = {
+					estate = estate_burghers
+					influence = 90
+				}
+			}
+			45 = { is_strongest_trade_power = ROOT }
+
+ICE&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 146 #Athens
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = greek
+				OR = {
+					region = balkan_region
+					region = anatolia_region
+				}
+				is_core = root
+			}
+		allow = {
+			NOT = { num_of_cities = 4 }
+			is_at_war = no
+			owns_core_province = 371
+			owns_core_province = 370
+			370 = {
+				is_state = yes
+			}
+
+ILI&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_louisiana
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				region = great_lakes_region
+				is_core = root
+				is_city = yes
+			}
+			NOT = { exists = ILI }
+
+ILK&
+		allow = {
+			if = {
+				limit = {
+					has_reform = holy_horde_reform
+				}
+				OR = {
+					tag = YUA
+					tag = GLH
+					tag = ILK
+					has_reform = holy_horde_reform
+				}
+			}
+			else = {
+				OR = {
+					tag = YUA
+					tag = GLH
+					tag = ILK
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mongolia_decision_tooltip
+				mongolia_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						owned_by = ROOT
+					}
+				}
+			}
+			central_asia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			crimea_region = {
+				type = all
+				owned_by = ROOT
+			}
+			1816 = { owned_by = ROOT } # beijing		
+			1821 = { owned_by = ROOT }
+			667 = { owned_by = ROOT }
+			khorasan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			persia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			295 = { country_or_non_sovereign_subject_holds = ROOT }
+			280 = { country_or_non_sovereign_subject_holds = ROOT }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			persia_region = {
+				type = all
+				owned_by = ROOT
+			}
+		allow = {
+			NOT = { exists = ILK }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			persia_region = {
+				type = all
+				owned_by = ROOT
+			}
+
+INC&
+		allow = {
+			NOT = { exists = INC }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 808 #Qusqu
+			owns_core_province = 813 #Kashamarka
+			owns_core_province = 810 #Wankawilka
+			owns_core_province = 814 #Wanuku
+			OR = {
+				owns_core_province = 804	#Puno
+				owns_core_province = 2831	#Tiwanuku
+			}
+			OR = {
+				owns_core_province = 812	#Chanchan
+				owns_core_province = 820	#Quito
+			}
+
+IRE&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			munster_area = {
+				type = all
+				owned_by = ROOT
+			}
+			connacht_area = {
+				type = all
+				owned_by = ROOT
+			}
+			leinster_area = {
+				type = all
+				owned_by = ROOT
+			}
+			ulster_area = {
+				type = all
+				owned_by = ROOT
+			}
+
+ISR&
+		allow = {
+			NOT = { exists = ISR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 379	# Jerusalem
+			owns_core_province = 364	# Gaza
+			owns_core_province = 1854	# Jaffa
+			religion = jewish
+
+ITA&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 101	# Genoa
+			owns_core_province = 104	# Milan
+			owns_core_province = 116	# Firenze
+			owns_core_province = 118	# Roma
+			num_of_owned_provinces_with = {
+				value = 20
+				region = italy_region
+				is_core = root
+			}
+
+JAP&
+		allow = {
+			NOT = { exists = JAP }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			num_of_cities = 25
+			owns = 1020
+			owns = 1028
+		allow = {
+			NOT = { exists = JAP }
+			is_free_or_tributary_trigger = yes
+			owns = 1020
+			owns = 1028
+			all_country = {
+				NOT = {
+					has_reform = daimyo
+				}
+				NOT = {
+					has_reform = indep_daimyo
+				}
+			}
+			is_at_war = no
+		allow = {
+			NOT = { exists = JAP }
+			is_free_or_tributary_trigger = yes
+			owns = 1020
+			owns = 1028
+			all_country = {
+				OR = {
+					tag = ROOT
+					AND = {
+						NOT = { has_reform = daimyo }
+						NOT = { has_reform = indep_daimyo }
+						NOT = { has_reform = shogunate }
+					}
+				}
+			}
+			is_at_war = no
+
+KIT&
+		allow = {
+			NOT = { exists = KIT }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			uganda_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			rwanda_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			owns_core_province = 4065
+			owns_core_province = 4074
+			owns_core_province = 4063
+			owns_core_province = 4061
+			owns_core_province = 4070
+			owns_core_province = 4071
+			owns_core_province = 4072
+
+KOJ&
+		allow = {
+			is_at_war = no
+			owns_core_province = 364 #Gazzah
+			owns_core_province = 379 #Jerusalem
+			owns_core_province = 1854 #Jaffa
+			379 = {
+				is_state = yes
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = KNI
+						tag = CYP
+						tag = PRO
+						tag = TEU
+						tag = LIV
+						has_mission = EMP_crusader_antioch
+					}
+					was_never_end_game_tag_trigger = yes
+				}
+				is_emperor = no
+			}
+
+KON&
+		allow = {
+			NOT = { exists = KON }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 1170	# Mpemba
+			owns_core_province = 798	# Mbwila
+			owns_core_province = 4080	# Soyo
+			owns_core_province = 1168	# Mbamba
+			owns_core_province = 1901	# Mpangu
+
+KUR&
+		allow = {
+			adm_tech = 10
+			is_nomad = no			
+			is_at_war = no
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+			}
+			owns_core_province = 39	 # Kurland
+			owns_core_province = 1935	# Semigallia
+			1935 = { 					# Semigallia
+				is_state = yes
+			}
+			NOT = { num_of_cities = 4 }
+		allow = {
+			adm_tech = 10
+			is_nomad = no			
+			is_at_war = no
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+			}
+			owns_core_province = 39	 # Kurland
+			owns_core_province = 1935	# Semigallia
+			1935 = { 					# Semigallia
+				is_state = yes
+			}
+
+LAP&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_la_plata
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_la_plata
+				is_city = yes
+			}
+			NOT = { exists = LAP }
+
+LFA&
+		allow = {
+			2157 = {
+				culture = hakka
+				NOT = { owned_by = MNG }
+			}
+			owns = 4802
+		allow = {
+			NOT = { exists = LFA }
+			2157 = {
+				culture = hakka
+				NOT = { owned_by = MNG }
+			}
+			owns = 4802
+			4802 = {
+				is_state = yes
+			}
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { num_of_cities = 10 }
+
+LOT&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = LOT }
+			num_of_cities = 30
+			owns_core_province = 1878
+			1878 = {
+				is_state = yes
+			}
+			OR = {
+				NOT = {
+					hre_size = 1
+				}
+				is_emperor = yes
+			}
+
+LOU&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_louisiana
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_louisiana
+				is_city = yes
+			}
+			NOT = { exists = LOU }
+
+LVA&
+		allow = {
+			adm_tech = 10
+			is_nomad = no			
+			is_at_war = no
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+			}
+			owns_core_province = 37		 # Liefland
+			owns_core_province = 4241	 # Wenden
+			owns_core_province = 273	 # Letgallen
+			37 = { 					# Liefland
+				is_state = yes
+			}
+		allow = {
+			adm_tech = 10
+			is_nomad = no			
+			is_at_war = no
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+			}
+			owns_core_province = 37		 # Liefland
+			owns_core_province = 4241	 # Wenden
+			owns_core_province = 273	 # Letgallen
+			37 = { 					# Liefland
+				is_state = yes
+			}
+
+LXA&
+		allow = {
+			NOT = { exists = DAI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no		
+			vietnam_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			red_river_delta_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			OR = {
+				tag = TOK
+				NOT = { exists = TOK }
+			}
+			OR = {
+				tag = ANN
+				NOT = { exists = ANN }
+			}
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			614 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			615 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			4839 = {
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			NOT = { exists = LXA }
+			OR = {
+				tag = LUA
+				NOT = { exists = LUA }
+			}
+			OR = {
+				tag = VIE
+				NOT = { exists = VIE }
+			}
+			OR = {
+				tag = CHK
+				NOT = { exists = CHK }
+			}
+
+MAL&
+		allow = {
+			NOT = { exists = MAL }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			futa_jallon_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			manding_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			massina_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			baghena_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			niger_bend_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			jenne_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			religion = sunni
+
+MAM&
+		allow = {
+			capital = 361 # Cairo
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 361 # Cairo
+			owns_core_province = 362 # Rashid
+			owns_core_province = 363 # Dumyat
+			owns_core_province = 358 # Alexandria
+			owns_core_province = 359 # Faiyum
+		allow = {
+			NOT = { exists = MAM } #To Show why it might disappear
+			owns_core_province = 361
+
+MAR&
+		allow = {
+			NOT = { exists = MAR }
+			is_at_war = no
+			adm_tech = 20
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 546 #Nagpur
+			owns_core_province = 1946 #Satar
+			owns_core_province = 2033 #Savanur
+			owns_core_province = 2034 #Pune
+			owns_core_province = 4429 #Rajapur
+			owns_core_province = 4431 #Kolhapur
+			OR = {
+				owns_core_province = 2026 #Tanjore
+				owns_core_province = 516 #Broach
+			}
+
+MAY&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			if = {
+				limit = {
+					has_dlc = "El Dorado"
+				}
+				is_religion_reformed = yes
+			}
+			else = {
+				has_institution = feudalism
+			}
+			owns_core_province = 842 #Petén
+			owns_core_province = 846 #Sotuta
+			owns_core_province = 2633 #Mani
+			owns_core_province = 2652 #Ecab
+			owns_core_province = 2636 #Chacuyal
+			owns_core_province = 2632 #Xicallanco
+
+MCH&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no			
+			owns_core_province = 2108		#Huncun	
+			owns_core_province = 730		#Girin
+			730 = {							#Girin
+				is_state = yes
+			}		
+			num_of_owned_provinces_with = {
+				custom_trigger_tooltip = {
+					tooltip = manchu_manchuria_decision.tooltip
+					is_core = ROOT
+					OR = {
+						culture = manchu_new
+						culture = manchu
+					}
+				}
+				value = 20
+			}
+
+MEX&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_mexico
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_mexico
+				is_city = yes
+			}
+			NOT = { exists = MEX }
+
+MGE&
+		allow = {
+			if = {
+				limit = {
+					has_reform = holy_horde_reform
+				}
+				OR = {
+					tag = YUA
+					tag = GLH
+					tag = ILK
+					has_reform = holy_horde_reform
+				}
+			}
+			else = {
+				OR = {
+					tag = YUA
+					tag = GLH
+					tag = ILK
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = mongolia_decision_tooltip
+				mongolia_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						owned_by = ROOT
+					}
+				}
+			}
+			central_asia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			crimea_region = {
+				type = all
+				owned_by = ROOT
+			}
+			1816 = { owned_by = ROOT } # beijing		
+			1821 = { owned_by = ROOT }
+			667 = { owned_by = ROOT }
+			khorasan_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			persia_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			295 = { country_or_non_sovereign_subject_holds = ROOT }
+			280 = { country_or_non_sovereign_subject_holds = ROOT }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+
+MOR&
+		allow = {
+			NOT = { exists = MOR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 343 	#Fez
+			owns_core_province = 344 	#Marrekech
+			344 = {						#Marrekech
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 348 #Sus
+				owns_core_province = 346 #Tafilalt
+			}
+
+MSA&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			if = {
+				limit = {
+					religion_group = muslim
+				}
+				owns = 617
+				owns = 596
+				owns = 636
+				owns = 641
+				owns = 629
+			}
+			else = {
+				owns = 622
+				owns = 2687
+				owns = 628
+				owns = 638
+				owns = 2390
+			}
+			num_of_owned_provinces_with = {
+				value = 40
+				OR = {
+					region = malaya_region
+					region = indonesia_region
+				}
+			}
+
+MSI&
+		allow = {
+			NOT = { exists = MSI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			upper_volta_area = {
+				owned_by = ROOT
+				is_core = ROOT
+				type = all
+			}
+			owns_core_province = 2267	# Tenkodogo
+
+MUG&
+		allow = {
+			religion_group = muslim
+			NOT = { exists = MUG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			OR = {
+				owns_core_province = 507 #Lahore
+				owns_core_province = 2075 #Sirhind
+				owns_core_province = 524 #Agra
+			}
+			owns_core_province = 522 	#Delhi
+			522 = {						#Delhi
+				is_state = yes
+			}
+
+NAG&
+		allow = {
+			NOT = { exists = NAG }
+			adm_tech = 10
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 551 	#Mandla
+			owns_core_province = 2082 	#Raipur
+			owns_core_province = 547 	#Bastar
+			owns_core_province = 2050 	#Chanda
+			owns_core_province = 560 	#Jharkhand
+			owns_core_province = 546 	#Nagpur
+			546 = {						#Nagpur
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 552 #Cuttack
+				owns_core_province = 548 #Illichpur
+			}
+
+NBI&
+		allow = {
+			NOT = { exists = NBI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			lower_nubia_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			upper_nubia_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			dongola_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			religion_group = christian
+
+NED&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = NED }
+			owns_core_province = 95 # Breda
+			owns_core_province = 98 # Utrecht
+			owns_core_province = 99 # Gelre
+			owns_core_province = 4383 # Den Haag
+			owns_core_province = 97 # Amsterdam
+			97 = {
+				is_state = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				region = low_countries_region
+				is_core = root
+			}
+			if = {
+				limit = {
+					tag = BUR
+				}
+				NOT = { has_disaster = dutch_revolt_disaster }
+			}
+
+NPL&
+		allow = {
+			NOT = { exists = NPL }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2070
+			owns_core_province = 4483
+			owns_core_province = 4484
+			owns_core_province = 4485
+			owns_core_province = 557
+			557 = {
+				is_state = yes
+			}
+
+NZL&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_australia
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 4
+				OR = {
+					area = te_ika_a_maui_hauauru_area
+					area = te_ika_a_maui_waho_area
+					area = te_waipounamu_area
+				}
+				is_city = yes
+			}
+			NOT = { exists = NZL }
+
+ORI&
+		allow = {
+			NOT = { exists = ORI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 549 #Vizianagaram
+			owns_core_province = 552 #Cuttack
+			owns_core_province = 553 #Sambalpur
+			owns_core_province = 2043 #Balasore
+			owns_core_province = 2049 #Khurda
+			owns_core_province = 4441 #Ganjam
+
+PER&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			is_tribal = no
+			NOT = { exists = PER }
+			owns_core_province = 414		# Hamadan
+			owns_core_province = 429		# Isfahan
+			owns_core_province = 433		# Yazd
+			owns_core_province = 2213		# Qom
+			owns_core_province = 2215		# Qazvin
+			OR = {
+				owns_core_province = 426		# Amol
+				owns_core_province = 2218		# Shiraz
+			}
+			OR = {
+				owns_core_province = 416		# Tabriz
+				owns_core_province = 432		# Kerman
+				owns_core_province = 2221		# Mashhad
+			}
+
+PEU&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_peru
+				is_core = ROOT
+				is_city = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_peru
+				is_city = yes
+			}
+			NOT = { exists = PEU }
+
+PLC&
+		allow = {
+			LIT = { was_player = no }
+			LIT = {
+				NOT = { num_of_cities = 60 } #Keep this number the same as in potential. Original 38 +10
+				NOT = { liberty_desire = 25 } 
+			}
+			if = {
+				limit = { has_country_flag = pol_tech_8_form_plc_flag }
+				adm_tech = 8
+			}
+			else = { adm_tech = 10 }
+			is_subject = no
+			is_nomad = no
+			stability = 1
+			is_at_war = no
+			owns_core_province = 262				# Krakow
+			owns_core_province = 257				# Warszawa
+			owns_core_province = 43					# Danzig
+			owns_core_province = 1841				# Marienburg
+			senior_union_with = LIT
+			MAZ = { exists = no }
+		allow = {
+			POL = { 
+				NOT = { num_of_cities = 40 } 
+				NOT = { liberty_desire = 25 }
+			} #Keep this number the same as in potential. Original 22+10
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			stability = 3
+			is_at_war = no
+			owns_core_province = 272				# Vilna
+			owns_core_province = 276				# Minsk
+			owns_core_province = 280				# Kiev
+			owns_core_province = 1941				# Turov
+			senior_union_with = POL
+			MAZ = { exists = no }
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			stability = 3
+			is_at_war = no
+			owns_core_province = 272				# Vilna
+			owns_core_province = 276				# Minsk
+			owns_core_province = 280				# Kiev
+			owns_core_province = 1941				# Turov
+			owns_core_province = 262				# Krakow
+			owns_core_province = 257				# Warszawa
+			owns_core_province = 43					# Danzig
+			owns_core_province = 1841				# Marienburg
+			MAZ = { exists = no }
+
+POL&
+		allow = {
+			NOT = { exists = POL }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			owns_core_province = 262	# Krakow
+			owns_core_province = 257	# Warszawa
+			owns_core_province = 254	# Poznan
+			owns_core_province = 255	# Kalish
+			owns_core_province = 258	# Sieradz
+			owns_core_province = 259	# Sandomierz
+			owns_core_province = 1939	# Leczyca
+
+POM&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = WOL } }
+				OR = {
+					NOT = { exists = WOL }
+					WOL = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = STE } }
+				OR = {
+					NOT = { exists = STE }
+					STE = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = RUG } }
+				OR = {
+					NOT = { exists = RUG }
+					RUG = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+
+PRG&
+		allow = {
+			adm_tech = 10
+			is_former_colonial_nation = yes
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = PRG }
+			num_of_owned_provinces_with = {
+				value = 3
+				area = paraguay_area
+				is_city = yes
+			}
+
+PRU&
+	#	allow = {
+	#		is_revolutionary = no
+	#		OR = {
+	#			religion = protestant
+	#			religion = reformed
+	#			religion = hussite
+	#			religion = anglican
+	#		}
+	#	allow = {
+	#		is_revolutionary = no
+	#		OR = {
+	#			religion = protestant
+	#			religion = reformed
+	#			religion = hussite
+	#			religion = anglican
+	#		}
+		allow = {
+			NOT = { exists = PRU }
+			adm_tech = 10
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+			}
+			owns_core_province = 41			# Königsberg
+			OR = {
+				owns_core_province = 43		# Danzig
+				owns_core_province = 2995	# Stolp
+			}
+			is_at_war = no
+		allow = {
+			NOT = { exists = PRU }
+			adm_tech = 10
+			is_at_war = no
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+				if = {
+					limit = { has_dlc = "Lions of the North" }
+					custom_trigger_tooltip = {
+						tooltip = teu_kingdom_prussia_path_ct
+						has_country_flag = teu_prussian_path
+					}
+				}
+			}
+			owns_core_province = 41 # Königsberg
+			41 = { 					# Königsberg
+				is_state = yes
+			}
+		allow = {
+			NOT = { exists = PRU }
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				religion = protestant
+				religion = reformed
+				religion = hussite
+				religion = anglican
+			}
+			owns_core_province = 41			# Königsberg
+			owns_core_province = 42			# Warmia
+			owns_core_province = 43			# Danzig
+
+PUN&
+		allow = {
+			NOT = { exists = PUN }
+			adm_tech = 10
+			is_at_war = no
+			religion = sikhism
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 507 #Lahore
+			owns_core_province = 2075 #Doaba
+			owns_core_province = 510 #Sirhind
+
+QNG&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no			
+			owns_core_province = 2108		#Huncun	
+			owns_core_province = 730		#Girin
+			730 = {							#Girin
+				is_state = yes
+			}		
+			num_of_owned_provinces_with = {
+				custom_trigger_tooltip = {
+					tooltip = manchu_manchuria_decision.tooltip
+					is_core = ROOT
+					OR = {
+						culture = manchu_new
+						culture = manchu
+					}
+				}
+				value = 20
+			}
+		allow = {
+			owns = 704		# Liaoxi
+			owns = 723		# Xilin Gol
+			owns = 726		# Liaodong
+			owns = 1816		# Beijing
+			1816 = {		# Beijing
+				is_state = yes
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			NOT = {
+				has_ruler_modifier = tribal_succession_crisis
+			}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+					any_country = {
+						is_emperor_of_china = yes
+					}
+				}
+				is_emperor_of_china = yes
+			}
+			else_if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				government_rank = 3
+			}
+			else = {
+				total_development = 1000
+			}
+
+QUE&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = QUE }
+			capital_scope = {
+				colonial_region = colonial_canada
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_canada
+				is_city = yes
+			}
+
+RJP&
+		allow = {
+			NOT = { exists = RJP }
+			adm_tech = 10
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 4461 	#Ujjain
+			owns_core_province = 2053 	#Patan
+			owns_core_province = 515 	#Girnar
+			owns_core_province = 514 	#Mandore
+			owns_core_province = 2066 	#Nagaur
+			owns_core_province = 518 	#Chittor
+			owns_core_province = 4465 	#Ranthambore
+			owns_core_province = 525 	#Gwalior
+			owns_core_province = 519 	#Amber
+			owns_core_province = 2075 	#Gurjaratra
+			owns_core_province = 2067 	#Mount Abu
+			owns_core_province = 506 	#Multan
+			owns_core_province = 2095 	#Varanasi
+			owns_core_province = 4497 	#Kannauj
+			4497 = {					#Kannauj
+				is_state = yes
+			}
+
+RMN&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = BYZ }
+			owns_core_province = 158	# Transylvania
+			owns_core_province = 159	# Silistria
+			owns_core_province = 160	# Oltenia
+			owns_core_province = 161	# Wallachia
+			owns_core_province = 268	# Bessarabia
+			owns_core_province = 1756	# Budjak
+
+ROM&
+		allow = {
+			italy_region = {
+				type = all
+				owned_by = ROOT
+			}
+			france_region = {
+				type = all
+				owned_by = ROOT
+			}
+			iberia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			balkan_region = {
+				type = all
+				owned_by = ROOT
+			}
+			anatolia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			mashriq_region = {
+				type = all
+				owned_by = ROOT
+			}
+			owns = 343 # Fez
+			owns = 341 # Tunis
+			owns = 361 # Cairo
+			owns = 236 # London
+			owns = 245 # Yorkshire
+			owns = 96 # Zeeland
+			owns = 134 # Vienna
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			118 = {
+				is_state = yes
+			}
+
+RUM&
+		allow = {
+			is_at_war = no
+			is_subject = no #Cannot even be a tributary
+			is_nomad = no
+			religion_group = muslim
+			NOT = { exists = RUM }
+			NOT = { exists = TUR }
+			NOT = { exists = BYZ }
+			owns_core_province = 151		# Constantinople
+			owns_core_province = 316		# Iznik
+			owns_core_province = 323		# Konya
+			owns_core_province = 326		# Ankara
+			owns_core_province = 329		# Sivas
+			owns_core_province = 331		# Erzurum
+			owns_core_province = 2301		# Kayseri
+			owns_core_province = 4312		# Eskeshehir
+
+RUS&
+		allow = {
+			NOT = { exists = RUS }
+			adm_tech = 10
+			NOT = { has_reform = states_general_reform }
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 295			# Moskva
+			owns_core_province = 310			# Novgorod
+			OR = {
+				owns_core_province = 294		# Tver
+				owns_core_province = 308		# Yaroslavl	
+			}
+			OR = {
+				owns_core_province = 301		# Ryazan
+				owns_core_province = 293		# Smolensk
+			}
+			OR = {
+				owns_core_province = 306		# Nijni-Novgorod
+				owns_core_province = 307		# Vladimir	
+			}			
+
+RZI&
+		allow = {
+			NOT = { exists = RZI }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			butua_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			lower_zambezi_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			zimbabwe_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+
+SAX&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = WOL } }
+				OR = {
+					NOT = { exists = WOL }
+					WOL = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = STE } }
+				OR = {
+					NOT = { exists = STE }
+					STE = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = RUG } }
+				OR = {
+					NOT = { exists = RUG }
+					RUG = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			OR = { #Wurzburg was the theoretical holder of the title
+				tag = WBG
+				NOT = { exists = WBG }
+			}
+			owns_core_province = 79			#Wurzburg
+			OR = {
+				owns_core_province = 71			#Ansbach
+				owns_core_province = 67			#Nurnberg
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = franconian
+				continent = europe
+				is_core = root
+			}
+			OR = { #just to make it not so easy (owning 6 provinces is really not so hard; Franconia is 70 development at start, so this is that +5)
+				total_development = 75
+				is_elector = yes
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			owns_core_province = 70 #Wurttemberg
+			owns_core_province = 1872 #Ulm
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = swabian
+				continent = europe
+				is_core = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = SAX }
+			owns_core_province = 59			#Wittenberg
+			OR = {
+				owns_core_province = 61			#Dresden
+				owns_core_province = 62			#Leipzig
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					area = south_saxony_area
+					area = thuringia_area
+					area = northern_saxony_area
+				}
+				is_core = root
+			}
+
+SCA&
+		allow = {
+			if = {
+				limit = {
+					has_dlc = "Lions of the North"
+				}
+				OR = {
+					adm_tech = 20
+					custom_trigger_tooltip = {
+						tooltip = scandinavian_nation_tt
+						has_country_flag = can_form_scandinavia_earlier
+					}
+				}
+			}
+			else = {
+				adm_tech = 20
+			}
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 1		# Uppland
+			owns_core_province = 6		# Skane
+			owns_core_province = 7		# Vastergotland
+			owns_core_province = 12		# Sjaelland
+			owns_core_province = 15		# Jylland
+			owns_core_province = 17		# Akershus
+			num_of_owned_provinces_with = {
+				region = scandinavia_region
+				value = 40
+			}
+
+SCO&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = SCO }
+			owns_core_province = 251 	# aberdeen
+			owns_core_province = 252 	# inverness
+			owns_core_province = 249 	# ayrshire
+			owns_core_province = 248 	# edinburgh
+			248 = { 					# edinburgh
+				is_state = yes
+			}
+
+SIA&
+		allow = {
+			NOT = { exists = SIA }
+			if = {
+				limit = {
+					tag = AYU
+				}
+				adm_tech = 20
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 600
+			owns_core_province = 601
+			owns_core_province = 589
+			num_of_owned_provinces_with = {	
+				value = 20
+				is_core = ROOT
+				region = indo_china_region
+			}
+
+SIL&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2966
+			owns_core_province = 4238
+			owns_core_province = 4723
+			owns_core_province = 264
+			NOT = { exists = SIL }
+
+SNA&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = SNA }
+			num_of_owned_provinces_with = {
+				value = 3
+				OR = {
+					area = sonora_area
+					area = baja_california_area
+				}
+				is_core = root
+				is_city = yes
+			}
+
+SOK&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				piety = 0.5
+				has_idea_group = religious_ideas
+				AND = {
+					inquisitor = 3
+					is_in_deficit = no
+				}
+			}
+			owns_core_province = 1148 	#Gobir
+			1148 = { 					#Gobir
+				is_state = yes
+			}
+			religion = sunni
+			dominant_religion = sunni
+			num_of_cities = 8
+			OR = {
+				primary_culture = fulani
+				accepted_culture = fulani
+				AND = {
+					government_rank = 3
+					culture_group = sahelian
+				}
+			}
+
+SOM&
+		allow = {
+			NOT = { exists = SOM }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			mogadishu_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			ajuuran_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			majarteen_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			somaliland_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			ogaden_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			ifat_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			owns_core_province = 2774	# Kismayo
+			owns_core_province = 2777	# Bardera
+
+SPA&
+		allow = {
+			is_subject = no
+			is_at_war = no
+			legitimacy = 100
+			NOT = { exists = GRA }
+			OR = {
+				ARA = {	junior_union_with = CAS	}
+				ARA = {	vassal_of = CAS	}
+			}
+
+SPI&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			OR = {
+				AND = {
+					tag = SAR
+					NOT = { exists = SAV }
+				}
+				AND = {
+					tag = SAV
+					NOT = { exists = SAR }
+				}
+				AND = {
+					OR = {
+						primary_culture = sardinian
+						primary_culture = piedmontese
+					}
+					NOT = { exists = SAV }
+					NOT = { exists = SAR }
+				}
+			}
+			owns_core_province = 2986		# Cagliari
+			owns_core_province = 103		# Piedmont
+			103 = {							# Piedmont
+				is_state = yes
+			}
+
+			num_of_owned_provinces_with = {
+				value = 3 #there are 4 (1 is Corsica)
+				area = corsica_sardinia_area
+				is_core = root
+			}
+			num_of_owned_provinces_with = {
+				value = 6 #there are 12, but Savoy never owned most of them
+				OR = {
+					area = piedmont_area
+					area = savoy_dauphine_area
+					area = liguria_area
+				}
+				is_core = root
+			}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			prestige = 75
+			dip = 3
+			adm = 3
+			OR = {
+				AND = {
+					tag = SAR
+					owns_core_province = 2986			# Cagliari
+					senior_union_with = SAV
+					SAV = {
+						owns_core_province = 103		# Piedmont
+						103 = {							# Piedmont
+							is_state = yes
+						}
+						NOT = { num_of_cities = 12 } #Original 7 + 5
+					}
+				}
+				AND = {
+					tag = SAV
+					owns_core_province = 103			# Piedmont
+					103 = {								# Piedmont
+						is_state = yes
+					}
+					senior_union_with = SAR
+					SAR = {
+						owns_core_province = 2986		# Cagliari
+						NOT = { num_of_cities = 8 } #Original 3 + 5
+					}
+				}
+			}
+
+SST&
+		allow = {
+			owns_core_province = 580 #Kale
+			owns_core_province = 582 #Mong Yang
+			owns_core_province = 583 #Hsenwi
+			owns_core_province = 584 #Ava
+			owns_core_province = 2396 #Mong Kawng
+			owns_core_province = 2399 #Pagan
+			owns_core_province = 2400 #Hsipaw
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+
+SWA&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = WOL } }
+				OR = {
+					NOT = { exists = WOL }
+					WOL = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = STE } }
+				OR = {
+					NOT = { exists = STE }
+					STE = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = RUG } }
+				OR = {
+					NOT = { exists = RUG }
+					RUG = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			OR = { #Wurzburg was the theoretical holder of the title
+				tag = WBG
+				NOT = { exists = WBG }
+			}
+			owns_core_province = 79			#Wurzburg
+			OR = {
+				owns_core_province = 71			#Ansbach
+				owns_core_province = 67			#Nurnberg
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = franconian
+				continent = europe
+				is_core = root
+			}
+			OR = { #just to make it not so easy (owning 6 provinces is really not so hard; Franconia is 70 development at start, so this is that +5)
+				total_development = 75
+				is_elector = yes
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			owns_core_province = 70 #Wurttemberg
+			owns_core_province = 1872 #Ulm
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = swabian
+				continent = europe
+				is_core = root
+			}
+
+SWI&
+		allow = {
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no			
+			NOT = { exists = SWI }
+			owns_core_province = 165
+			owns_core_province = 1870
+			OR = {
+				owns_core_province = 1873
+				owns_core_province = 4720
+			}
+
+TEX&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = TEX }
+			num_of_owned_provinces_with = {
+				value = 4
+				region = rio_grande_region
+				is_city = yes
+			}
+
+TIB&
+		allow = {
+			religion = vajrayana
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2135
+			owns_core_province = 678
+			owns_core_province = 677
+			677 = {
+				is_state = yes
+			}
+
+TIM&
+		allow = {
+			is_subject = no
+			OR = {
+				owns_core_province = 428	# Teheran/Rayy
+				owns_core_province = 429	# Isfahan
+				owns_core_province = 446	# Herat
+				owns_core_province = 451	# Kabul
+				owns_core_province = 458	# Ferghana
+				owns_core_province = 454	# Samarkand
+				owns_core_province = 2213	# Qom
+				owns_core_province = 2214	# Astarabad
+				owns_core_province = 2218	# Shiraz
+			}
+			NOT = { dynasty = "Timurid" }
+			NOT = { is_year = 1490 }
+		allow = {
+			NOT = { exists = TIM }
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 446	# Herat
+			owns_core_province = 454	# Samarkand
+			454 = {						# Samarkand
+				is_state = yes
+			}
+			OR = {
+				AND = {
+					owns_core_province = 429	# Isfahan
+					owns_core_province = 2213	# Qom
+					owns_core_province = 2218	# Shiraz
+				}
+				AND = {
+					owns_core_province = 451	# Kabul
+					owns_core_province = 445	# Merv
+					owns_core_province = 428	# Teheran/Rayy
+				}
+			}
+
+TRP&
+		allow = {
+			NOT = { exists = MOR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 343 	#Fez
+			owns_core_province = 344 	#Marrekech
+			344 = {						#Marrekech
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 348 #Sus
+				owns_core_province = 346 #Tafilalt
+			}
+		allow = {
+			NOT = { exists = ALG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2461 	#Dahra
+			owns_core_province = 338 	#Algiers
+			338 = {						#Algiers
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 336 #Tlemcen
+				owns_core_province = 339 #Kabylia
+			}
+		allow = {
+			NOT = { exists = TUN }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2473	#Souss
+			owns_core_province = 341 	#Tunis
+			341 = {						#Tunis
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 2454 #Kef
+				owns_core_province = 354 #Tripoli
+			}
+		allow = {
+			NOT = { exists = TRP }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2451 	#Thubaqt
+			owns_core_province = 354	#Tripoli
+			354 = {						#Tripoli
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 355 #Sirt
+				owns_core_province = 353 #Djerba
+			}
+
+TTS&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 121
+			owns_core_province = 125
+			num_of_owned_provinces_with = {
+				OR = {
+					culture = sicilian
+					culture = neapolitan
+				}
+				region = italy_region
+				value = 10
+			}
+
+TUN&
+		allow = {
+			NOT = { exists = MOR }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 343 	#Fez
+			owns_core_province = 344 	#Marrekech
+			344 = {						#Marrekech
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 348 #Sus
+				owns_core_province = 346 #Tafilalt
+			}
+		allow = {
+			NOT = { exists = ALG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2461 	#Dahra
+			owns_core_province = 338 	#Algiers
+			338 = {						#Algiers
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 336 #Tlemcen
+				owns_core_province = 339 #Kabylia
+			}
+		allow = {
+			NOT = { exists = TUN }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			owns_core_province = 2473	#Souss
+			owns_core_province = 341 	#Tunis
+			341 = {						#Tunis
+				is_state = yes
+			}
+			OR = {
+				owns_core_province = 2454 #Kef
+				owns_core_province = 354 #Tripoli
+			}
+
+TUS&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			NOT = { exists = TUS }
+			owns_core_province = 2978	# Arezzo
+			owns_core_province = 116	# Firenze
+			owns_core_province = 115	# Pisa
+			OR = {
+				owns_core_province = 117	# Siena
+				owns_core_province = 2980	# Lucca
+			}
+
+UHW&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				area = northern_polynesia_area
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 4
+				area = northern_polynesia_area
+				is_city = yes
+			}
+			NOT = { exists = UHW }
+
+UKR&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			
+			OR = {
+				#owns everything
+				AND = {
+					owns_core_province = 261		#Ruthenia/Lvov -western
+					owns_core_province = 279		#Volhynia -western
+					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
+					owns_core_province = 280		#Kiev -center
+					280 = { 						#Kiev -center
+						is_state = yes
+					}
+				}
+				#or owns only core-core stuff but has god like ruler
+				AND = {				
+					owns_core_province = 283		#Zaporozhie -eastern/southern center of rebellions
+					owns_core_province = 280		#Kiev -center
+					280 = { 						#Kiev -center
+						is_state = yes
+					}
+					dip = 5
+				}
+			}
+
+USA&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_eastern_america
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
+			NOT = { exists = USA }
+
+VIT&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				area = fiji_area
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 3
+				area = fiji_area
+				is_city = yes
+			}
+			NOT = { exists = VIT }
+
+VNZ&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = VNZ }
+			num_of_owned_provinces_with = {
+				value = 5
+				OR = {
+					area = venezuela_area
+					area = maracaibo_area
+					area = central_llanos_area
+					area = eastern_llanos
+				}
+				is_city = yes
+			}
+
+VRM&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_eastern_america
+				is_core = ROOT
+			}
+			2563 = {
+				owned_by = ROOT
+				is_core = root
+				is_city = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				region = northeast_america_region
+				is_core = root
+				is_city = yes
+			}
+			NOT = { exists = VRM }
+
+WES&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = UBV } }
+				OR = {
+					NOT = { exists = UBV }
+					UBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = LBV } }
+				OR = {
+					NOT = { exists = LBV }
+					LBV = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = ING } }
+				OR = {
+					NOT = { exists = ING }
+					ING = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+
+			owns_or_non_sovereign_subject_of = 65			#Munich
+			owns_or_non_sovereign_subject_of = 64			#Landshut
+			owns_or_non_sovereign_subject_of = 2955			#Ingolstadt
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+
+			if = {
+				limit = { NOT = { tag = WOL } }
+				OR = {
+					NOT = { exists = WOL }
+					WOL = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = STE } }
+				OR = {
+					NOT = { exists = STE }
+					STE = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			if = {
+				limit = { NOT = { tag = RUG } }
+				OR = {
+					NOT = { exists = RUG }
+					RUG = {
+						NOT = { num_of_cities = 5 }
+						is_subject_of = ROOT
+					}
+				}
+			}
+			
+			vorpommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+			hinter_pommern_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			OR = { #Wurzburg was the theoretical holder of the title
+				tag = WBG
+				NOT = { exists = WBG }
+			}
+			owns_core_province = 79			#Wurzburg
+			OR = {
+				owns_core_province = 71			#Ansbach
+				owns_core_province = 67			#Nurnberg
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				culture = franconian
+				continent = europe
+				is_core = root
+			}
+			OR = { #just to make it not so easy (owning 6 provinces is really not so hard; Franconia is 70 development at start, so this is that +5)
+				total_development = 75
+				is_elector = yes
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#adm_tech = 10
+			owns_core_province = 70 #Wurttemberg
+			owns_core_province = 1872 #Ulm
+			num_of_owned_provinces_with = {
+				value = 10
+				culture = swabian
+				continent = europe
+				is_core = root
+			}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			NOT = { exists = SAX }
+			owns_core_province = 59			#Wittenberg
+			OR = {
+				owns_core_province = 61			#Dresden
+				owns_core_province = 62			#Leipzig
+			}
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					area = south_saxony_area
+					area = thuringia_area
+					area = northern_saxony_area
+				}
+				is_core = root
+			}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			owns_core_province = 53	# Luneburg
+			owns_core_province = 1758	# Hannover
+			1758 = {					# Hannover
+				is_state = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 8 #out of 13 i.e. you can leave out Holstein and stuff
+				culture = lower_saxon
+				region = north_german_region
+				is_core = root
+			}
+			total_development = 100
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			AND = {
+				owns_core_province = 82	# Westfalen
+				owns_core_province = 1762	# Kassel
+				OR = {
+					owns_core_province = 85	# Cologne
+					owns_core_province = 80	# Trier
+					owns_core_province = 78	# Mainz
+					owns_core_province = 86	# Munster
+				}
+			}
+			num_of_owned_provinces_with = {
+				value = 12 #out of 22
+				OR = {
+					culture = hannoverian
+					culture = hessian
+				}
+				region = north_german_region
+				is_core = root
+			}
+
+WSI&
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			capital_scope = {
+				colonial_region = colonial_the_carribean
+				is_core = ROOT
+			}
+			num_of_owned_provinces_with = {
+				value = 10
+				colonial_region = colonial_the_carribean
+				is_core = root
+				is_city = yes
+			}
+			NOT = { exists = WSI }
+
+YEM&
+		allow = {
+			NOT = { exists = YEM }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no		
+			owns_core_province = 387	# Mocha
+			owns_core_province = 388	# Aden
+			owns_core_province = 390	# Sa'ana
+			owns_core_province = 4280	# Taiz
+			OR = {
+				owns_core_province = 389 #Mukalla
+				owns_core_province = 391 #Najran
+				owns_core_province = 2346 #Jazan
+			}
+
+YUA&
+		allow = {
+			is_free_or_tributary_trigger = yes
+			OR = {
+				primary_culture = altaic_new 
+				culture_group = altaic
+			}
+			is_at_war = no
+			stability = 2
+			owns_core_province = 723 	#Xilin Gol
+			owns_core_province = 4678 	#Qaraqorum
+			owns_core_province = 2136 	#Xuanha
+			owns_core_province = 1816 	#Beijing
+			1816 = {					#Beijing
+				is_state = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = subject_all_mongols
+				NOT = {
+					any_province = {
+						culture = mongol
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = oirats
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = khalkha
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+				NOT = {
+					any_province = {
+						culture = chahar
+						NOT = { country_or_non_sovereign_subject_holds = ROOT }
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+					any_country = {
+						is_emperor_of_china = yes
+					}
+				}
+				is_emperor_of_china = yes
+			}
+			else_if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				government_rank = 3
+			}
+			else = {
+				total_development = 1000
+			}
+
+ZAF&
+		allow = {
+			NOT = { exists = ZAF }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			massina_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			jenne_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			niger_bend_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			baghena_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			tekrur_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			owns_core_province = 1117	# Futa Jallon
+			owns_core_province = 1120	# Bambuk
+			religion_group = muslim
+
