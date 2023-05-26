@@ -16,4 +16,5 @@ provinces={
 3154
 }
 local_supplies=0.0
-}
+
+impassable = yes}

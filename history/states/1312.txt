@@ -16,4 +16,7 @@ provinces={
 1801 4173 4174 4175 4177 4187 4188 4189 4204 4205 4206
 }
 local_supplies=0.0
+
+
+impassable = yes
 }

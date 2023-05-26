@@ -11,3 +11,4 @@ fascism = 0
 communism = 0
 neutrality = 100
 }
+recruit_character = CAS_leader
