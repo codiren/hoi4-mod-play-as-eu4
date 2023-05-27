@@ -12,8 +12,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 127 0 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 buddhism = {
@@ -29,8 +27,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 76 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 catholic = {
@@ -46,8 +42,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 204 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 confucianism = {
@@ -63,8 +57,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 214 229 140 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 coptic = {
@@ -80,8 +72,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = 
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 dreamtime = {
@@ -97,8 +87,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 197 133 43 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 hinduism = {
@@ -114,8 +102,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 204 204 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 ibadi = {
@@ -131,8 +117,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 102 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 inti = {
@@ -148,8 +132,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 64 115 115 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 jewish = {
@@ -165,8 +147,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 156 231 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 mahayana = {
@@ -182,8 +162,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 76 127 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 mesoamerican_religion = {
@@ -199,8 +177,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 127 25 178 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 nahuatl = {
@@ -216,8 +192,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 64 115 64 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 orthodox = {
@@ -233,8 +207,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 178 127 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 protestant = {
@@ -250,8 +222,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 0 178 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 reformed = {
@@ -267,8 +237,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 76 76 229 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 shamanism = {
@@ -284,8 +252,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 127 76 76 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 shiite = {
@@ -301,8 +267,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 204 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 shinto = {
@@ -318,8 +282,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 0 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 sikhism = {
@@ -335,8 +297,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 153 153 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 sunni = {
@@ -352,8 +312,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 153 0 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 tengri_pagan_reformed = {
@@ -369,8 +327,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 25 76 217 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 totemism = {
@@ -386,8 +342,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 127 115 115 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 vajrayana = {
@@ -403,8 +357,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 76 76 }
-war_impact_on_world_tension = 1.0
-faction_impact_on_world_tension = 1.0
 ai_fascist = yes
 }
 }

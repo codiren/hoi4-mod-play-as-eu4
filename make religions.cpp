@@ -37,8 +37,8 @@ ips.close();inp.close();
 		ifs<<"\n}";ifs<<"\n}";
 		ifs<<"\ndynamic_faction_names = {\n\"FACTION_NAME_FASCIST_1\"\n\"FACTION_NAME_FASCIST_2\"\n\"FACTION_NAME_FASCIST_3\"\n\"FACTION_NAME_FASCIST_4\"\n\"FACTION_NAME_FASCIST_5\"\n}";
 		ifs<<"\ncolor = "<<bycolor[kas];
-		ifs<<"\nwar_impact_on_world_tension = 1.0";
-		ifs<<"\nfaction_impact_on_world_tension = 1.0";
+		//ifs<<"\nwar_impact_on_world_tension = 1.0";
+		//ifs<<"\nfaction_impact_on_world_tension = 1.0";
 		ifs<<"\nai_fascist = yes";
 		ifs<<"\n}";
 	}ifs<<"\n}";
@@ -46,7 +46,7 @@ ips.close();inp.close();
 
 
 
-	return 0;
+	//return 0;
 	ifstream in("blank cnt.eu4");
 	
 	
@@ -62,17 +62,28 @@ ips.close();inp.close();
 			mep[tag] = t.substr(t.find("religion=")+9);
 		}
 	}
-	set<string> sep;
+	//set<string> sep;
+	string full;string ta;
 	for(auto kas:mep){
-		cout<<kas.first<<" "<<kas.second<<"\n";
-		sep.insert(kas.second);
-		
+		//cout<<kas.first<<" "<<kas.second<<"\n";
+		//sep.insert(kas.second);
+		ifstream in("history/countries/"+kas.first+".txt");
+		full = "";
+		while(getline(in,ta)){
+			if(ta.find("ruling_party = neutrality")!=-1)full+= "ruling_party = "+kas.second+"\n";
+			else full+= ta+"\n";
+		}in.close();
+		ofstream out("history/countries/"+kas.first+".txt");
+		out<<full;
+		//out<<"\nimpassable = yes";
+		out.close();
 	}
+	/*
 	cout<<mep.size()<<"\n";
 	for(auto kas:sep){
 		cout<<kas<<"\n";
 		
-	}
+	}*/
 	
 	
 	
