@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-	ifstream inp("blank cnt.eu4");string t;string tag;string ttag;int provn;int provn2;int provn3;
+	ifstream inp("map/only province save.eu4");string t;string tag;string ttag;int provn;int provn2;int provn3;
 	ifstream ips("byrealidv2.txt");//province; state; eu4 province
 	map<int,int> byfakeid;
 	while(ips>>provn){
@@ -9,9 +9,25 @@ int main(){
 		byfakeid[provn3] = provn2;
 	}
 	set<string> relgc;
+	map<int,int> pdev;
+	map<int,string> pdevr;
+	provn = 0;
 	while(getline(inp,t)){
 		if(t[0]=='-'&&t.find("={")!=-1)provn = stoi(t)*-1;
-		if(t.find("\treligion=")!=-1)relgc.insert(t.substr(t.find("\treligion=")+10));
+		else if(t.find("\treligion=")!=-1)relgc.insert(t.substr(t.find("\treligion=")+10));
+		if(pdev.find(byfakeid[provn])==pdev.end())pdev[byfakeid[provn]] = 0; 
+		else if((t.starts_with("\t\tbase_tax=")))pdev[byfakeid[provn]] += stoi(t.substr(11,2));
+		else if((t.starts_with("\t\tbase_production=")))pdev[byfakeid[provn]] += stoi(t.substr(18,2));
+		else if((t.starts_with("\t\tbase_manpower=")))pdev[byfakeid[provn]] += stoi(t.substr(16,2));
+		else if((t.starts_with("\t\tbase_manpower=")))pdev[byfakeid[provn]] += stoi(t.substr(16,2));
+		else if((t.starts_with("\t\treligion=")))pdevr[byfakeid[provn]] = t.substr(11);
+	}
+	map<string,int> relntoid;
+	map<int,string> relntoidatvirsktinisskaiciavimasapsuntimapa;
+	int sigma_based = 0;
+	for(auto kas:relgc){sigma_based++;
+		relntoid[kas] = sigma_based;
+		relntoidatvirsktinisskaiciavimasapsuntimapa[sigma_based] = kas;
 	}
 
 ips.close();inp.close();
@@ -78,12 +94,48 @@ ips.close();inp.close();
 		//out<<"\nimpassable = yes";
 		out.close();
 	}
-	/*
-	cout<<mep.size()<<"\n";
-	for(auto kas:sep){
-		cout<<kas<<"\n";
-		
-	}*/
+	map<string,int*> bycntpop;
+	for(auto kas:pdev){
+		ifstream inz("history/states/"+to_string(kas.first)+".txt");
+		full = "";
+		while(getline(inz,ta)){
+			if(ta.find("owner = ")!=-1){
+				if(bycntpop.find(ta.substr(8))==bycntpop.end())bycntpop[ta.substr(8)] = new int[relgc.size()+1];
+				bycntpop[ta.substr(8)][relntoid[pdevr[kas.first]]] += kas.second;
+				bycntpop[ta.substr(8)][0]++;
+			}
+			if(ta.find("local_supplies=0.0")!=-1){
+				full+= "set_state_flag = {\nflag = state_religion\nvalue = "+to_string(relntoid[pdevr[kas.first]])+"\n}\n";
+				full+= "set_state_flag = {\nflag = state_development\nvalue = "+to_string(kas.second)+"\n}\n";
+			}
+			else full+= ta+"\n";
+		}in.close();
+		ofstream out("history/states/"+to_string(kas.first)+".txt");
+		out<<full;
+		//out<<"\nimpassable = yes";
+		out.close();
+	}
+	//to procentai
+	for(auto kas:bycntpop){
+		ifstream ineaeafrthrjrukotr("history/countries/"+kas.first+".txt");
+		full = "";
+		while(getline(ineaeafrthrjrukotr,ta)){
+			if(ta.find("set_popularities = {democratic = 0")!=-1){
+				full+= "set_popularities = {\n";
+				for(int i = 1;i<relgc.size()+1;i++){
+					if(kas.second[i]>0)full+=relntoidatvirsktinisskaiciavimasapsuntimapa[i]+" = "+to_string(int(kas.second[i]/kas.second[0]))+"\n";
+				}
+			}
+			else if(ta.find("fascism = 0")!=-1);
+			else if(ta.find("communism = 0")!=-1);
+			else if(ta.find("neutrality = 100")!=-1);
+			else full+= ta+"\n";
+		}ineaeafrthrjrukotr.close();
+		ofstream wiufheiuwhfwiufwdw("history/countries/"+kas.first+".txt");
+		wiufheiuwhfwiufwdw<<full;
+		//out<<"\nimpassable = yes";
+		wiufheiuwhfwiufwdw.close();
+	}
 	
 	
 	
