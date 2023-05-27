@@ -36,7 +36,7 @@ bookmarks = {
 			ideology = neutrality
 		}
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "TURKS_BOOKMARK"
 		}
 
 		effect = {

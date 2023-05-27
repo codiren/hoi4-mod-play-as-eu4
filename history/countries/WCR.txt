@@ -1,5 +1,6 @@
 oob = "AAA_basic"
 capital = 2589
+recruit_character = WCR_leader
 set_politics = {
 ruling_party = neutrality
 last_election = "1444.1.1"

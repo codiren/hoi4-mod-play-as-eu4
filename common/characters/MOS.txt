@@ -1,0 +1,15 @@
+characters={
+	MOS_leader={
+		name=MOS_leader
+		portraits={
+			civilian={
+				large="GFX_portrait_MOS_leader"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

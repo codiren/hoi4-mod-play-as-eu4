@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	ofstream ze("common/decisions/formable_nation_decisions.txt");
-	ze<<"formables = {";
+	ze<<"formable_nations = {";
 	ifstream zen("formables.txt");
 	ifstream idsa("byrealidv2.txt");//province; state; eu4 province
 	map<int,int> astate;
@@ -20,10 +20,12 @@ int main(){
 		if(can&&corpse.size()>0){
 			ze<<"\nform_"<<tag<<" = {";
 			ze<<"\nicon = generic_form_nation";
-			//ze<<"\nallowed = { always = yes }"
-			ze<<"\nvisible = { OR = {";
+			ze<<"\nfire_only_once = yes";
+			//ze<<"\nallowed = { is_ai = no  }";
+			//ze<<"\nallowed = { OR = {";//visible
+			ze<<"\nvisible = { OR = {";//visible
 			for(auto ka:corpse){
-				ze<<"\ncontrols_state = "<<astate[ka];
+				ze<<"\nowns_state = "<<astate[ka];
 			}
 			ze<<"\n}}";
 			ze<<"\navailable = {";

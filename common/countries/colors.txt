@@ -1,3 +1,4 @@
+WAS = { color = rgb { 173  134  73 }}
 KOS = { color = rgb { 18  139  228 }}
 USB = { color = rgb { 18  139  228 }}
 SOV = { color = rgb { 49 115 90 }}

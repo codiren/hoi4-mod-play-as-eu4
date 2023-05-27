@@ -1,0 +1,15 @@
+characters={
+	HAB_leader={
+		name=HAB_leader
+		portraits={
+			civilian={
+				large="GFX_portrait_HAB_leader"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,21 +1,22 @@
 formable_nations = {
 form_ADU = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 221
-controls_state = 223
-controls_state = 224
-controls_state = 226
-controls_state = 1259
-controls_state = 1260
-controls_state = 222
-controls_state = 2968
-controls_state = 2969
-controls_state = 225
-controls_state = 230
-controls_state = 229
-controls_state = 1261
-controls_state = 2970
+owns_state = 221
+owns_state = 223
+owns_state = 224
+owns_state = 226
+owns_state = 1259
+owns_state = 1260
+owns_state = 222
+owns_state = 2968
+owns_state = 2969
+owns_state = 225
+owns_state = 230
+owns_state = 229
+owns_state = 1261
+owns_state = 2970
 }}
 available = {
 is_subject = no
@@ -56,15 +57,16 @@ add_political_power = 100
 }
 form_ALG = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 343
-controls_state = 344
-controls_state = 348
-controls_state = 346
-controls_state = 1920
-controls_state = 338
-controls_state = 336
-controls_state = 339
+owns_state = 343
+owns_state = 344
+owns_state = 348
+owns_state = 346
+owns_state = 1920
+owns_state = 338
+owns_state = 336
+owns_state = 339
 }}
 available = {
 is_subject = no
@@ -93,21 +95,22 @@ add_political_power = 100
 }
 form_ARB = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 358
-controls_state = 361
-controls_state = 377
-controls_state = 379
-controls_state = 382
-controls_state = 384
-controls_state = 385
-controls_state = 388
-controls_state = 390
-controls_state = 392
-controls_state = 394
-controls_state = 400
-controls_state = 403
-controls_state = 410
+owns_state = 358
+owns_state = 361
+owns_state = 377
+owns_state = 379
+owns_state = 382
+owns_state = 384
+owns_state = 385
+owns_state = 388
+owns_state = 390
+owns_state = 392
+owns_state = 394
+owns_state = 400
+owns_state = 403
+owns_state = 410
 }}
 available = {
 is_subject = no
@@ -148,14 +151,15 @@ add_political_power = 100
 }
 form_ARM = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 327
-controls_state = 419
-controls_state = 1661
-controls_state = 1663
-controls_state = 2728
-controls_state = 1765
-controls_state = 1766
+owns_state = 327
+owns_state = 419
+owns_state = 1661
+owns_state = 1663
+owns_state = 2728
+owns_state = 1765
+owns_state = 1766
 }}
 available = {
 is_subject = no
@@ -182,87 +186,88 @@ add_political_power = 100
 }
 form_BHA = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 506
-controls_state = 517
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 541
-controls_state = 545
-controls_state = 552
-controls_state = 558
-controls_state = 1413
-controls_state = 1511
-controls_state = 1558
-controls_state = 2831
-controls_state = 2842
-controls_state = 2882
-controls_state = 2924
-controls_state = 506
-controls_state = 517
-controls_state = 518
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 545
-controls_state = 550
-controls_state = 552
-controls_state = 558
-controls_state = 1413
-controls_state = 1511
-controls_state = 1558
-controls_state = 2831
-controls_state = 2882
-controls_state = 2924
-controls_state = 506
-controls_state = 507
-controls_state = 517
-controls_state = 522
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 545
-controls_state = 552
-controls_state = 558
-controls_state = 1413
-controls_state = 1511
-controls_state = 1558
-controls_state = 2831
-controls_state = 2882
-controls_state = 2924
-controls_state = 506
-controls_state = 507
-controls_state = 517
-controls_state = 522
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 545
-controls_state = 552
-controls_state = 558
-controls_state = 563
-controls_state = 566
-controls_state = 1413
-controls_state = 1511
-controls_state = 2831
-controls_state = 2924
-controls_state = 506
-controls_state = 517
-controls_state = 522
-controls_state = 524
-controls_state = 527
-controls_state = 536
-controls_state = 545
-controls_state = 552
-controls_state = 553
-controls_state = 558
-controls_state = 563
-controls_state = 566
-controls_state = 1413
-controls_state = 1511
-controls_state = 2831
-controls_state = 2924
+owns_state = 506
+owns_state = 517
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 541
+owns_state = 545
+owns_state = 552
+owns_state = 558
+owns_state = 1413
+owns_state = 1511
+owns_state = 1558
+owns_state = 2831
+owns_state = 2842
+owns_state = 2882
+owns_state = 2924
+owns_state = 506
+owns_state = 517
+owns_state = 518
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 545
+owns_state = 550
+owns_state = 552
+owns_state = 558
+owns_state = 1413
+owns_state = 1511
+owns_state = 1558
+owns_state = 2831
+owns_state = 2882
+owns_state = 2924
+owns_state = 506
+owns_state = 507
+owns_state = 517
+owns_state = 522
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 545
+owns_state = 552
+owns_state = 558
+owns_state = 1413
+owns_state = 1511
+owns_state = 1558
+owns_state = 2831
+owns_state = 2882
+owns_state = 2924
+owns_state = 506
+owns_state = 507
+owns_state = 517
+owns_state = 522
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 545
+owns_state = 552
+owns_state = 558
+owns_state = 563
+owns_state = 566
+owns_state = 1413
+owns_state = 1511
+owns_state = 2831
+owns_state = 2924
+owns_state = 506
+owns_state = 517
+owns_state = 522
+owns_state = 524
+owns_state = 527
+owns_state = 536
+owns_state = 545
+owns_state = 552
+owns_state = 553
+owns_state = 558
+owns_state = 563
+owns_state = 566
+owns_state = 1413
+owns_state = 1511
+owns_state = 2831
+owns_state = 2924
 }}
 available = {
 is_subject = no
@@ -435,8 +440,9 @@ add_political_power = 100
 }
 form_BUK = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 442
+owns_state = 442
 }}
 available = {
 is_subject = no
@@ -451,13 +457,14 @@ add_political_power = 100
 }
 form_BUL = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1276
-controls_state = 150
-controls_state = 2204
-controls_state = 2208
-controls_state = 3124
-controls_state = 3125
+owns_state = 1276
+owns_state = 150
+owns_state = 2204
+owns_state = 2208
+owns_state = 3124
+owns_state = 3125
 }}
 available = {
 is_subject = no
@@ -482,19 +489,20 @@ add_political_power = 100
 }
 form_DEC = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1413
-controls_state = 542
-controls_state = 569
-controls_state = 544
-controls_state = 548
-controls_state = 541
-controls_state = 1548
-controls_state = 543
-controls_state = 1486
-controls_state = 2842
-controls_state = 531
-controls_state = 539
+owns_state = 1413
+owns_state = 542
+owns_state = 569
+owns_state = 544
+owns_state = 548
+owns_state = 541
+owns_state = 1548
+owns_state = 543
+owns_state = 1486
+owns_state = 2842
+owns_state = 531
+owns_state = 539
 }}
 available = {
 is_subject = no
@@ -531,12 +539,13 @@ add_political_power = 100
 }
 form_DLH = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 522
-controls_state = 510
-controls_state = 524
-controls_state = 507
-controls_state = 555
+owns_state = 522
+owns_state = 510
+owns_state = 524
+owns_state = 507
+owns_state = 555
 }}
 available = {
 is_subject = no
@@ -559,12 +568,13 @@ add_political_power = 100
 }
 form_EGY = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 361
-controls_state = 362
-controls_state = 363
-controls_state = 358
-controls_state = 359
+owns_state = 361
+owns_state = 362
+owns_state = 363
+owns_state = 358
+owns_state = 359
 }}
 available = {
 is_subject = no
@@ -587,12 +597,13 @@ add_political_power = 100
 }
 form_ENG = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 237
-controls_state = 234
-controls_state = 235
-controls_state = 238
-controls_state = 236
+owns_state = 237
+owns_state = 234
+owns_state = 235
+owns_state = 238
+owns_state = 236
 }}
 available = {
 is_subject = no
@@ -615,13 +626,14 @@ add_political_power = 100
 }
 form_ETH = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1224
-controls_state = 1227
-controls_state = 1213
-controls_state = 1214
-controls_state = 2230
-controls_state = 2228
+owns_state = 1224
+owns_state = 1227
+owns_state = 1213
+owns_state = 1214
+owns_state = 2230
+owns_state = 2228
 }}
 available = {
 is_subject = no
@@ -646,15 +658,16 @@ add_political_power = 100
 }
 form_GEO = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 422
-controls_state = 423
-controls_state = 1662
-controls_state = 1663
-controls_state = 2727
-controls_state = 462
-controls_state = 1655
-controls_state = 2729
+owns_state = 422
+owns_state = 423
+owns_state = 1662
+owns_state = 1663
+owns_state = 2727
+owns_state = 462
+owns_state = 1655
+owns_state = 2729
 }}
 available = {
 is_subject = no
@@ -683,14 +696,15 @@ add_political_power = 100
 }
 form_HAU = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1148
-controls_state = 1149
-controls_state = 1154
-controls_state = 1155
-controls_state = 1738
-controls_state = 1739
-controls_state = 1740
+owns_state = 1148
+owns_state = 1149
+owns_state = 1154
+owns_state = 1155
+owns_state = 1738
+owns_state = 1739
+owns_state = 1740
 }}
 available = {
 is_subject = no
@@ -717,87 +731,88 @@ add_political_power = 100
 }
 form_HIN = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 506
-controls_state = 517
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 541
-controls_state = 545
-controls_state = 552
-controls_state = 558
-controls_state = 1413
-controls_state = 1511
-controls_state = 1558
-controls_state = 2831
-controls_state = 2842
-controls_state = 2882
-controls_state = 2924
-controls_state = 506
-controls_state = 517
-controls_state = 518
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 545
-controls_state = 550
-controls_state = 552
-controls_state = 558
-controls_state = 1413
-controls_state = 1511
-controls_state = 1558
-controls_state = 2831
-controls_state = 2882
-controls_state = 2924
-controls_state = 506
-controls_state = 507
-controls_state = 517
-controls_state = 522
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 545
-controls_state = 552
-controls_state = 558
-controls_state = 1413
-controls_state = 1511
-controls_state = 1558
-controls_state = 2831
-controls_state = 2882
-controls_state = 2924
-controls_state = 506
-controls_state = 507
-controls_state = 517
-controls_state = 522
-controls_state = 524
-controls_state = 536
-controls_state = 539
-controls_state = 545
-controls_state = 552
-controls_state = 558
-controls_state = 563
-controls_state = 566
-controls_state = 1413
-controls_state = 1511
-controls_state = 2831
-controls_state = 2924
-controls_state = 506
-controls_state = 517
-controls_state = 522
-controls_state = 524
-controls_state = 527
-controls_state = 536
-controls_state = 545
-controls_state = 552
-controls_state = 553
-controls_state = 558
-controls_state = 563
-controls_state = 566
-controls_state = 1413
-controls_state = 1511
-controls_state = 2831
-controls_state = 2924
+owns_state = 506
+owns_state = 517
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 541
+owns_state = 545
+owns_state = 552
+owns_state = 558
+owns_state = 1413
+owns_state = 1511
+owns_state = 1558
+owns_state = 2831
+owns_state = 2842
+owns_state = 2882
+owns_state = 2924
+owns_state = 506
+owns_state = 517
+owns_state = 518
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 545
+owns_state = 550
+owns_state = 552
+owns_state = 558
+owns_state = 1413
+owns_state = 1511
+owns_state = 1558
+owns_state = 2831
+owns_state = 2882
+owns_state = 2924
+owns_state = 506
+owns_state = 507
+owns_state = 517
+owns_state = 522
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 545
+owns_state = 552
+owns_state = 558
+owns_state = 1413
+owns_state = 1511
+owns_state = 1558
+owns_state = 2831
+owns_state = 2882
+owns_state = 2924
+owns_state = 506
+owns_state = 507
+owns_state = 517
+owns_state = 522
+owns_state = 524
+owns_state = 536
+owns_state = 539
+owns_state = 545
+owns_state = 552
+owns_state = 558
+owns_state = 563
+owns_state = 566
+owns_state = 1413
+owns_state = 1511
+owns_state = 2831
+owns_state = 2924
+owns_state = 506
+owns_state = 517
+owns_state = 522
+owns_state = 524
+owns_state = 527
+owns_state = 536
+owns_state = 545
+owns_state = 552
+owns_state = 553
+owns_state = 558
+owns_state = 563
+owns_state = 566
+owns_state = 1413
+owns_state = 1511
+owns_state = 2831
+owns_state = 2924
 }}
 available = {
 is_subject = no
@@ -970,15 +985,16 @@ add_political_power = 100
 }
 form_INC = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 808
-controls_state = 813
-controls_state = 810
-controls_state = 814
-controls_state = 804
-controls_state = 2289
-controls_state = 812
-controls_state = 820
+owns_state = 808
+owns_state = 813
+owns_state = 810
+owns_state = 814
+owns_state = 804
+owns_state = 2289
+owns_state = 812
+owns_state = 820
 }}
 available = {
 is_subject = no
@@ -1007,10 +1023,11 @@ add_political_power = 100
 }
 form_ISR = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 379
-controls_state = 364
-controls_state = 1365
+owns_state = 379
+owns_state = 364
+owns_state = 1365
 }}
 available = {
 is_subject = no
@@ -1029,10 +1046,11 @@ add_political_power = 100
 }
 form_KOJ = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 364
-controls_state = 379
-controls_state = 1365
+owns_state = 364
+owns_state = 379
+owns_state = 1365
 }}
 available = {
 is_subject = no
@@ -1051,12 +1069,13 @@ add_political_power = 100
 }
 form_KON = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1170
-controls_state = 798
-controls_state = 2521
-controls_state = 1168
-controls_state = 1394
+owns_state = 1170
+owns_state = 798
+owns_state = 2521
+owns_state = 1168
+owns_state = 1394
 }}
 available = {
 is_subject = no
@@ -1079,13 +1098,14 @@ add_political_power = 100
 }
 form_LVA = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 37
-controls_state = 2667
-controls_state = 273
-controls_state = 37
-controls_state = 2667
-controls_state = 273
+owns_state = 37
+owns_state = 2667
+owns_state = 273
+owns_state = 37
+owns_state = 2667
+owns_state = 273
 }}
 available = {
 is_subject = no
@@ -1110,13 +1130,14 @@ add_political_power = 100
 }
 form_MAM = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 361
-controls_state = 362
-controls_state = 363
-controls_state = 358
-controls_state = 359
-controls_state = 361
+owns_state = 361
+owns_state = 362
+owns_state = 363
+owns_state = 358
+owns_state = 359
+owns_state = 361
 }}
 available = {
 is_subject = no
@@ -1141,15 +1162,16 @@ add_political_power = 100
 }
 form_MAR = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 546
-controls_state = 1411
-controls_state = 1492
-controls_state = 1493
-controls_state = 2850
-controls_state = 2852
-controls_state = 1485
-controls_state = 516
+owns_state = 546
+owns_state = 1411
+owns_state = 1492
+owns_state = 1493
+owns_state = 2850
+owns_state = 2852
+owns_state = 1485
+owns_state = 516
 }}
 available = {
 is_subject = no
@@ -1178,13 +1200,14 @@ add_political_power = 100
 }
 form_MAY = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 842
-controls_state = 846
-controls_state = 2091
-controls_state = 2110
-controls_state = 2094
-controls_state = 2090
+owns_state = 842
+owns_state = 846
+owns_state = 2091
+owns_state = 2110
+owns_state = 2094
+owns_state = 2090
 }}
 available = {
 is_subject = no
@@ -1209,11 +1232,12 @@ add_political_power = 100
 }
 form_MOR = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 343
-controls_state = 344
-controls_state = 348
-controls_state = 346
+owns_state = 343
+owns_state = 344
+owns_state = 348
+owns_state = 346
 }}
 available = {
 is_subject = no
@@ -1234,11 +1258,12 @@ add_political_power = 100
 }
 form_MUG = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 507
-controls_state = 1534
-controls_state = 524
-controls_state = 522
+owns_state = 507
+owns_state = 1534
+owns_state = 524
+owns_state = 522
 }}
 available = {
 is_subject = no
@@ -1259,15 +1284,16 @@ add_political_power = 100
 }
 form_NAG = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 551
-controls_state = 1541
-controls_state = 547
-controls_state = 1509
-controls_state = 560
-controls_state = 546
-controls_state = 552
-controls_state = 548
+owns_state = 551
+owns_state = 1541
+owns_state = 547
+owns_state = 1509
+owns_state = 560
+owns_state = 546
+owns_state = 552
+owns_state = 548
 }}
 available = {
 is_subject = no
@@ -1296,12 +1322,13 @@ add_political_power = 100
 }
 form_NPL = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1529
-controls_state = 2904
-controls_state = 2905
-controls_state = 2906
-controls_state = 557
+owns_state = 1529
+owns_state = 2904
+owns_state = 2905
+owns_state = 2906
+owns_state = 557
 }}
 available = {
 is_subject = no
@@ -1324,13 +1351,14 @@ add_political_power = 100
 }
 form_ORI = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 549
-controls_state = 552
-controls_state = 553
-controls_state = 1502
-controls_state = 1508
-controls_state = 2862
+owns_state = 549
+owns_state = 552
+owns_state = 553
+owns_state = 1502
+owns_state = 1508
+owns_state = 2862
 }}
 available = {
 is_subject = no
@@ -1355,17 +1383,18 @@ add_political_power = 100
 }
 form_PER = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 414
-controls_state = 429
-controls_state = 433
-controls_state = 1672
-controls_state = 1674
-controls_state = 426
-controls_state = 1677
-controls_state = 416
-controls_state = 432
-controls_state = 1680
+owns_state = 414
+owns_state = 429
+owns_state = 433
+owns_state = 1672
+owns_state = 1674
+owns_state = 426
+owns_state = 1677
+owns_state = 416
+owns_state = 432
+owns_state = 1680
 }}
 available = {
 is_subject = no
@@ -1398,14 +1427,15 @@ add_political_power = 100
 }
 form_POL = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 262
-controls_state = 257
-controls_state = 254
-controls_state = 255
-controls_state = 258
-controls_state = 259
-controls_state = 1404
+owns_state = 262
+owns_state = 257
+owns_state = 254
+owns_state = 255
+owns_state = 258
+owns_state = 259
+owns_state = 1404
 }}
 available = {
 is_subject = no
@@ -1432,14 +1462,15 @@ add_political_power = 100
 }
 form_PRU = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 41
-controls_state = 43
-controls_state = 2452
-controls_state = 41
-controls_state = 41
-controls_state = 42
-controls_state = 43
+owns_state = 41
+owns_state = 43
+owns_state = 2452
+owns_state = 41
+owns_state = 41
+owns_state = 42
+owns_state = 43
 }}
 available = {
 is_subject = no
@@ -1466,10 +1497,11 @@ add_political_power = 100
 }
 form_PUN = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 507
-controls_state = 1534
-controls_state = 510
+owns_state = 507
+owns_state = 1534
+owns_state = 510
 }}
 available = {
 is_subject = no
@@ -1488,21 +1520,22 @@ add_political_power = 100
 }
 form_RJP = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 2882
-controls_state = 1512
-controls_state = 515
-controls_state = 514
-controls_state = 1525
-controls_state = 518
-controls_state = 2886
-controls_state = 525
-controls_state = 519
-controls_state = 1534
-controls_state = 1526
-controls_state = 506
-controls_state = 1554
-controls_state = 2918
+owns_state = 2882
+owns_state = 1512
+owns_state = 515
+owns_state = 514
+owns_state = 1525
+owns_state = 518
+owns_state = 2886
+owns_state = 525
+owns_state = 519
+owns_state = 1534
+owns_state = 1526
+owns_state = 506
+owns_state = 1554
+owns_state = 2918
 }}
 available = {
 is_subject = no
@@ -1543,13 +1576,14 @@ add_political_power = 100
 }
 form_RMN = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 158
-controls_state = 159
-controls_state = 160
-controls_state = 161
-controls_state = 268
-controls_state = 1267
+owns_state = 158
+owns_state = 159
+owns_state = 160
+owns_state = 161
+owns_state = 268
+owns_state = 1267
 }}
 available = {
 is_subject = no
@@ -1574,15 +1608,16 @@ add_political_power = 100
 }
 form_RUM = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 151
-controls_state = 316
-controls_state = 323
-controls_state = 326
-controls_state = 329
-controls_state = 331
-controls_state = 1760
-controls_state = 2738
+owns_state = 151
+owns_state = 316
+owns_state = 323
+owns_state = 326
+owns_state = 329
+owns_state = 331
+owns_state = 1760
+owns_state = 2738
 }}
 available = {
 is_subject = no
@@ -1611,15 +1646,16 @@ add_political_power = 100
 }
 form_RUS = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 295
-controls_state = 310
-controls_state = 294
-controls_state = 308
-controls_state = 301
-controls_state = 293
-controls_state = 306
-controls_state = 307
+owns_state = 295
+owns_state = 310
+owns_state = 294
+owns_state = 308
+owns_state = 301
+owns_state = 293
+owns_state = 306
+owns_state = 307
 }}
 available = {
 is_subject = no
@@ -1648,11 +1684,12 @@ add_political_power = 100
 }
 form_SCO = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 251
-controls_state = 252
-controls_state = 249
-controls_state = 248
+owns_state = 251
+owns_state = 252
+owns_state = 249
+owns_state = 248
 }}
 available = {
 is_subject = no
@@ -1673,11 +1710,12 @@ add_political_power = 100
 }
 form_SIL = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 2423
-controls_state = 2664
-controls_state = 3144
-controls_state = 264
+owns_state = 2423
+owns_state = 2664
+owns_state = 3144
+owns_state = 264
 }}
 available = {
 is_subject = no
@@ -1698,14 +1736,15 @@ add_political_power = 100
 }
 form_SST = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 580
-controls_state = 582
-controls_state = 583
-controls_state = 584
-controls_state = 1855
-controls_state = 1858
-controls_state = 1859
+owns_state = 580
+owns_state = 582
+owns_state = 583
+owns_state = 584
+owns_state = 1855
+owns_state = 1858
+owns_state = 1859
 }}
 available = {
 is_subject = no
@@ -1732,11 +1771,12 @@ add_political_power = 100
 }
 form_SWI = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 165
-controls_state = 1381
-controls_state = 1384
-controls_state = 3141
+owns_state = 165
+owns_state = 1381
+owns_state = 1384
+owns_state = 3141
 }}
 available = {
 is_subject = no
@@ -1757,10 +1797,11 @@ add_political_power = 100
 }
 form_TIB = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 1594
-controls_state = 678
-controls_state = 677
+owns_state = 1594
+owns_state = 678
+owns_state = 677
 }}
 available = {
 is_subject = no
@@ -1779,24 +1820,25 @@ add_political_power = 100
 }
 form_TIM = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 428
-controls_state = 429
-controls_state = 446
-controls_state = 451
-controls_state = 458
-controls_state = 454
-controls_state = 1672
-controls_state = 1673
-controls_state = 1677
-controls_state = 446
-controls_state = 454
-controls_state = 429
-controls_state = 1672
-controls_state = 1677
-controls_state = 451
-controls_state = 445
-controls_state = 428
+owns_state = 428
+owns_state = 429
+owns_state = 446
+owns_state = 451
+owns_state = 458
+owns_state = 454
+owns_state = 1672
+owns_state = 1673
+owns_state = 1677
+owns_state = 446
+owns_state = 454
+owns_state = 429
+owns_state = 1672
+owns_state = 1677
+owns_state = 451
+owns_state = 445
+owns_state = 428
 }}
 available = {
 is_subject = no
@@ -1843,23 +1885,24 @@ add_political_power = 100
 }
 form_TRP = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 343
-controls_state = 344
-controls_state = 348
-controls_state = 346
-controls_state = 1920
-controls_state = 338
-controls_state = 336
-controls_state = 339
-controls_state = 1931
-controls_state = 341
-controls_state = 1913
-controls_state = 354
-controls_state = 1910
-controls_state = 354
-controls_state = 355
-controls_state = 353
+owns_state = 343
+owns_state = 344
+owns_state = 348
+owns_state = 346
+owns_state = 1920
+owns_state = 338
+owns_state = 336
+owns_state = 339
+owns_state = 1931
+owns_state = 341
+owns_state = 1913
+owns_state = 354
+owns_state = 1910
+owns_state = 354
+owns_state = 355
+owns_state = 353
 }}
 available = {
 is_subject = no
@@ -1904,19 +1947,20 @@ add_political_power = 100
 }
 form_TUN = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 343
-controls_state = 344
-controls_state = 348
-controls_state = 346
-controls_state = 1920
-controls_state = 338
-controls_state = 336
-controls_state = 339
-controls_state = 1931
-controls_state = 341
-controls_state = 1913
-controls_state = 354
+owns_state = 343
+owns_state = 344
+owns_state = 348
+owns_state = 346
+owns_state = 1920
+owns_state = 338
+owns_state = 336
+owns_state = 339
+owns_state = 1931
+owns_state = 341
+owns_state = 1913
+owns_state = 354
 }}
 available = {
 is_subject = no
@@ -1953,12 +1997,13 @@ add_political_power = 100
 }
 form_TUS = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 2435
-controls_state = 116
-controls_state = 115
-controls_state = 117
-controls_state = 2437
+owns_state = 2435
+owns_state = 116
+owns_state = 115
+owns_state = 117
+owns_state = 2437
 }}
 available = {
 is_subject = no
@@ -1981,13 +2026,14 @@ add_political_power = 100
 }
 form_UKR = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 261
-controls_state = 279
-controls_state = 283
-controls_state = 280
-controls_state = 283
-controls_state = 280
+owns_state = 261
+owns_state = 279
+owns_state = 283
+owns_state = 280
+owns_state = 283
+owns_state = 280
 }}
 available = {
 is_subject = no
@@ -2012,14 +2058,15 @@ add_political_power = 100
 }
 form_YEM = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 387
-controls_state = 388
-controls_state = 390
-controls_state = 2706
-controls_state = 389
-controls_state = 391
-controls_state = 1805
+owns_state = 387
+owns_state = 388
+owns_state = 390
+owns_state = 2706
+owns_state = 389
+owns_state = 391
+owns_state = 1805
 }}
 available = {
 is_subject = no
@@ -2046,11 +2093,12 @@ add_political_power = 100
 }
 form_YUA = {
 icon = generic_form_nation
+fire_only_once = yes
 visible = { OR = {
-controls_state = 723
-controls_state = 3099
-controls_state = 1595
-controls_state = 1327
+owns_state = 723
+owns_state = 3099
+owns_state = 1595
+owns_state = 1327
 }}
 available = {
 is_subject = no

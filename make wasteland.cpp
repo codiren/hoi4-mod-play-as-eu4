@@ -15,7 +15,7 @@ int main(){
 		ifstream in("history/states/"+to_string(astate[stoi(t)])+".txt");
 		full = "";
 		while(getline(in,ta)){
-			if(ta.find("infrastructure = 1")!=-1)full+= "infrastructure = 0\n";
+			if(ta.find("owner = REB")!=-1)full+= "owner = WAS\n";
 			else full+= ta+"\n";
 		}in.close();
 		ofstream out("history/states/"+to_string(astate[stoi(t)])+".txt");

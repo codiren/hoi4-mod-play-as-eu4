@@ -1,11 +1,11 @@
 state={
 id=1334
 name="1334_state"
-manpower = 40000
+manpower = 55575
 history={
 owner = KHM
 buildings = {
-infrastructure = 3
+infrastructure = 2
 industrial_complex = 1
 arms_factory = 1
 }

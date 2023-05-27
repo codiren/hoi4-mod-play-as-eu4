@@ -1,5 +1,6 @@
 oob = "AAA_basic"
 capital = 134
+recruit_character = HAB_leader
 set_politics = {
 ruling_party = neutrality
 last_election = "1444.1.1"

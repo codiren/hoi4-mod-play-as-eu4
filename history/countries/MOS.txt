@@ -1,5 +1,6 @@
 oob = "AAA_basic"
 capital = 295
+recruit_character = MOS_leader
 set_politics = {
 ruling_party = neutrality
 last_election = "1444.1.1"

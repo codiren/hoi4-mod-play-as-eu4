@@ -2,7 +2,7 @@
 REB = "countries/Rebels.txt"
 PIR = "countries/Pirates.txt"
 NAT = "countries/Natives.txt"
-
+WAS = "countries/Wasteland.txt"
 #Scandinavia
 SWE	= "countries/Sweden.txt"
 DAN	= "countries/Denmark.txt"

@@ -1,5 +1,6 @@
 oob = "AAA_basic"
 capital = 219
+recruit_character = CAS_leader
 set_politics = {
 ruling_party = neutrality
 last_election = "1444.1.1"
@@ -11,4 +12,3 @@ fascism = 0
 communism = 0
 neutrality = 100
 }
-recruit_character = CAS_leader

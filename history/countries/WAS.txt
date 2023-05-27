@@ -1,0 +1,5 @@
+oob = "AAA_basic"
+capital = 1
+add_ideas = {
+	stateless
+}
