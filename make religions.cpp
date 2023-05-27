@@ -37,7 +37,7 @@ ips.close();inp.close();
 		//if(t.find(" = {")!=-1)cout<<t.substr(1,t.find("=")-2)<<"\n";//tag = t.substr(1,t.find("="));
 		if(t.find("color = ")!=-1)bycolor[tag] = t.substr(t.find("=")+2);
 		//if(t.find("color = ")!=-1)cout<<tag<<" "<<t.substr(t.find("=")+2)<<"\n";
-		else if(t.find(" = {")!=-1)tag = t.substr(1,t.find("=")-2);
+		else if(t.find(" = {")!=-1&&t[0] == '\t'&&t[1] != '\t')tag = t.substr(1,t.find("=")-2);
 	}
 
 
@@ -95,18 +95,24 @@ ips.close();inp.close();
 		out.close();
 	}
 	map<string,int*> bycntpop;
+	ofstream neviegievhuwifhihibef("common/on_actions/08_bba_on_actions.txt");
+	neviegievhuwifhihibef<<"on_actions = {\non_startup = {\neffect = {\n";
 	for(auto kas:pdev){
 		ifstream inz("history/states/"+to_string(kas.first)+".txt");
 		full = "";
 		while(getline(inz,ta)){
 			if(ta.find("owner = ")!=-1){
-				if(bycntpop.find(ta.substr(8))==bycntpop.end())bycntpop[ta.substr(8)] = new int[relgc.size()+1];
+				if(bycntpop.find(ta.substr(8))==bycntpop.end())bycntpop[ta.substr(8)] = reinterpret_cast<int*>(calloc(relgc.size()+1,4));//new int[relgc.size()+1];
 				bycntpop[ta.substr(8)][relntoid[pdevr[kas.first]]] += kas.second;
-				bycntpop[ta.substr(8)][0]++;
+				bycntpop[ta.substr(8)][0] += kas.second;
 			}
 			if(ta.find("local_supplies=0.0")!=-1){
-				full+= "set_state_flag = {\nflag = state_religion\nvalue = "+to_string(relntoid[pdevr[kas.first]])+"\n}\n";
-				full+= "set_state_flag = {\nflag = state_development\nvalue = "+to_string(kas.second)+"\n}\n";
+				//full+= "set_state_flag = {\nflag = state_religion\nvalue = "+to_string(relntoid[pdevr[kas.first]])+"\n}\n";
+				//full+= "set_state_flag = {\nflag = state_development\nvalue = "+to_string(kas.second)+"\n}\n";
+				neviegievhuwifhihibef<<kas.first<<" = {\n";
+				neviegievhuwifhihibef<<("set_state_flag = {\nflag = state_religion\nvalue = "+to_string(relntoid[pdevr[kas.first]])+"\n}\n");
+				neviegievhuwifhihibef<<( "set_state_flag = {\nflag = state_development\nvalue = "+to_string(kas.second)+"\n}\n");
+				neviegievhuwifhihibef<<"}";
 			}
 			else full+= ta+"\n";
 		}in.close();
@@ -115,6 +121,8 @@ ips.close();inp.close();
 		//out<<"\nimpassable = yes";
 		out.close();
 	}
+	neviegievhuwifhihibef<<"\n}\n}\n}";
+	neviegievhuwifhihibef.close();
 	//to procentai
 	for(auto kas:bycntpop){
 		ifstream ineaeafrthrjrukotr("history/countries/"+kas.first+".txt");
@@ -123,7 +131,8 @@ ips.close();inp.close();
 			if(ta.find("set_popularities = {democratic = 0")!=-1){
 				full+= "set_popularities = {\n";
 				for(int i = 1;i<relgc.size()+1;i++){
-					if(kas.second[i]>0)full+=relntoidatvirsktinisskaiciavimasapsuntimapa[i]+" = "+to_string(int(kas.second[i]/kas.second[0]))+"\n";
+					//cout<<kas.second[i]<<" "<<kas.second[0]<<"\n";
+					if(kas.second[i]>0)full+=relntoidatvirsktinisskaiciavimasapsuntimapa[i]+" = "+to_string(int((((kas.second[i]*1.0)/(kas.second[0]*1.0))*100.0)))+"\n";
 				}
 			}
 			else if(ta.find("fascism = 0")!=-1);

@@ -806,11 +806,11 @@ christian = {
 	}
 	
 	coptic = {
-	
+		color = { 178 38 76 }
 		flags_with_emblem_percentage = 20
 		flag_emblem_index_range = { 1 4 }
 
-		color = { 178 38 76 }
+		
 		icon = 14
 		country = {
 			defensiveness = 0.15
