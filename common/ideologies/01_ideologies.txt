@@ -1,0 +1,410 @@
+ideologies = {
+animism = {
+types = {
+animism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 127 0 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+buddhism = {
+types = {
+buddhism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 204 76 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+catholic = {
+types = {
+catholic = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 204 204 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+confucianism = {
+types = {
+confucianism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 214 229 140 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+coptic = {
+types = {
+coptic = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = 
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+dreamtime = {
+types = {
+dreamtime = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 197 133 43 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+hinduism = {
+types = {
+hinduism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 204 204 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+ibadi = {
+types = {
+ibadi = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 102 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+inti = {
+types = {
+inti = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 64 115 115 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+jewish = {
+types = {
+jewish = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 156 231 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+mahayana = {
+types = {
+mahayana = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 204 76 127 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+mesoamerican_religion = {
+types = {
+mesoamerican_religion = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 127 25 178 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+nahuatl = {
+types = {
+nahuatl = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 64 115 64 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+orthodox = {
+types = {
+orthodox = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 178 127 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+protestant = {
+types = {
+protestant = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 0 178 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+reformed = {
+types = {
+reformed = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 76 76 229 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+shamanism = {
+types = {
+shamanism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 127 76 76 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+shiite = {
+types = {
+shiite = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 204 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+shinto = {
+types = {
+shinto = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 204 0 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+sikhism = {
+types = {
+sikhism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 153 153 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+sunni = {
+types = {
+sunni = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 153 0 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+tengri_pagan_reformed = {
+types = {
+tengri_pagan_reformed = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 25 76 217 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+totemism = {
+types = {
+totemism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 127 115 115 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+vajrayana = {
+types = {
+vajrayana = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 204 76 76 }
+war_impact_on_world_tension = 1.0
+faction_impact_on_world_tension = 1.0
+ai_fascist = yes
+}
+}
