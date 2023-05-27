@@ -16,5 +16,4 @@ state_category = a4
 provinces={
 1209
 }
-local_supplies=0.0
 }

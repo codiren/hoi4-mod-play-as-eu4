@@ -71,7 +71,7 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_4"
 "FACTION_NAME_FASCIST_5"
 }
-color = 
+color = { 178 38 76 }
 ai_fascist = yes
 }
 dreamtime = {
@@ -102,6 +102,21 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 0 204 204 }
+ai_fascist = yes
+}
+hussite = {
+types = {
+hussite = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 244 55 9 }
 ai_fascist = yes
 }
 ibadi = {
@@ -209,36 +224,6 @@ dynamic_faction_names = {
 color = { 178 127 0 }
 ai_fascist = yes
 }
-protestant = {
-types = {
-protestant = {
-}
-}
-dynamic_faction_names = {
-"FACTION_NAME_FASCIST_1"
-"FACTION_NAME_FASCIST_2"
-"FACTION_NAME_FASCIST_3"
-"FACTION_NAME_FASCIST_4"
-"FACTION_NAME_FASCIST_5"
-}
-color = { 0 0 178 }
-ai_fascist = yes
-}
-reformed = {
-types = {
-reformed = {
-}
-}
-dynamic_faction_names = {
-"FACTION_NAME_FASCIST_1"
-"FACTION_NAME_FASCIST_2"
-"FACTION_NAME_FASCIST_3"
-"FACTION_NAME_FASCIST_4"
-"FACTION_NAME_FASCIST_5"
-}
-color = { 76 76 229 }
-ai_fascist = yes
-}
 shamanism = {
 types = {
 shamanism = {
@@ -282,21 +267,6 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 0 0 }
-ai_fascist = yes
-}
-sikhism = {
-types = {
-sikhism = {
-}
-}
-dynamic_faction_names = {
-"FACTION_NAME_FASCIST_1"
-"FACTION_NAME_FASCIST_2"
-"FACTION_NAME_FASCIST_3"
-"FACTION_NAME_FASCIST_4"
-"FACTION_NAME_FASCIST_5"
-}
-color = { 0 153 153 }
 ai_fascist = yes
 }
 sunni = {
@@ -357,6 +327,21 @@ dynamic_faction_names = {
 "FACTION_NAME_FASCIST_5"
 }
 color = { 204 76 76 }
+ai_fascist = yes
+}
+zoroastrian = {
+types = {
+zoroastrian = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 127 178 51 }
 ai_fascist = yes
 }
 }

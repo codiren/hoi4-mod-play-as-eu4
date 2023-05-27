@@ -1,13 +1,15 @@
 oob = "AAA_basic"
 capital = 149
+recruit_character = TUR_leader
 set_politics = {
 ruling_party = sunni
 last_election = "1444.1.1"
 election_frequency = 48
 elections_allowed = no
 }
-set_popularities = {democratic = 0
-fascism = 0
-communism = 0
-neutrality = 100
+set_popularities = {
+orthodox = 44
+shiite = 2
+sunni = 52
+zoroastrian = 2
 }

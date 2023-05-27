@@ -130,10 +130,22 @@ ips.close();inp.close();
 		while(getline(ineaeafrthrjrukotr,ta)){
 			if(ta.find("set_popularities = {democratic = 0")!=-1){
 				full+= "set_popularities = {\n";
+				int trk = 0;
+				int trkindex = 1;
 				for(int i = 1;i<relgc.size()+1;i++){
+					kas.second[i] = int((((kas.second[i]*1.0)/(kas.second[0]*1.0))*100.0));
 					//cout<<kas.second[i]<<" "<<kas.second[0]<<"\n";
-					if(kas.second[i]>0)full+=relntoidatvirsktinisskaiciavimasapsuntimapa[i]+" = "+to_string(int((((kas.second[i]*1.0)/(kas.second[0]*1.0))*100.0)))+"\n";
+					trk += kas.second[i];
+					if(kas.second[i]>0)trkindex = i;
 				}
+				kas.second[trkindex] += 100-trk;
+				for(int i = 1;i<relgc.size()+1;i++){
+					if(kas.second[i]>0){
+						full+=relntoidatvirsktinisskaiciavimasapsuntimapa[i]+" = "+to_string(kas.second[i])+"\n";
+					}
+				}
+				
+				
 			}
 			else if(ta.find("fascism = 0")!=-1);
 			else if(ta.find("communism = 0")!=-1);

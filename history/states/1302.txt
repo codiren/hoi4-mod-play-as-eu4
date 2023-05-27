@@ -15,7 +15,6 @@ state_category = a1
 provinces={
 1791 4179 4180 4181 4190 4194 4195 4208 4209 4210 4211
 }
-local_supplies=0.0
 
 
 impassable = yes
