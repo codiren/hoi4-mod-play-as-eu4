@@ -3,3 +3,17 @@ capital = 1
 add_ideas = {
 	stateless
 }
+set_politics = {
+ruling_party = animism
+last_election = "1444.1.1"
+election_frequency = 48
+elections_allowed = no
+}
+set_popularities = {
+animism = 40
+dreamtime = 4
+inti = 1
+shamanism = 9
+tengri_pagan_reformed = 4
+totemism = 42
+}

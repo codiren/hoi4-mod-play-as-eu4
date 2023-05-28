@@ -1,4 +1,19 @@
 ideologies = {
+sikhism = {
+types = {
+sikhism = {
+}
+}
+dynamic_faction_names = {
+"FACTION_NAME_FASCIST_1"
+"FACTION_NAME_FASCIST_2"
+"FACTION_NAME_FASCIST_3"
+"FACTION_NAME_FASCIST_4"
+"FACTION_NAME_FASCIST_5"
+}
+color = { 0 153 153 }
+ai_fascist = yes
+}
 animism = {
 types = {
 animism = {
