@@ -11,7 +11,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_LIT_leader"
-		texturefile = "gfx/leaders/HAB/Portrait_LIT_leader.dds"
+		texturefile = "gfx/leaders/LIT/Portrait_LIT_leader.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_MOS_leader"
@@ -27,15 +27,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_TUR_leader"
-		texturefile = "gfx/leaders/FRA/Portrait_TUR_leader.dds"
+		texturefile = "gfx/leaders/TUR/Portrait_TUR_leader.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_WAS_leader"
-		texturefile = "gfx/leaders/FRA/Portrait_WAS_leader.dds"
+		texturefile = "gfx/leaders/WAS/Portrait_WAS_leader.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_NAT_leader"
-		texturefile = "gfx/leaders/FRA/Portrait_NAT_leader.dds"
+		texturefile = "gfx/leaders/NAT/Portrait_NAT_leader.dds"
 	}
 	
 	spriteType = {
