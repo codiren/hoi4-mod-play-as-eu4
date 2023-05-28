@@ -25,6 +25,18 @@ spriteTypes = {
 		name = "GFX_portrait_FRA_leader"
 		texturefile = "gfx/leaders/FRA/Portrait_FRA_leader.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_TUR_leader"
+		texturefile = "gfx/leaders/FRA/Portrait_TUR_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_WAS_leader"
+		texturefile = "gfx/leaders/FRA/Portrait_WAS_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_NAT_leader"
+		texturefile = "gfx/leaders/FRA/Portrait_NAT_leader.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_portrait_operative_unknown"

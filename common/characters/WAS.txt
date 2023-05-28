@@ -1,0 +1,15 @@
+characters={
+	WAS_leader={
+		name=WAS_leader
+		portraits={
+			civilian={
+				large="GFX_portrait_WAS_leader"
+			}
+		}
+		country_leader={
+			ideology=animism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

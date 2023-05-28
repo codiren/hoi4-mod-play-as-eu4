@@ -1,5 +1,13 @@
 ﻿l_english:
  CAS_leader:0 "Juan II"
+ LIT_leader:0 "Vytautas Didysis"
+ WCR_leader:0 "Chief Red Hawk"
+ FRA_leader:0 "King Charles VII"
+ TUR_leader:0 "Juan II"
+ HAB_leader:0 "Duke Albert V"
+ MOS_leader:0 "Grand Prince Vasily II"
+ WAS_leader:0 "Deserts"
+ NAT_leader:0 "Jungles"
  #SOVIET UNION
  SOV_iosif_stalin:0 "Iosif Stalin"
  SOV_konstantin_rodzayevsky:0 "Konstantin Rodzayevsky"
