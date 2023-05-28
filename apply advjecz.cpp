@@ -22,7 +22,7 @@ ifstream idsa("byrealidv2.txt");//province; state; eu4 province
 		astate[tttt] = {tt,0,0,0};
 	}
 	idsa.close();
-
+/*
 ifstream ine("map/terrain eu.txt");kitascores = false;string terainas;
 map<>
 	while(getline(ine,t)){
@@ -44,12 +44,10 @@ map<>
 		else if(t=="\tdesert = {"||t=="\tcoastal_desert = {"||t=="\tdrylands = {")terainas = "desert";
 		else if(t=="\t\tterrain_override = {")kitascores = true;
 	}
+*/
 
 
-
-
-/*
-	ifstream a("map/adjacencies eu.csv");
+ifstream a("map/adjacencies eu.csv");
 	ofstream b("map/adjacencies.csv");
 	string t;
 	b<<"From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment\n";
@@ -57,10 +55,14 @@ map<>
 	while(getline(a,t)){
 		auto tv = split(t,";");
 		if(tv[2]=="sea"){
-			b<<tv[0]<<";"<<tv[1]<<";"<<"sea"<<";"<<"-1"<<";"<<"-1"<<";"<<"-1"<<";"<<"-1"<<";"<<"-1"<<";;"<<++kzk<<"\n";
+			b<<astate[stoi(tv[0])][0]<<";"<<astate[stoi(tv[1])][0]<<";"<<"sea"<<";"<<"-1"<<";"<<"-1"<<";"<<"-1"<<";"<<"-1"<<";"<<"-1"<<";;"<<++kzk<<"\n";
 		}
 	}
 	b<<"-1;-1;;-1;-1;-1;-1;-1;-1";
 	a.close();
-	b.close();*/
+	b.close();
+
+
+/*
+	*/
 }
