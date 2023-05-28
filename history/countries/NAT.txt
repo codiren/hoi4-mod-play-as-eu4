@@ -1,5 +1,6 @@
 oob = "AAA_basic"
 capital = 1
+recruit_character = NAT_leader
 add_ideas = {
 	stateless
 }

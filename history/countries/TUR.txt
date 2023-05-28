@@ -1,5 +1,6 @@
 oob = "AAA_basic"
 capital = 149
+recruit_character = TUR_leader
 set_politics = {
 ruling_party = sunni
 last_election = "1444.1.1"
