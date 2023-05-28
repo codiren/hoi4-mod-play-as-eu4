@@ -2,12 +2,16 @@ spriteTypes = {
 
 	# leaders we need to override in DLC go in this file
 	spriteType = {
-		name = "GFX_portrait_cas_leader"
-		texturefile = "gfx/leaders/CAS/Portrait_Juan_II.dds"
+		name = "GFX_portrait_CAS_leader"
+		texturefile = "gfx/leaders/CAS/Portrait_CAS_leader.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_HAB_leader"
 		texturefile = "gfx/leaders/HAB/Portrait_HAB_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_LIT_leader"
+		texturefile = "gfx/leaders/HAB/Portrait_LIT_leader.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_MOS_leader"

@@ -1,0 +1,15 @@
+characters={
+	LIT_leader={
+		name=LIT_leader
+		portraits={
+			civilian={
+				large="GFX_portrait_LIT_leader"
+			}
+		}
+		country_leader={
+			ideology=catholic
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

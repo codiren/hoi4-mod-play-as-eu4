@@ -16,5 +16,4 @@ state_category = a12
 provinces={
 1821
 }
-local_supplies=0.0
 }

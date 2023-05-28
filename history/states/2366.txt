@@ -15,5 +15,4 @@ state_category = a1
 provinces={
 2908
 }
-local_supplies=0.0
 }
