@@ -2,6 +2,8 @@ state={
 id=737
 name="737_state"
 manpower = 85296
+resources={
+}
 history={
 owner = KOR
 buildings = {

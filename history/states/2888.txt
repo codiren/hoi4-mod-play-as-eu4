@@ -2,6 +2,9 @@ state={
 id=2888
 name="2888_state"
 manpower = 9743
+resources={
+tungsten = 8
+}
 history={
 owner = PAN
 buildings = {

@@ -2,6 +2,8 @@ state={
 id=1862
 name="1862_state"
 manpower = 55575
+resources={
+}
 history={
 owner = PEG
 buildings = {

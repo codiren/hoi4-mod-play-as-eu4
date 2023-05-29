@@ -2,6 +2,8 @@ state={
 id=897
 name="897_state"
 manpower = 6348
+resources={
+}
 history={
 owner = CAQ
 buildings = {

@@ -2,6 +2,8 @@ state={
 id=3358
 name="3358_state"
 manpower = 9743
+resources={
+}
 history={
 owner = VNL
 buildings = {

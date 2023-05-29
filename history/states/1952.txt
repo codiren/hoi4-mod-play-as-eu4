@@ -2,6 +2,9 @@ state={
 id=1952
 name="1952_state"
 manpower = 6348
+resources={
+rubber = 1
+}
 history={
 owner = ZNI
 buildings = {

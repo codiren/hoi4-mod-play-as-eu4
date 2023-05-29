@@ -2,6 +2,9 @@ state={
 id=1750
 name="1750_state"
 manpower = 9743
+resources={
+chromium = 32
+}
 history={
 owner = OYO
 buildings = {

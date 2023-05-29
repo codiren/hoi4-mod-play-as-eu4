@@ -2,6 +2,8 @@ state={
 id=1083
 name="1083_state"
 manpower = 55575
+resources={
+}
 history={
 owner = MOS
 buildings = {

@@ -2,6 +2,8 @@ state={
 id=2433
 name="2433_state"
 manpower = 55575
+resources={
+}
 history={
 owner = PGA
 buildings = {

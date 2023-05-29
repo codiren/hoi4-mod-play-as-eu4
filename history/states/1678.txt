@@ -2,6 +2,8 @@ state={
 id=1678
 name="1678_state"
 manpower = 36210
+resources={
+}
 history={
 owner = FRS
 buildings = {

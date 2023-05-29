@@ -2,6 +2,8 @@ state={
 id=213
 name="213_state"
 manpower = 100461
+resources={
+}
 history={
 owner = ARA
 buildings = {

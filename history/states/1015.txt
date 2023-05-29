@@ -2,6 +2,8 @@ state={
 id=1015
 name="1015_state"
 manpower = 9743
+resources={
+}
 history={
 owner = RYU
 buildings = {

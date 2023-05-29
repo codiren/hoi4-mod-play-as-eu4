@@ -2,6 +2,8 @@ state={
 id=937
 name="937_state"
 manpower = 9743
+resources={
+}
 history={
 owner = TSC
 buildings = {

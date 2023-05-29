@@ -2,6 +2,8 @@ state={
 id=2713
 name="2713_state"
 manpower = 36210
+resources={
+}
 history={
 owner = OMA
 buildings = {

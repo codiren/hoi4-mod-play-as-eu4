@@ -2,6 +2,8 @@ state={
 id=2218
 name="2218_state"
 manpower = 55575
+resources={
+}
 history={
 owner = HDY
 buildings = {

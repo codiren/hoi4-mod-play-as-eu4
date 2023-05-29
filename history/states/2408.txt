@@ -2,6 +2,8 @@ state={
 id=2408
 name="2408_state"
 manpower = 6348
+resources={
+}
 history={
 owner = ZIM
 buildings = {

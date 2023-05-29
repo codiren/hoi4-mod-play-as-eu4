@@ -2,6 +2,9 @@ state={
 id=809
 name="809_state"
 manpower = 36210
+resources={
+rubber = 4
+}
 history={
 owner = ICM
 buildings = {

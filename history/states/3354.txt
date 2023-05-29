@@ -2,6 +2,8 @@ state={
 id=3354
 name="3354_state"
 manpower = 9743
+resources={
+}
 history={
 owner = MAU
 buildings = {

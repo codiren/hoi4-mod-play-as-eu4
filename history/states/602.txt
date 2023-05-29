@@ -2,6 +2,8 @@ state={
 id=602
 name="602_state"
 manpower = 65455
+resources={
+}
 history={
 owner = LNA
 buildings = {

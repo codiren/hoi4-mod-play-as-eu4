@@ -2,6 +2,9 @@ state={
 id=1861
 name="1861_state"
 manpower = 85296
+resources={
+steel = 32
+}
 history={
 owner = ARK
 buildings = {

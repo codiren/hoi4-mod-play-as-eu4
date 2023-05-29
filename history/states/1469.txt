@@ -2,6 +2,8 @@ state={
 id=1469
 name="1469_state"
 manpower = 36210
+resources={
+}
 history={
 owner = PEQ
 buildings = {

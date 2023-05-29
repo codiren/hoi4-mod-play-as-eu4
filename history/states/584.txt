@@ -2,6 +2,9 @@ state={
 id=584
 name="584_state"
 manpower = 154186
+resources={
+tungsten = 24
+}
 history={
 owner = AVA
 buildings = {

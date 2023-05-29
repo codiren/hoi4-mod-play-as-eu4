@@ -2,6 +2,9 @@ state={
 id=2727
 name="2727_state"
 manpower = 85296
+resources={
+rubber = 12
+}
 history={
 owner = GEO
 buildings = {

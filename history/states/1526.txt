@@ -2,6 +2,8 @@ state={
 id=1526
 name="1526_state"
 manpower = 68850
+resources={
+}
 history={
 owner = MER
 buildings = {

@@ -2,6 +2,9 @@ state={
 id=2618
 name="2618_state"
 manpower = 44859
+resources={
+aluminium = 12
+}
 history={
 owner = KNO
 buildings = {

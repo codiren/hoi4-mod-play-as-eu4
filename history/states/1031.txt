@@ -2,6 +2,8 @@ state={
 id=1031
 name="1031_state"
 manpower = 6348
+resources={
+}
 history={
 owner = ANU
 buildings = {

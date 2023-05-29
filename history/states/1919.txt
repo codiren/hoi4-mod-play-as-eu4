@@ -2,6 +2,8 @@ state={
 id=1919
 name="1919_state"
 manpower = 6348
+resources={
+}
 history={
 owner = TFL
 buildings = {

@@ -2,6 +2,8 @@ state={
 id=1912
 name="1912_state"
 manpower = 44859
+resources={
+}
 history={
 owner = TUN
 buildings = {

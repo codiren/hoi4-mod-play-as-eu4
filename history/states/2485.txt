@@ -2,6 +2,8 @@ state={
 id=2485
 name="2485_state"
 manpower = 9743
+resources={
+}
 history={
 owner = TBK
 buildings = {

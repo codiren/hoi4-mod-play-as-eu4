@@ -2,6 +2,9 @@ state={
 id=172
 name="172_state"
 manpower = 65455
+resources={
+oil = 32
+}
 history={
 owner = BRI
 buildings = {

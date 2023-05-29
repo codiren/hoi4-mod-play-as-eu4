@@ -2,6 +2,8 @@ state={
 id=3268
 name="3268_state"
 manpower = 6348
+resources={
+}
 history={
 owner = YNU
 buildings = {

@@ -2,6 +2,9 @@ state={
 id=301
 name="301_state"
 manpower = 81091
+resources={
+rubber = 5
+}
 history={
 owner = RYA
 buildings = {

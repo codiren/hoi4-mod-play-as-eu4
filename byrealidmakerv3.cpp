@@ -6,7 +6,7 @@ int main(){
 	int tt,ttt,tttt;//prov/state/euprov
 	while(idsa>>tt){
 		idsa>>ttt;idsa>>tttt;
-		cout<<(tttt==1250)<<"\n";
+		//cout<<(tttt==1250)<<"\n";
 		astate[tttt] = {to_string(ttt),string(),string(),string()};
 	}
 	string t;string ta;string full;
@@ -40,17 +40,18 @@ int main(){
 		full = "";
 		while(getline(in,ta)){
 			if(ta.find("history={")!=-1){
-			full+= "history={\n";
 			full+= "resources={\n";
 			if(kas.second[1].find("iron")!=-1)full+="steel = "+to_string(8*stoi(kas.second[2]))+"\n";
 			if(kas.second[1].find("copper")!=-1)full+="aluminium = "+to_string(6*stoi(kas.second[2]))+"\n";
-			if(kas.second[1].find("fur")!=-1)full+="rubber = "+to_string(8*stoi(kas.second[2]))+"\n";
+			if(kas.second[1].find("fur")!=-1)full+="rubber = "+to_string(16*stoi(kas.second[2]))+"\n";
 			if(kas.second[1].find("cloth")!=-1)full+="rubber = "+to_string(2*stoi(kas.second[2]))+"\n";
 			if(kas.second[1].find("wool")!=-1)full+="rubber = "+to_string(1*stoi(kas.second[2]))+"\n";
+			if(kas.second[1].find("silk")!=-1)full+="rubber = "+to_string(3*stoi(kas.second[2]))+"\n";
 			if(kas.second[1].find("salt")!=-1)full+="oil = "+to_string(8*stoi(kas.second[2]))+"\n";
-			if(kas.second[1].find("glass")!=-1)full+="tungsten = "+to_string(4*stoi(kas.second[2]))+"\n";
+			if(kas.second[1].find("gems")!=-1)full+="tungsten = "+to_string(4*stoi(kas.second[2]))+"\n";
 			if(kas.second[1].find("slaves")!=-1)full+="chromium = "+to_string(16*stoi(kas.second[2]))+"\n";
 			full+= "}\n";
+			full+= "history={\n";
 			}
 			else full+= ta+"\n";
 		}in.close();

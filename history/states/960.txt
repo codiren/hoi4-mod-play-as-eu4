@@ -2,6 +2,9 @@ state={
 id=960
 name="960_state"
 manpower = 55575
+resources={
+rubber = 48
+}
 history={
 owner = ONO
 buildings = {

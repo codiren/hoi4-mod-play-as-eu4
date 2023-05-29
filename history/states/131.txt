@@ -2,6 +2,9 @@ state={
 id=131
 name="131_state"
 manpower = 44859
+resources={
+rubber = 6
+}
 history={
 owner = CRO
 buildings = {

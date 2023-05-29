@@ -2,6 +2,8 @@ state={
 id=398
 name="398_state"
 manpower = 9743
+resources={
+}
 history={
 owner = ORM
 buildings = {

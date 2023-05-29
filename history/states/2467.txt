@@ -2,6 +2,9 @@ state={
 id=2467
 name="2467_state"
 manpower = 36210
+resources={
+chromium = 32
+}
 history={
 owner = ANT
 buildings = {

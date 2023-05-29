@@ -2,6 +2,9 @@ state={
 id=825
 name="825_state"
 manpower = 100461
+resources={
+tungsten = 24
+}
 history={
 owner = MCA
 buildings = {

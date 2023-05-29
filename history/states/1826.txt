@@ -2,6 +2,8 @@ state={
 id=1826
 name="1826_state"
 manpower = 36210
+resources={
+}
 history={
 owner = NOG
 buildings = {

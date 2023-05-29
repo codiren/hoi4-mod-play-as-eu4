@@ -2,6 +2,8 @@ state={
 id=360
 name="360_state"
 manpower = 6348
+resources={
+}
 history={
 owner = MAM
 buildings = {

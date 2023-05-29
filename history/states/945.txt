@@ -2,6 +2,9 @@ state={
 id=945
 name="945_state"
 manpower = 7864
+resources={
+rubber = 32
+}
 history={
 owner = POT
 buildings = {

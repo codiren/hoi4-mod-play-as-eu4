@@ -2,6 +2,9 @@ state={
 id=2481
 name="2481_state"
 manpower = 85296
+resources={
+steel = 24
+}
 history={
 owner = MRA
 buildings = {

@@ -2,6 +2,8 @@ state={
 id=2698
 name="2698_state"
 manpower = 7864
+resources={
+}
 history={
 owner = ANZ
 buildings = {

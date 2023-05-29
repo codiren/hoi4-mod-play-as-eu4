@@ -2,6 +2,9 @@ state={
 id=2541
 name="2541_state"
 manpower = 55575
+resources={
+aluminium = 12
+}
 history={
 owner = KZB
 buildings = {

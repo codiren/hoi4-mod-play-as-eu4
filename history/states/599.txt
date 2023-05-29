@@ -2,6 +2,8 @@ state={
 id=599
 name="599_state"
 manpower = 36210
+resources={
+}
 history={
 owner = KEL
 buildings = {

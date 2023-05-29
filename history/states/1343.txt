@@ -2,6 +2,8 @@ state={
 id=1343
 name="1343_state"
 manpower = 68850
+resources={
+}
 history={
 owner = TTI
 buildings = {

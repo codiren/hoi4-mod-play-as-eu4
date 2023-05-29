@@ -2,6 +2,8 @@ state={
 id=720
 name="720_state"
 manpower = 7864
+resources={
+}
 history={
 owner = KHA
 buildings = {

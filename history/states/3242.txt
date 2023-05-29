@@ -2,6 +2,8 @@ state={
 id=3242
 name="3242_state"
 manpower = 85296
+resources={
+}
 history={
 owner = DAI
 buildings = {
