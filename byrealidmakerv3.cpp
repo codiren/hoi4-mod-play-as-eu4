@@ -6,18 +6,24 @@ int main(){
 	int tt,ttt,tttt;//prov/state/euprov
 	while(idsa>>tt){
 		idsa>>ttt;idsa>>tttt;
-		astate[tttt] = {to_string(ttt),0,0,0};
+		cout<<(tttt==1250)<<"\n";
+		astate[tttt] = {to_string(ttt),string(),string(),string()};
 	}
 	string t;string ta;string full;
 	idsa.close();
-	string t;
+	//string t;
 	
 	ifstream proveu("map/only province save.eu4");bool kitascores = false;int provic = 0;
 	while(getline(proveu,t)){
 		if(t[0]=='-'&&t[t.length()-1]=='{'&&t[t.length()-2]=='=')provic = stoi(t)*-1;
 		else if (t.starts_with("\t\ttrade_goods=")){
+		if((astate.find(provic)==astate.end()))continue;
 			//astate[provic].insert(stoi());
+			//cout<<6;
+			//cout<<<<"\n";
+			//cout<<astate[provic][0]<<"\n";
 			astate[provic][1] = t.substr(14);
+			//cout<<6;
 		}
 		else if (t.starts_with("\t\tbase_production=")){astate[provic][2] = t.substr(18,2);}
 		//else if (t.starts_with("\t\tbase_manpower=")){astate[provic][2] = stoi(t.substr(16,2));}
@@ -28,9 +34,9 @@ int main(){
 		astate.erase(stoi(t));
 	}
 	
-
+	
 	for(auto kas:astate){
-		ifstream in("history/states/"+to_string(kas.second[0])+".txt");
+		ifstream in("history/states/"+kas.second[0]+".txt");
 		full = "";
 		while(getline(in,ta)){
 			if(ta.find("history={")!=-1){
@@ -48,7 +54,7 @@ int main(){
 			}
 			else full+= ta+"\n";
 		}in.close();
-		ofstream out("history/states/"+to_string(kas.second[0])+".txt");
+		ofstream out("history/states/"+kas.second[0]+".txt");
 		out<<full;
 		//out<<"\nimpassable = yes";
 		out.close();
