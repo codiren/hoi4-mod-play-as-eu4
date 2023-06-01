@@ -1,2 +1,12 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+3763;2296;sea;1320;-1;-1;-1;-1;;nextoconstantinople
+151;316;sea;1320;-1;-1;-1;-1;;constantinople
+123;124;sea;1307;-1;-1;-1;-1;;southitaly
+112;1774;sea;1308;-1;-1;-1;-1;;venice
+1247;127;sea;1298;-1;-1;-1;-1;;sardinia
+387;1215;sea;1330;-1;-1;-1;-1;;arabbottom
+285;2447;sea;1323;-1;-1;-1;-1;;genoa
+1751;1749;sea;1293;-1;-1;-1;-1;;gibraltar
+398;2999;sea;1334;-1;-1;-1;-1;;iran1
+431;2999;sea;1334;-1;-1;-1;-1;;iran2
 -1;-1;;-1;-1;-1;-1;-1;-1

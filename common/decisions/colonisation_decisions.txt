@@ -27,10 +27,15 @@ colonisation = {
 		#target_root_trigger = {}
 		target_array = colonisable_states_by_land
 		target_trigger = {
-			any_neighbor_state = {
-				is_controlled_by = ROOT
+			FROM = {
+				any_neighbor_state = {
+					is_controlled_by = ROOT
+				}
 			}
 		}
+		target_root_trigger = {always = yes}
+		visible = {always = yes}
+		available = {always = yes}
 	}
 	colonise_province_by_sea = {
 		icon = infiltrate_state
@@ -58,10 +63,15 @@ colonisation = {
 			NOT = {original_tag = REB}
 		}
 		target_root_trigger = {
-			any_controlled_state = {
-				is_coastal = yes
+			ROOT = {
+				any_controlled_state = {
+					is_coastal = yes
+				}
 			}
 		}
 		target_array = colonisable_states_by_sea
+		target_trigger = {always = yes}
+		visible = {always = yes}
+		available = {always = yes}
 	}
 }
