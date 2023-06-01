@@ -13,6 +13,7 @@ int main(){
 		if(exist.find(t.substr(0,3))!=exist.end()){
 			full += t+"\n";
 		}
+		else cout<<"removed"<<t.substr(0,3)<<"\n";
 	}
 	ine.close();
 	ofstream of("common/countries/colors.txt");
