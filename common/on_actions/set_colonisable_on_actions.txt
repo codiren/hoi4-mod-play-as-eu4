@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			NAT = {
+				every_owned_state = {
+					add_to_array = {
+						array = colonisable_states_by_land
+						value = THIS
+					}
+				}
+				every_owned_state = {
+					limit = { is_coastal = yes }
+					add_to_array = {
+						array = colonisable_states_by_sea
+						value = THIS
+					}
+				}
+			}
+		}
+	}
+}
