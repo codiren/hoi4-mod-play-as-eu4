@@ -8,6 +8,7 @@ rubber = 32
 history={
 owner = NAT
 buildings = {
+1003 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

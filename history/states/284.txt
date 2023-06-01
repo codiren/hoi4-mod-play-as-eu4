@@ -8,6 +8,7 @@ oil = 48
 history={
 owner = CRI
 buildings = {
+284 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 2
 arms_factory = 2

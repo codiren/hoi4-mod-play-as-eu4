@@ -7,6 +7,7 @@ resources={
 history={
 owner = DTT
 buildings = {
+3125 = { naval_base = 1 }
 infrastructure = 1
 industrial_complex = 1
 arms_factory = 1

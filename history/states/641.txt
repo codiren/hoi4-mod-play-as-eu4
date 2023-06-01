@@ -7,6 +7,7 @@ resources={
 history={
 owner = MKS
 buildings = {
+641 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 2
 arms_factory = 1

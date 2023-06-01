@@ -8,6 +8,7 @@ tungsten = 28
 history={
 owner = TEU
 buildings = {
+43 = { naval_base = 1 }
 infrastructure = 4
 industrial_complex = 2
 arms_factory = 1

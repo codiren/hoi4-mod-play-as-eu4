@@ -8,6 +8,7 @@ tungsten = 8
 history={
 owner = PLW
 buildings = {
+3853 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 1

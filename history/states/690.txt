@@ -8,6 +8,7 @@ steel = 32
 history={
 owner = MNG
 buildings = {
+690 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 1
 arms_factory = 1

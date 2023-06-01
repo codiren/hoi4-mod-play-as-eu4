@@ -8,6 +8,7 @@ rubber = 27
 history={
 owner = MNG
 buildings = {
+1822 = { naval_base = 1 }
 infrastructure = 5
 industrial_complex = 3
 arms_factory = 2

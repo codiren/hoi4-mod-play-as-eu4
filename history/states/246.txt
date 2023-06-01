@@ -8,6 +8,7 @@ rubber = 3
 history={
 owner = ENG
 buildings = {
+246 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

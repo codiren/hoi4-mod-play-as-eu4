@@ -8,6 +8,7 @@ rubber = 2
 history={
 owner = TUN
 buildings = {
+2451 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

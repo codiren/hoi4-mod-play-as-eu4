@@ -8,6 +8,7 @@ chromium = 32
 history={
 owner = BTS
 buildings = {
+3005 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

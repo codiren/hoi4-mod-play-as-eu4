@@ -8,6 +8,7 @@ rubber = 15
 history={
 owner = BNG
 buildings = {
+561 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 2
 arms_factory = 1

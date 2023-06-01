@@ -8,6 +8,7 @@ chromium = 16
 history={
 owner = BEN
 buildings = {
+2294 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

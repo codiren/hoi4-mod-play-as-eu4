@@ -8,6 +8,7 @@ chromium = 48
 history={
 owner = JOL
 buildings = {
+1113 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1
