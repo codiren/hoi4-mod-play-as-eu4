@@ -2,6 +2,8 @@ state={
 id=443
 name="443_state"
 manpower = 36210
+resources={
+}
 history={
 owner = NOG
 buildings = {

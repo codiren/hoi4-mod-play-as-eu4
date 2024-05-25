@@ -2,6 +2,9 @@ state={
 id=2458
 name="2458_state"
 manpower = 55575
+resources={
+aluminium = 24
+}
 history={
 owner = TUR
 buildings = {

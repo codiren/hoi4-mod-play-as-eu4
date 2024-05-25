@@ -2,6 +2,9 @@ state={
 id=384
 name="384_state"
 manpower = 68850
+resources={
+rubber = 6
+}
 history={
 owner = MDA
 buildings = {

@@ -2,9 +2,13 @@ state={
 id=136
 name="136_state"
 manpower = 68850
+resources={
+rubber = 3
+}
 history={
 owner = VEN
 buildings = {
+136 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

@@ -2,9 +2,13 @@ state={
 id=2156
 name="2156_state"
 manpower = 36210
+resources={
+oil = 16
+}
 history={
 owner = PGS
 buildings = {
+2698 = { naval_base = 1 }
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0

@@ -2,9 +2,12 @@ state={
 id=1450
 name="1450_state"
 manpower = 55575
+resources={
+}
 history={
 owner = TOG
 buildings = {
+1989 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

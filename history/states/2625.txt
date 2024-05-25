@@ -2,9 +2,12 @@ state={
 id=2625
 name="2625_state"
 manpower = 6348
+resources={
+}
 history={
 owner = AKT
 buildings = {
+3177 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

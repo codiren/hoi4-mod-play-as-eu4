@@ -2,6 +2,8 @@ state={
 id=3177
 name="3177_state"
 manpower = 36210
+resources={
+}
 history={
 owner = CRO
 buildings = {

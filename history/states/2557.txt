@@ -2,6 +2,8 @@ state={
 id=2557
 name="2557_state"
 manpower = 68850
+resources={
+}
 history={
 owner = OKA
 buildings = {

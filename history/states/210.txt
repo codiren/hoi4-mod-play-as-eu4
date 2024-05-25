@@ -2,6 +2,9 @@ state={
 id=210
 name="210_state"
 manpower = 44859
+resources={
+steel = 16
+}
 history={
 owner = NAV
 buildings = {

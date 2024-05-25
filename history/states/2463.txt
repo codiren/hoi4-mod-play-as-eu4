@@ -2,9 +2,13 @@ state={
 id=2463
 name="2463_state"
 manpower = 9743
+resources={
+chromium = 32
+}
 history={
 owner = SKA
 buildings = {
+3006 = { naval_base = 1 }
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0

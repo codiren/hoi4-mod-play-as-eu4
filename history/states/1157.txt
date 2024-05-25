@@ -2,6 +2,8 @@ state={
 id=1157
 name="1157_state"
 manpower = 68850
+resources={
+}
 history={
 owner = KBO
 buildings = {

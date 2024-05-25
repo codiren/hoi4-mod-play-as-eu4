@@ -2,6 +2,8 @@ state={
 id=1990
 name="1990_state"
 manpower = 9743
+resources={
+}
 history={
 owner = ATA
 buildings = {

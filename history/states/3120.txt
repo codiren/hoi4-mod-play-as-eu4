@@ -2,9 +2,12 @@ state={
 id=3120
 name="3120_state"
 manpower = 36210
+resources={
+}
 history={
 owner = EPI
 buildings = {
+3683 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 0

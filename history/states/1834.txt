@@ -2,6 +2,8 @@ state={
 id=1834
 name="1834_state"
 manpower = 36210
+resources={
+}
 history={
 owner = KOH
 buildings = {

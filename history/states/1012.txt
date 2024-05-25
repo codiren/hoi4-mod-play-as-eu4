@@ -2,9 +2,13 @@ state={
 id=1012
 name="1012_state"
 manpower = 68850
+resources={
+steel = 24
+}
 history={
 owner = SMZ
 buildings = {
+1012 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

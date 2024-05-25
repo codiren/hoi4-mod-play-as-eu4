@@ -2,9 +2,13 @@ state={
 id=2784
 name="2784_state"
 manpower = 55575
+resources={
+steel = 24
+}
 history={
 owner = SCO
 buildings = {
+3347 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

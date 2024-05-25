@@ -2,6 +2,8 @@ state={
 id=1747
 name="1747_state"
 manpower = 44859
+resources={
+}
 history={
 owner = YAO
 buildings = {

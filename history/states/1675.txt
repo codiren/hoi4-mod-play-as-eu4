@@ -2,6 +2,9 @@ state={
 id=1675
 name="1675_state"
 manpower = 36210
+resources={
+tungsten = 8
+}
 history={
 owner = QOM
 buildings = {

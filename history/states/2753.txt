@@ -2,9 +2,12 @@ state={
 id=2753
 name="2753_state"
 manpower = 6348
+resources={
+}
 history={
 owner = TIM
 buildings = {
+3311 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

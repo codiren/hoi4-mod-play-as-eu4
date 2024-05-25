@@ -2,9 +2,12 @@ state={
 id=1832
 name="1832_state"
 manpower = 81091
+resources={
+}
 history={
 owner = DAI
 buildings = {
+2373 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 2
 arms_factory = 1

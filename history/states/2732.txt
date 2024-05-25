@@ -2,6 +2,9 @@ state={
 id=2732
 name="2732_state"
 manpower = 68850
+resources={
+steel = 24
+}
 history={
 owner = GAZ
 buildings = {

@@ -2,6 +2,9 @@ state={
 id=880
 name="880_state"
 manpower = 9743
+resources={
+oil = 16
+}
 history={
 owner = OHK
 buildings = {

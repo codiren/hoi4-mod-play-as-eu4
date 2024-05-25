@@ -2,6 +2,8 @@ state={
 id=1699
 name="1699_state"
 manpower = 44859
+resources={
+}
 history={
 owner = NAT
 buildings = {

@@ -2,6 +2,8 @@ state={
 id=3181
 name="3181_state"
 manpower = 55575
+resources={
+}
 history={
 owner = LBV
 buildings = {

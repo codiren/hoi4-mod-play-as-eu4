@@ -2,9 +2,12 @@ state={
 id=2619
 name="2619_state"
 manpower = 44859
+resources={
+}
 history={
 owner = HTK
 buildings = {
+3171 = { naval_base = 1 }
 infrastructure = 1
 industrial_complex = 1
 arms_factory = 1

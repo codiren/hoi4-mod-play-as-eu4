@@ -2,6 +2,8 @@ state={
 id=1425
 name="1425_state"
 manpower = 36210
+resources={
+}
 history={
 owner = PSK
 buildings = {

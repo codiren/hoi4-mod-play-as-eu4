@@ -1,0 +1,71 @@
+colonisation = {
+	colonise_province_by_land = {
+		icon = infiltrate_state
+		state_target = yes
+		on_map_mode = map_only
+		cost = 50
+		fire_only_once = yes
+		days_remove = 60
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+			transfer_state = FROM
+			remove_from_array = {
+				array = global.colonisable_states_by_land
+				value = FROM
+			}
+		}
+		modifier = {
+			political_power_gain = -1
+		}
+		allowed = {
+			NOT = {original_tag = NAT}
+			NOT = {original_tag = WAS}
+			NOT = {original_tag = REB}
+		}
+		#target_root_trigger = {}
+		target_array = global.colonisable_states_by_land
+		target_trigger = {
+			FROM = {
+				any_neighbor_state = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+	}
+	colonise_province_by_sea = {
+		icon = infiltrate_state
+		state_target = yes
+		on_map_mode = map_only
+		cost = 50
+		fire_only_once = yes
+		days_remove = 60
+		remove_effect = {
+			FROM = {
+				add_core_of = ROOT
+			}
+			transfer_state = FROM
+			remove_from_array = {
+				array = global.colonisable_states_by_sea
+				value = FROM
+			}
+		}
+		modifier = {
+			political_power_gain = -1
+		}
+		allowed = {
+			NOT = {original_tag = NAT}
+			NOT = {original_tag = WAS}
+			NOT = {original_tag = REB}
+		}
+		target_root_trigger = {
+			ROOT = {
+				any_controlled_state = {
+					is_coastal = yes
+				}
+			}
+		}
+		target_array = global.colonisable_states_by_sea
+	}
+}

@@ -2,9 +2,12 @@ state={
 id=590
 name="590_state"
 manpower = 55575
+resources={
+}
 history={
 owner = PEG
 buildings = {
+590 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

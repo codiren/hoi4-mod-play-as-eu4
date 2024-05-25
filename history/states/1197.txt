@@ -2,9 +2,13 @@ state={
 id=1197
 name="1197_state"
 manpower = 6348
+resources={
+tungsten = 4
+}
 history={
 owner = ZAN
 buildings = {
+1197 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

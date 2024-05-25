@@ -2,6 +2,9 @@ state={
 id=878
 name="878_state"
 manpower = 7864
+resources={
+oil = 16
+}
 history={
 owner = NAH
 buildings = {

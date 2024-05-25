@@ -2,6 +2,9 @@ state={
 id=2539
 name="2539_state"
 manpower = 9743
+resources={
+oil = 16
+}
 history={
 owner = KIK
 buildings = {

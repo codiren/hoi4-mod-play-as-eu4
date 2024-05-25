@@ -2,6 +2,9 @@ state={
 id=1268
 name="1268_state"
 manpower = 68850
+resources={
+steel = 24
+}
 history={
 owner = PAL
 buildings = {

@@ -2,6 +2,9 @@ state={
 id=2022
 name="2022_state"
 manpower = 6348
+resources={
+rubber = 16
+}
 history={
 owner = ABE
 buildings = {

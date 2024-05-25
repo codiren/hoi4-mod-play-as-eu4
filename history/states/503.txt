@@ -2,9 +2,13 @@ state={
 id=503
 name="503_state"
 manpower = 6348
+resources={
+oil = 8
+}
 history={
 owner = KAT
 buildings = {
+503 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

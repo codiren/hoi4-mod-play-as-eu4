@@ -2,6 +2,9 @@ state={
 id=3083
 name="3083_state"
 manpower = 36210
+resources={
+rubber = 32
+}
 history={
 owner = SOL
 buildings = {

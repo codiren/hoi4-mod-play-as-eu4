@@ -2,6 +2,8 @@ state={
 id=1842
 name="1842_state"
 manpower = 36210
+resources={
+}
 history={
 owner = LXA
 buildings = {

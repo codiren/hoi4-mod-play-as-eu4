@@ -2,9 +2,13 @@ state={
 id=595
 name="595_state"
 manpower = 65455
+resources={
+aluminium = 30
+}
 history={
 owner = MLC
 buildings = {
+595 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 2
 arms_factory = 1

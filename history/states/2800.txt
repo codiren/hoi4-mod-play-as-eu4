@@ -2,6 +2,8 @@ state={
 id=2800
 name="2800_state"
 manpower = 9743
+resources={
+}
 history={
 owner = FLY
 buildings = {

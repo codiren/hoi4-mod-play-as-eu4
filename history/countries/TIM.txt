@@ -1,5 +1,5 @@
 oob = "AAA_basic"
-capital = 454
+capital = 446
 set_politics = {
 ruling_party = sunni
 last_election = "1444.1.1"

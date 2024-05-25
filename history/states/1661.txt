@@ -2,6 +2,8 @@ state={
 id=1661
 name="1661_state"
 manpower = 68850
+resources={
+}
 history={
 owner = MLK
 buildings = {

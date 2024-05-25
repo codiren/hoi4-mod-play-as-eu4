@@ -2,9 +2,12 @@ state={
 id=3357
 name="3357_state"
 manpower = 6348
+resources={
+}
 history={
 owner = LAI
 buildings = {
+3921 = { naval_base = 1 }
 infrastructure = 0
 industrial_complex = 0
 arms_factory = 0

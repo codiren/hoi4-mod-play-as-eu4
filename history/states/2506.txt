@@ -2,6 +2,9 @@ state={
 id=2506
 name="2506_state"
 manpower = 85296
+resources={
+oil = 24
+}
 history={
 owner = BNY
 buildings = {

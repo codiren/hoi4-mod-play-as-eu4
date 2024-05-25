@@ -2,6 +2,9 @@ state={
 id=706
 name="706_state"
 manpower = 6348
+resources={
+oil = 8
+}
 history={
 owner = SYG
 buildings = {

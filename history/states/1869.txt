@@ -2,9 +2,12 @@ state={
 id=1869
 name="1869_state"
 manpower = 68850
+resources={
+}
 history={
 owner = FEO
 buildings = {
+2410 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

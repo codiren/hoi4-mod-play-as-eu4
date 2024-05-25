@@ -2,6 +2,8 @@ state={
 id=1587
 name="1587_state"
 manpower = 6348
+resources={
+}
 history={
 owner = GUG
 buildings = {

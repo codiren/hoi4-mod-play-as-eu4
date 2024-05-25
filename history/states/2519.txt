@@ -2,9 +2,12 @@ state={
 id=2519
 name="2519_state"
 manpower = 9743
+resources={
+}
 history={
 owner = LOA
 buildings = {
+3062 = { naval_base = 1 }
 infrastructure = 1
 industrial_complex = 0
 arms_factory = 0

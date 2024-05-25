@@ -2,9 +2,12 @@ state={
 id=2552
 name="2552_state"
 manpower = 85296
+resources={
+}
 history={
 owner = FRA
 buildings = {
+3095 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

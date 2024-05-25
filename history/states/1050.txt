@@ -2,9 +2,13 @@ state={
 id=1050
 name="1050_state"
 manpower = 52836
+resources={
+rubber = 64
+}
 history={
 owner = NVK
 buildings = {
+1050 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1

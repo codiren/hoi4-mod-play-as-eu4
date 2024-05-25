@@ -2,9 +2,12 @@ state={
 id=568
 name="568_state"
 manpower = 81091
+resources={
+}
 history={
 owner = BNG
 buildings = {
+568 = { naval_base = 1 }
 infrastructure = 3
 industrial_complex = 2
 arms_factory = 1

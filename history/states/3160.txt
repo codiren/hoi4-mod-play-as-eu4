@@ -2,6 +2,9 @@ state={
 id=3160
 name="3160_state"
 manpower = 68850
+resources={
+rubber = 6
+}
 history={
 owner = VEN
 buildings = {

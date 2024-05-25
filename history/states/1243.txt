@@ -2,9 +2,13 @@ state={
 id=1243
 name="1243_state"
 manpower = 55575
+resources={
+rubber = 6
+}
 history={
 owner = SAM
 buildings = {
+1243 = { naval_base = 1 }
 infrastructure = 2
 industrial_complex = 1
 arms_factory = 1
