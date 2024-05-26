@@ -1,6 +1,0 @@
-state_categories={
-	a9 = {
-		local_building_slots = 9
-		color = { 0 200 0 }
-	}
-}
